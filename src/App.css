@@ -11,11 +11,15 @@ body {
   line-height: 1.5;
 }
 
+.logo {
+  width: 100%;
+}
+
 .timeline-container {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin: 40px 0;
+  margin: 0 0 40px 0;
 }
 .timeline-container::after {
   background-color: #e17b77;
@@ -167,6 +171,22 @@ h1{
   visibility: visible;
   opacity: 1;
 }
+.credits{
+  color: rgba(0, 0, 0, 0.4);
+  transition: color 0.3s;
+  transition-delay: 0.15s;
+  margin: 0 10px;
+  text-align: center; 
+}
+.credits:hover{
+  transition: color 0.3s;
+  color: rgba(0, 0, 0, 0.8);
+}
+.credits:i{
+  font-size: 19px;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1023px) {
   .timeline-item-content {
       max-width: 100%;
