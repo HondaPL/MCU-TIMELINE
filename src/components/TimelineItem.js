@@ -14,15 +14,6 @@ class TimelineItem extends React.Component {
             </span>
             <time>{this.state.data.date}</time>
             <p>{this.state.data.text}</p>
-            {this.state.data.link && (
-                <a
-                    href={this.state.data.link.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {this.state.data.link.text}
-                </a>
-            )}
             {this.state.data.streaming ? ( 
                 <ul>
                     {
@@ -67,6 +58,11 @@ class TimelineItem extends React.Component {
                     }
                 </ul>
             ) :""}
+            {this.state.data.note ? (
+                <div class="tooltip">Note
+                <span class="tooltiptext">{this.state.data.note}</span>
+              </div>
+            ):""}
             <img src={this.state.data.icon} alt={""} className="circle" />
         </div>
     </div>
