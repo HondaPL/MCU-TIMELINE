@@ -128,37 +128,7 @@ h1{
   left: -50px;
 }
 
-@media only screen and (max-width: 1023px) {
-  .timeline-item-content {
-      max-width: 100%;
-  }
-}
 
-@media only screen and (max-width: 767px) {
-  .timeline-item-content,
-  .timeline-item:nth-child(odd) .timeline-item-content {
-      padding: 15px 10px;
-      text-align: center;
-      align-items: center;
-  }
-  
-  .timeline-item-content .tag {
-      width: calc(100% - 10px);
-      text-align: center;
-  }
-  
-  .timeline-item-content time {
-      margin-top: 20px;
-  }
-  
-  .timeline-item-content a {
-      text-decoration: underline;
-  }
-  
-  .timeline-item-content a::after {
-      display: none;
-  }
-}
 .tooltip {
   position: relative;
   display: inline-block;
@@ -196,4 +166,40 @@ h1{
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+@media only screen and (max-width: 1023px) {
+  .timeline-item-content {
+      max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .timeline-item-content,
+  .timeline-item:nth-child(odd) .timeline-item-content {
+      padding: 15px 10px;
+      text-align: center;
+      align-items: center;
+  }
+  
+  .timeline-item-content .tag {
+      width: calc(100% - 10px);
+      text-align: center;
+  }
+
+  .tooltip .tooltiptext {
+      width: 150px;
+      margin-left: -75px;
+  }
+  
+  .timeline-item-content time {
+      margin-top: 20px;
+  }
+  
+  .timeline-item-content a {
+      text-decoration: underline;
+  }
+  
+  .timeline-item-content a::after {
+      display: none;
+  }
 }
