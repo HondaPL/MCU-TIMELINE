@@ -14,15 +14,15 @@ class App extends Component {
 
   handleFilter = () => alert("Filter to be added")
 
-  top = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  top = () => setTimeout(window.scrollTo({ top: 0, behavior: 'smooth' }),100);
 
-  bottom = () => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  bottom = () => setTimeout(window.scrollTo({ top: document.getElementById("upcoming").offsetTop - document.getElementById("logobox").scrollHeight, behavior: 'smooth' }),100);
 
 
   render() {
     return (
       <div className="App">
-        <div className="logoBox">
+        <div id="logobox" className="logoBox">
           <img onClick={this.top} className="logo" src={logo} alt="siema" />
           <ul class="horizontal_menu">
             <li><span onClick={this.handleFilter} className="filter">MOVIES</span></li>
@@ -31,8 +31,8 @@ class App extends Component {
             <li><span onClick={this.handleFilter} className="filter">INTERNET</span></li>
           </ul>
         </div>
-        <Timeline data={this.state.timelineData} />
-        <h1>Upcoming</h1>
+        <Timeline id="timeline" data={this.state.timelineData} />
+        <h1 id="upcoming">Upcoming</h1>
         <Timeline data={this.state.upcoming} />
         <div className="creditsBox">
           <p onClick={this.bottom} className="credits">Created by Adam Hącia 2021</p>
