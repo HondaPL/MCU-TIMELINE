@@ -25,7 +25,7 @@ let mcu = [
         text: 'Hawkeye',
         date: 'November 24, 2021',
         category: {
-            tag: 'LIMITED SERIES',
+            tag: 'SERIES',
             color: 'purple'
         },
         streaming: {
@@ -102,7 +102,7 @@ let mcu = [
         text: 'Ms. Marvel',
         date: '2022',
         category: {
-            tag: 'LIMITED SERIES',
+            tag: 'SERIES',
             color: 'purple'
         },
         streaming: {
@@ -113,7 +113,7 @@ let mcu = [
         text: 'Moon Knight',
         date: '2022',
         category: {
-            tag: 'LIMITED SERIES',
+            tag: 'SERIES',
             color: 'purple'
         },
         streaming: {
@@ -124,7 +124,7 @@ let mcu = [
         text: 'She-Hulk',
         date: '2022',
         category: {
-            tag: 'LIMITED SERIES',
+            tag: 'SERIES',
             color: 'purple'
         },
         streaming: {
@@ -135,7 +135,7 @@ let mcu = [
         text: 'Secret Invasion',
         date: '2022',
         category: {
-            tag: 'LIMITED SERIES',
+            tag: 'SERIES',
             color: 'purple'
         },
         streaming: {
@@ -223,7 +223,7 @@ let mcu = [
         text: 'Ironheart',
         date: '???',
         category: {
-            tag: 'LIMITED SERIES',
+            tag: 'SERIES',
             color: 'purple'
         },
         streaming: {
@@ -234,7 +234,7 @@ let mcu = [
         text: 'Armor Wars',
         date: '???',
         category: {
-            tag: 'LIMITED SERIES',
+            tag: 'SERIES',
             color: 'purple'
         },
         streaming: {
@@ -245,7 +245,7 @@ let mcu = [
         text: 'Untitled Wakanda Series',
         date: '???',
         category: {
-            tag: 'LIMITED SERIES',
+            tag: 'SERIES',
             color: 'purple'
         },
         streaming: {
@@ -278,7 +278,7 @@ let mcu = [
         text: 'Untitled Echo Series',
         date: '???',
         category: {
-            tag: 'LIMITED SERIES',
+            tag: 'SERIES',
             color: 'purple'
         },
         streaming: {

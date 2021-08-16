@@ -9,7 +9,8 @@ class Timeline extends React.Component {
         return (this.state.timelineData.length > 0 ? (
             <div className="timeline-container">
                 {this.state.timelineData.map((data, idx) => (
-                    <TimelineItem data={data} key={idx} />
+                    this.props.filter.some(item => data.category.tag === item) ?
+                    <TimelineItem data={data}key={idx} /> : ""
                 ))}
             </div>
         ) : "")

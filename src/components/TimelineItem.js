@@ -2,15 +2,14 @@ import React from 'react';
 
 class TimelineItem extends React.Component {
     state = {
-        data: this.props.data
+        data: this.props.data,
     }
     render() {
-        console.log(this.state.data.streaming)
         return (
             <div className="timeline-item">
                 <div className="timeline-item-content">
                     <span className="tag" style={{ background: this.state.data.category.color }}>
-                        {this.state.data.category.tag}
+                        {this.state.data.category.color !== "purple" ? this.state.data.category.tag : "LIMITED SERIES"}
                     </span>
                     <time>{this.state.data.date}</time>
                     <p>{this.state.data.text}</p>
@@ -59,8 +58,8 @@ class TimelineItem extends React.Component {
                         </ul>
                     ) : ""}
                     {this.state.data.note ? (
-                        <div class="tooltip">Note
-                            <span class="tooltiptext">{this.state.data.note}</span>
+                        <div className="tooltip">Note
+                            <span className="tooltiptext">{this.state.data.note}</span>
                         </div>
                     ) : ""}
                     {this.state.data.icon ? <img src={this.state.data.icon} alt="" className="circle" /> : <div className="circle" />}

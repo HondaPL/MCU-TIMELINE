@@ -502,7 +502,7 @@ let mcu = [
     text: 'The Defenders',
     date: 'August 2016',
     category: {
-      tag: 'LIMITED SERIES',
+      tag: 'SERIES',
       color: 'purple'
     },
     streaming: {
@@ -623,7 +623,7 @@ let mcu = [
     text: 'Inhumans',
     date: 'December 2016 - January 2017',
     category: {
-      tag: 'LIMITED SERIES',
+      tag: 'SERIES',
       color: 'purple'
     },
     streaming: {
@@ -904,7 +904,7 @@ let mcu = [
     text: 'Helstrom',
     date: '2019',
     category: {
-      tag: 'LIMITED SERIES',
+      tag: 'SERIES',
       color: 'purple'
     },
     note: 'Seems to mostly take plae post-Snap, but with no references to it.',
@@ -917,7 +917,7 @@ let mcu = [
     text: 'WandaVision',
     date: 'November 2023',
     category: {
-      tag: 'LIMITED SERIES',
+      tag: 'SERIES',
       color: 'purple'
     },
     streaming: {
@@ -929,7 +929,7 @@ let mcu = [
     text: 'The Falcon and the Winter Soldier',
     date: 'April 2024',
     category: {
-      tag: 'LIMITED SERIES',
+      tag: 'SERIES',
       color: 'purple'
     },
     streaming: {
