@@ -1,16 +1,5 @@
 let mcu = [
     {
-        text: 'Shang-Chi and the Legend of the Ten Rings',
-        date: 'September 3, 2021',
-        category: {
-            tag: 'MOVIE',
-            color: '#018f69'
-        },
-        streaming: {
-        },
-        icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
-    },
-    {
         text: 'The Eternals',
         date: 'November 5, 2021',
         category: {
@@ -165,8 +154,85 @@ let mcu = [
         icon: 'https://www.kindpng.com/picc/m/60-601788_guardians-of-the-galaxy-symbol-vector-png-download.png'
     },
     {
+        text: '???',
+        date: 'July 28, 2023',
+        category: {
+            tag: 'MOVIE',
+            color: '#018f69'
+        },
+        streaming: {
+        },
+        icon: ''
+    },
+    {
+        text: '???',
+        date: 'October 6, 2023',
+        category: {
+            tag: 'MOVIE',
+            color: '#018f69'
+        },
+        streaming: {
+        },
+        icon: ''
+    },
+    {
+        text: '???',
+        date: 'November 10, 2023',
+        category: {
+            tag: 'MOVIE',
+            color: '#018f69'
+        },
+        streaming: {
+        },
+        icon: ''
+    },
+    {
+        text: '???',
+        date: 'February 16, 2024',
+        category: {
+            tag: 'MOVIE',
+            color: '#018f69'
+        },
+        streaming: {
+        },
+        icon: ''
+    },
+    {
+        text: '???',
+        date: 'May 3, 2024',
+        category: {
+            tag: 'MOVIE',
+            color: '#018f69'
+        },
+        streaming: {
+        },
+        icon: ''
+    },
+    {
+        text: '???',
+        date: 'July 26, 2024',
+        category: {
+            tag: 'MOVIE',
+            color: '#018f69'
+        },
+        streaming: {
+        },
+        icon: ''
+    },
+    {
+        text: '???',
+        date: 'November 8, 2024',
+        category: {
+            tag: 'MOVIE',
+            color: '#018f69'
+        },
+        streaming: {
+        },
+        icon: ''
+    },
+    {
         text: 'Fantastic Four',
-        date: '2023',
+        date: '???',
         category: {
             tag: 'MOVIE',
             color: '#018f69'
@@ -296,6 +362,17 @@ let mcu = [
         },
         icon: ''
 
-    }
+    },
+    {
+        text: 'Untitled Halloween Special',
+        date: '???',
+        category: {
+            tag: 'SERIES',
+            color: 'purple'
+        },
+        streaming: {
+        },
+        icon: ''
+    },
 ]
 export default mcu;

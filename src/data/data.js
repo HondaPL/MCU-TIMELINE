@@ -108,7 +108,8 @@ let mcu = [
       color: '#018f69'
     },
     streaming: {
-      prime: 'https://www.primevideo.com/detail/0TEJSDPUSF900Y55WM93OK89T1/'
+      prime: 'https://www.primevideo.com/detail/0TEJSDPUSF900Y55WM93OK89T1/',
+      netflix: 'https://www.netflix.com/title/70087537'
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0257%2F6087%2Fproducts%2F0295e70b9228cadd53efaba6a4f5b229.png%3Fv%3D1556497087&f=1&nofb=1'
   },
@@ -194,6 +195,7 @@ let mcu = [
     },
     streaming: {
       yt: 'https://youtu.be/ezP-df_9yw0',
+      disney: 'https://www.disneyplus.com/movies/marvel-one-shot-all-hail-the-king/6rOlKvPhvlh4',
     },
     icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
   },
@@ -924,6 +926,17 @@ let mcu = [
       disney: 'https://www.disneyplus.com/series/-/4SrN28ZjDLwH',
     },
     icon: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/dee98d92002503.5e40898189364.png'
+  },
+  {
+    text: 'Shang-Chi and the Legend of the Ten Rings',
+    date: 'April 2024',
+    category: {
+        tag: 'MOVIE',
+        color: '#018f69'
+    },
+    streaming: {
+    },
+    icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
   },
   {
     text: 'The Falcon and the Winter Soldier',
