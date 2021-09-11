@@ -6,7 +6,7 @@ let mcu = [
       tag: 'SERIES',
       color: 'red'
     },
-    note: 'Timetravel involved, I recommend to watch it directly after AOTS Season 6',
+    note: 'Time travel involved, I recommend to watch it directly after AOTS Season 6',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
@@ -19,7 +19,7 @@ let mcu = [
       tag: 'MOVIE',
       color: '#018f69'
     },
-    note: 'Beggining and post credit scene happens in 2011.',
+    note: 'Beginning and post credit scene happens in 2011.',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/6xvB6xZ4r95O',
     },
@@ -32,6 +32,7 @@ let mcu = [
       tag: 'SHORT',
       color: 'blue'
     },
+    note: 'Included on Iron Man 3 extras.',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=s7dBc7Mxy84'
     },
@@ -107,9 +108,11 @@ let mcu = [
       tag: 'MOVIE',
       color: '#018f69'
     },
+    note: 'Not available not Disney+ for now, because Universal has rights.',
     streaming: {
       prime: 'https://www.primevideo.com/detail/0TEJSDPUSF900Y55WM93OK89T1/',
-      netflix: 'https://www.netflix.com/title/70087537'
+      netflix: 'https://www.netflix.com/title/70087537',
+      disney: 'https://www.disneyplus.com/en-gb/movies/marvel-studios-the-incredible-hulk/2quGBOrSvA2J'
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0257%2F6087%2Fproducts%2F0295e70b9228cadd53efaba6a4f5b229.png%3Fv%3D1556497087&f=1&nofb=1'
   },
@@ -120,6 +123,7 @@ let mcu = [
       tag: 'SHORT',
       color: 'blue'
     },
+    note: 'Included on Thor extras.',
     streaming: {
       yt: 'https://youtu.be/oQoN8bkkHvw'
     },
@@ -132,6 +136,7 @@ let mcu = [
       tag: 'SHORT',
       color: 'blue'
     },
+    note: 'Included on Captain America: The First Avenger extras.',
     streaming: {
       yt: 'https://youtu.be/4fMWi8ImJ2U'
     },
@@ -169,6 +174,7 @@ let mcu = [
       tag: 'SHORT',
       color: 'blue'
     },
+    note: 'Included on Avengers extras.',
     streaming: {
       yt: 'https://youtu.be/oE6DjAJvxA8',
     },
@@ -193,6 +199,7 @@ let mcu = [
       tag: 'SHORT',
       color: 'blue'
     },
+    note: 'Included on Thor: The Dark World extras.',
     streaming: {
       yt: 'https://youtu.be/ezP-df_9yw0',
       disney: 'https://www.disneyplus.com/movies/marvel-one-shot-all-hail-the-king/6rOlKvPhvlh4',
@@ -582,6 +589,7 @@ let mcu = [
     },
     note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
     streaming: {
+      netflix: 'https://www.netflix.com/title/80166369?s=i&trkid=13747225'
     },
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
   },
@@ -616,8 +624,9 @@ let mcu = [
       tag: 'SERIES',
       color: 'red'
     },
-    note: 'Avaible on Prime in UK and on Disney+ in Austrialia. So it\'s proably coming to Disney+ after Prime.',
+    note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s proably coming to Disney+ after Prime.',
     streaming: {
+      disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.magneticmag.com%2F.image%2Ft_share%2FMTU5Mzk4MTMxMjY2NDk1NzYx%2Fmagnumpr_cloaklogocopy.png&f=1&nofb=1'
   },
@@ -700,8 +709,9 @@ let mcu = [
       tag: 'SERIES',
       color: 'red'
     },
-    note: 'Avaible on Prime in UK and on Disney+ in Austrialia. So it\'s proably coming to Disney+ after Prime.',
+    note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s proably coming to Disney+ after Prime.',
     streaming: {
+      disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.magneticmag.com%2F.image%2Ft_share%2FMTU5Mzk4MTMxMjY2NDk1NzYx%2Fmagnumpr_cloaklogocopy.png&f=1&nofb=1'
   },
@@ -858,7 +868,7 @@ let mcu = [
       tag: 'SERIES',
       color: 'red'
     },
-    note: 'The series happen in alternative timeline in 2012, but it\'s rcommended to watch it after Avengers: Endgame.',
+    note: 'The series happen in alternative timeline in 2012, but it\'s recommended to watch it after Avengers: Endgame.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/6pARMvILBGzF',
     },
@@ -896,7 +906,7 @@ let mcu = [
       tag: 'SERIES',
       color: 'red'
     },
-    note: 'Seems to mostly take plae post-Snap, but with no references to it.',
+    note: 'Seems to mostly take place post-Snap, but with no references to it.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
@@ -909,7 +919,7 @@ let mcu = [
       tag: 'SERIES',
       color: 'purple'
     },
-    note: 'Seems to mostly take plae post-Snap, but with no references to it.',
+    note: 'Seems to mostly take place post-Snap, but with no references to it.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/4FuaAENOKFEU',
     },
@@ -934,6 +944,7 @@ let mcu = [
         tag: 'MOVIE',
         color: '#018f69'
     },
+    note: 'Coming to Disney+ on October 18th',
     streaming: {
     },
     icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
@@ -959,6 +970,7 @@ let mcu = [
     },
     note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
     streaming: {
+      netflix: 'https://www.netflix.com/title/81055822'
     },
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
   }

@@ -21,15 +21,15 @@
 ## Screenshots
 
 #### Filter Option
-![Example screenshot](images/ss2.png)
+<!-- ![Example screenshot](images/ss2.png) -->
 ##### Computer
 
-![Example screenshot](images/ss0.png)
-![Example screenshot](images/ss1.png)
+<!-- ![Example screenshot](images/ss0.png) -->
+<!-- ![Example screenshot](images/ss1.png) -->
 
 ##### Mobile
-![Example screenshot](images/mob1.png)
-![Example screenshot](images/mob2.png)
+<!-- ![Example screenshot](images/mob1.png) -->
+<!-- ![Example screenshot](images/mob2.png) -->
 
 ## Technologies
 * JavaScript 
@@ -42,7 +42,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Features
-  * Test
+  <!-- * Test -->
 
 ## Status
 Project is: _in progress_

@@ -6,6 +6,7 @@ let mcu = [
             tag: 'MOVIE',
             color: '#018f69'
         },
+        note:'Coming to Disney+ in January?',
         streaming: {
         },
         icon: 'https://images6.alphacoders.com/103/1030998.png'
