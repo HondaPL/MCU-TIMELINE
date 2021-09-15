@@ -709,7 +709,7 @@ let mcu = [
       tag: 'SERIES',
       color: 'red'
     },
-    note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s proably coming to Disney+ after Prime.',
+    note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s probably coming to Disney+ after Prime.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
     },
@@ -938,6 +938,19 @@ let mcu = [
     icon: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/dee98d92002503.5e40898189364.png'
   },
   {
+    text: 'Hawkeye',
+    date: 'December 2023',
+    premiere: 'November 24, 2021',
+    category: {
+        tag: 'SERIES',
+        color: 'purple'
+    },
+    streaming: {
+        disney: 'https://www.disneyplus.com/en-gb/series/hawkeye/11Zy8m9Dkj5l'
+    },
+    icon: 'https://i.pinimg.com/originals/d3/8f/41/d38f41e25b86f4845e639a4e30c2eba5.jpg'
+  },
+  {
     text: 'Shang-Chi and the Legend of the Ten Rings',
     date: 'April 2024',
     category: {
@@ -973,7 +986,32 @@ let mcu = [
       netflix: 'https://www.netflix.com/title/81055822'
     },
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
-  }
+  },
+  {
+    text: 'The Eternals',
+    date: 'June 2024',
+    premiere: 'November 5, 2021',
+    category: {
+        tag: 'MOVIE',
+        color: '#018f69'
+    },
+    note:'Coming to Disney+ in January?',
+    streaming: {
+    },
+    icon: 'https://images6.alphacoders.com/103/1030998.png'
+  },
+  {
+    text: 'Spider-Man: No Way Home',
+    date: 'November - December 2024',
+    premiere: 'December 17, 2021',
+    category: {
+        tag: 'MOVIE',
+        color: '#018f69'
+    },
+    streaming: {
+    },
+    icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
+}
 ]
 
-export default mcu;
+export default mcu.filter(item => !item.premiere || new Date(item.premiere).getTime()<=Date.now());;

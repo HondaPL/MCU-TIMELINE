@@ -19,6 +19,7 @@ let mcu = [
             color: 'purple'
         },
         streaming: {
+            disney: 'https://www.disneyplus.com/en-gb/series/hawkeye/11Zy8m9Dkj5l'
         },
         icon: 'https://i.pinimg.com/originals/d3/8f/41/d38f41e25b86f4845e639a4e30c2eba5.jpg'
     },
@@ -376,4 +377,5 @@ let mcu = [
         icon: ''
     },
 ]
-export default mcu;
+
+export default mcu.filter(item => new Date(item.date).getTime()>=Date.now() || item.date === "???");

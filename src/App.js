@@ -42,6 +42,8 @@ class App extends Component {
     }
   };
 
+
+
   render() {
     let { filters } = this.state;
     return (
@@ -61,7 +63,7 @@ class App extends Component {
         <Timeline data={this.state.upcoming} filter={filters}/>
         <div className="creditsBox">
           <p onClick={this.scrollToBottom} className="credits">Created by Adam Hącia 2021</p>
-          <p onClick={this.scrollToBottom} className="credits">Site last updated on September 11th, 2021</p>
+          <p onClick={this.scrollToBottom} className="credits">Site last updated on September 16th, 2021</p>
         </div>
       </div>
     );
