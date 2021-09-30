@@ -6,12 +6,26 @@ class Timeline extends React.Component {
         timelineData: this.props.data
     }
     render() {
-        return (this.state.timelineData.length > 0 ? (
+        return (this.props.data.length > 0 ? (
             <div className="timeline-container">
-                {this.state.timelineData.map((data, idx) => (
-                    this.props.filter.some(item => data.category.tag === item) ?
-                    <TimelineItem data={data}key={idx} /> : ""
-                ))}
+
+                {this.props.upcoming !== "yes" ?
+                    this.props.data
+                        .sort((a, b) => {
+                            return Date.parse(a.date.start) > Date.parse(b.date.start) ? 1 : -1
+                        })
+                        .map((data, idx) => (
+                            this.props.filter.some(item => data.category === item && Date.parse(data.premiere) <= Date.now()) ?
+                                <TimelineItem upcoming="no" data={data} key={idx} /> : ""
+                        ))
+                    : this.props.data
+                        .sort((a, b) => {
+                            return Date.parse(a.premiere) > Date.parse(b.premiere) ? 1 : -1
+                        })
+                        .map((data, idx) => (
+                            this.props.filter.some(item => data.category === item && Date.parse(data.premiere) >= Date.now()) ?
+                                <TimelineItem upcoming="yes" data={data} key={idx} /> : ""
+                        ))}
             </div>
         ) : "")
     };

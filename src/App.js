@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Timeline from './components/Timeline';
-import mcu from './data/data.js'
 import upcoming from './data/upcoming.js'
 import logo from './data/logo.jpeg';
 import { animateScroll as scroll } from "react-scroll";
@@ -10,9 +9,9 @@ import { animateScroll as scroll } from "react-scroll";
 class App extends Component {
 
   state = {
-    timelineData: mcu,
+    timelineData: "",
     upcoming: upcoming,
-    filters: ["MOVIE", "SERIES", "SHORT", "INTERNET SERIES"]
+    filters: ["MOVIES", "SERIES", "SHORT", "INTERNET SERIES"]
   }
 
   scrollToTop = () => {
@@ -42,16 +41,29 @@ class App extends Component {
     }
   };
 
+  componentDidMount() {
+    var axios = require("axios").default;
 
+    axios
+        .get(
+          "https://hondapl-mcu-api.herokuapp.com/mcu"
+        )
+        .then(res => res.data)
+        .then(res => {
+            this.setState({ timelineData: res });
+        });
+
+}
 
   render() {
     let { filters } = this.state;
+    console.log(this.state.timelineData)
     return (
       <div className="App">
         <div id="logobox" className="logoBox">
           <img onClick={this.scrollToTop} className="logo" src={logo} alt="siema" />
           <ul class="horizontal_menu">
-            <li><span onClick={() => this.handleFilter("MOVIE")} id="MOVIE" className="filter">MOVIES</span></li>
+            <li><span onClick={() => this.handleFilter("MOVIES")} id="MOVIES" className="filter">MOVIES</span></li>
             <li><span onClick={() => this.handleFilter("SERIES")} id="SERIES" className="filter">SERIES</span></li>
             <li><span onClick={() => this.handleFilter("SHORT")} id="SHORT" className="filter">SHORTS</span></li>
             <li><span onClick={() => this.handleFilter("INTERNET SERIES")} id="INTERNET SERIES" className="filter">INTERNET</span></li>
@@ -60,10 +72,9 @@ class App extends Component {
         <Timeline id="timeline" data={this.state.timelineData} filter={filters} />
         {filters && filters.length > 0 ? 
         <h1 id="upcoming">Upcoming</h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
-        <Timeline data={this.state.upcoming} filter={filters}/>
+        <Timeline data={this.state.timelineData} filter={filters} upcoming="yes"/>
         <div className="creditsBox">
-          <p onClick={this.scrollToBottom} className="credits">Created by Adam Hącia 2021</p>
-          <p onClick={this.scrollToBottom} className="credits">Site last updated on September 16th, 2021</p>
+          <p onClick={this.scrollToBottom} className="credits">Created by Adam Hącia 2021,<a href="https://hondapl-mcu-api.herokuapp.com/">API</a></p>
         </div>
       </div>
     );
