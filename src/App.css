@@ -181,13 +181,13 @@ h1 {
 }
 
 ul.horizontal_menu {
-    margin: 10px auto;
+    display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul.horizontal_menu li {
-    display: inline;
-    list-style-type: none;
-    margin: 5px;
+    width:25vw;
 }
 
 .filter {

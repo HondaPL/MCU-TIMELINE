@@ -12,18 +12,18 @@ class Timeline extends React.Component {
                 {this.props.upcoming !== "yes" ?
                     this.props.data
                         .sort((a, b) => {
-                            return Date.parse(a.date.start) > Date.parse(b.date.start) ? 1 : -1
+                            return Date.parse(/^\d/.test(a.date.start) ? a.date.start : "1" + a.date.start) > Date.parse(/^\d/.test(b.date.start) ? b.date.start : "1" + b.date.start) ? 1 : -1
                         })
                         .map((data, idx) => (
-                            this.props.filter.some(item =>  data.category.includes(item) && (Date.parse(data.premiere) <= Date.now() || !data.premiere)) ?
+                            this.props.filter.some(item =>  data.category.includes(item) && ((Date.parse(/^\d/.test(data.premiere) ? data.premiere : "1" + data.premiere) <= Date.now() && data.premiere !== "???" ) || !data.premiere)) ?
                                 <TimelineItem upcoming="no" data={data} key={idx} /> : ""
                         ))
                     : this.props.data
                         .sort((a, b) => {
-                            return Date.parse(a.premiere) > Date.parse(b.premiere) || (a.premiere === "???" && b.premiere !== "???") ? 1 : -1
+                            return Date.parse(/^\d/.test(a.premiere) ? a.premiere : "1" + a.premiere) > Date.parse(/^\d/.test(b.premiere) ? b.premiere : "1" + b.premiere) || (a.premiere === "???" && b.premiere !== "???") ? 1 : -1
                         })
                         .map((data, idx) => (
-                            this.props.filter.some(item => data.category.includes(item) && (Date.parse(data.premiere) >= Date.now() || data.premiere === "???")) ?
+                            this.props.filter.some(item => data.category.includes(item) && (Date.parse(/^\d/.test(data.premiere) ? data.premiere : "1" + data.premiere) >= Date.now() || data.premiere === "???")) ?
                                 <TimelineItem upcoming="yes" data={data} key={idx} /> : ""
                         ))}
             </div>

@@ -10,7 +10,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png',
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg',
     premiere: "2020-05-27"
   },
   {
@@ -24,7 +24,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/6xvB6xZ4r95O',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FcC7eT3DVGNY5G0bnkOjKQHaHw%26pid%3DApi&f=1'
+    icon: 'https://rlv.zcache.com/avengers_classics_captain_america_brushed_shield_classic_round_sticker-rfbbec34bc82a4c119c929bdc5b54ffc0_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Agent Carter',
@@ -76,7 +76,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/38xJGlLAQy9a',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd5%2Fba%2F4a%2Fd5ba4a3383f294a4f152b5dd2e6d0820.png&f=1&nofb=1'
+    icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
   },
   {
     name: 'Iron Man',
@@ -88,7 +88,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/6aM2a8mZATiu',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpopsockets.co.za%2Fwp-content%2Fuploads%2F2018%2F06%2FIronManIcon_front.png&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/invincible_iron_man_classic_round_sticker-r2781c2c5810845ccacf05ff2b8914e37_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Iron Man 2',
@@ -100,7 +100,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/lXjCr9QmGGQJ',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpopsockets.co.za%2Fwp-content%2Fuploads%2F2018%2F06%2FIronManIcon_front.png&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/invincible_iron_man_classic_round_sticker-r2781c2c5810845ccacf05ff2b8914e37_0ugmm_8byvr_704.webp'
   },
   {
     name: 'The Incredible Hulk',
@@ -115,7 +115,7 @@ let mcu = [
       netflix: 'https://www.netflix.com/title/70087537',
       disney: 'https://www.disneyplus.com/en-gb/movies/marvel-studios-the-incredible-hulk/2quGBOrSvA2J'
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0257%2F6087%2Fproducts%2F0295e70b9228cadd53efaba6a4f5b229.png%3Fv%3D1556497087&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/incredible_hulk_logo_classic_round_sticker-rb65b305765fb434e84e36036a1e9c19f_0ugmm_8byvr_704.webp'
   },
   {
     name: 'The Consultant',
@@ -128,7 +128,7 @@ let mcu = [
     streaming: {
       yt: 'https://youtu.be/oQoN8bkkHvw'
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'A funny Thing Happened on the Way to Thor\'s Hammer',
@@ -142,7 +142,7 @@ let mcu = [
     streaming: {
       yt: 'https://youtu.be/4fMWi8ImJ2U'
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
 
   },
   {
@@ -155,7 +155,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1p4vdKzTuhzr',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Avengers',
@@ -167,7 +167,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/2h6PcHFDbsPy',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F9a%2Ff1%2F81%2F9af181980a94d82e6b04743cd1299919.png&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/avengers_logo_classic_round_sticker-rcf1f4016612145d897ee182a9650cf86_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Item 47',
@@ -180,7 +180,7 @@ let mcu = [
     streaming: {
       yt: 'https://youtu.be/oE6DjAJvxA8',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Iron Man 3',
@@ -192,7 +192,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3s4Ihq7P2c6e',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpopsockets.co.za%2Fwp-content%2Fuploads%2F2018%2F06%2FIronManIcon_front.png&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/invincible_iron_man_classic_round_sticker-r2781c2c5810845ccacf05ff2b8914e37_0ugmm_8byvr_704.webp'
   },
   {
     name: 'All Hail the King',
@@ -218,7 +218,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Thor: The Dark World',
@@ -230,7 +230,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/ZHk7aM5xTbW7',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Agents of The S.H.I.E.L.D. Season 1 Episodes 8-16',
@@ -242,7 +242,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Captain America: The Winter Soldier',
@@ -254,7 +254,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/TVme5whcowSy',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FcC7eT3DVGNY5G0bnkOjKQHaHw%26pid%3DApi&f=1'
+    icon: 'https://rlv.zcache.com/avengers_classics_captain_america_brushed_shield_classic_round_sticker-rfbbec34bc82a4c119c929bdc5b54ffc0_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Agents of The S.H.I.E.L.D. Season 1 Episodes 17-22',
@@ -266,7 +266,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Guardians of the Galaxy',
@@ -278,7 +278,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1S4WM9h3KRR6',
     },
-    icon: 'https://www.kindpng.com/picc/m/60-601788_guardians-of-the-galaxy-symbol-vector-png-download.png'
+    icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Agents of The S.H.I.E.L.D. Season 2 Episodes 1-10',
@@ -290,7 +290,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Guardians of the Galaxy Vol. 2',
@@ -302,7 +302,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/ZdRX4mMbp1gM',
     },
-    icon: 'https://www.kindpng.com/picc/m/60-601788_guardians-of-the-galaxy-symbol-vector-png-download.png'
+    icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Daredevil Season 1',
@@ -338,7 +338,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Avengers: Age of Ultron',
@@ -350,7 +350,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/76IUxY0rNHzt',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Favengers-icon-15.png&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/avengers_logo_classic_round_sticker-rcf1f4016612145d897ee182a9650cf86_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Agents of The S.H.I.E.L.D. Season 2 Episodes 20-22',
@@ -362,7 +362,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'WHIH Newsfront Season 1',
@@ -398,7 +398,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Daredevil Season 2',
@@ -422,7 +422,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'WHIH Newsfront Season 2',
@@ -446,7 +446,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/4ovfyKnnIBCg',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FcC7eT3DVGNY5G0bnkOjKQHaHw%26pid%3DApi&f=1'
+    icon: 'https://rlv.zcache.com/avengers_classics_captain_america_brushed_shield_classic_round_sticker-rfbbec34bc82a4c119c929bdc5b54ffc0_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Team Thor',
@@ -458,7 +458,7 @@ let mcu = [
   streaming: {
     yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
   },
-  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
+  icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Black Widow',
@@ -482,7 +482,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Luke Cage Season 1',
@@ -542,7 +542,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
 
   },
   {
@@ -567,7 +567,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=1xgQUoVfiL8&list=PLDe0CguuqcMBVtZJk0iCNoSblixvAt4BY',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Agents of The S.H.I.E.L.D. Season 4 Episodes 1-4',
@@ -579,7 +579,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Spider-Man: Homecoming',
@@ -616,7 +616,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Cloak & Dagger Season 1',
@@ -653,7 +653,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Jessica Jones Season 2',
@@ -689,7 +689,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
-    icon: 'http://www.mcuchronology.com/images/runaways-01-dirty_%402x.png?crc=154082831'
+    icon: 'https://ih1.redbubble.net/image.697925981.6860/st,small,507x507-pad,600x600,f8f8f8.u5.jpg'
   },
   {
     name: 'Iron Fist Season 2',
@@ -726,7 +726,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Daredevil Season 3',
@@ -750,7 +750,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
-    icon: 'http://www.mcuchronology.com/images/runaways-01-dirty_%402x.png?crc=154082831'
+    icon: 'https://ih1.redbubble.net/image.697925981.6860/st,small,507x507-pad,600x600,f8f8f8.u5.jpg'
   },
   {
     name: 'The Punisher Season 2',
@@ -786,7 +786,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3XqAT8UV8ojS'
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Team Darryl',
@@ -798,7 +798,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
 
   },
   {
@@ -811,7 +811,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Ant-Man and The Wasp',
@@ -836,7 +836,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
     name: 'Avengers: Infinity War',
@@ -848,7 +848,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1WEuZ7H6y39v',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Favengers-icon-15.png&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/avengers_logo_classic_round_sticker-rcf1f4016612145d897ee182a9650cf86_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Avengers: Endgame',
@@ -860,7 +860,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/aRbVJUb2h2Rf',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Favengers-icon-15.png&f=1&nofb=1'
+    icon: 'https://rlv.zcache.com/avengers_logo_classic_round_sticker-rcf1f4016612145d897ee182a9650cf86_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Loki Season 1',
@@ -898,7 +898,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
 {
   name: 'Runaways Season 3',
@@ -911,7 +911,7 @@ let mcu = [
       streaming: {
     disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
-  icon: 'http://www.mcuchronology.com/images/runaways-01-dirty_%402x.png?crc=154082831'
+  icon: 'https://ih1.redbubble.net/image.697925981.6860/st,small,507x507-pad,600x600,f8f8f8.u5.jpg'
 },
 {
   name: 'Helstrom',
@@ -944,7 +944,7 @@ let mcu = [
     start: 'December 2024',
       end: 'December 2024'
   },
-  premiere: 'November 24, 2021',
+  premiere: '24 November 2021',
     category: 'LIMITED SERIES',
       streaming: {
     disney: 'https://www.disneyplus.com/en-gb/series/hawkeye/11Zy8m9Dkj5l'
@@ -958,8 +958,8 @@ let mcu = [
       end: 'April 2024'
   },
   category: 'MOVIE',
-    note: 'Coming to Disney+ on October 18th',
       streaming: {
+      disney: 'https://www.disneyplus.com/movies/-/5GyV9sf9Y041'
   },
   icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
 },
@@ -994,12 +994,12 @@ let mcu = [
     start: 'June 2024',
       end: 'June 2024'
   },
-  premiere: 'November 5, 2021',
+  premiere: '5 November 2021',
     category: 'MOVIE',
-      note: 'Coming to Disney+ in January?',
+      note: 'Coming to Disney+ on January 12th',
         streaming: {
   },
-  icon: 'https://images6.alphacoders.com/103/1030998.png'
+  icon: 'https://thedirect.s3.amazonaws.com/media/photos/emerch3.jpg'
 },
 {
   name: 'Spider-Man: No Way Home',
@@ -1007,7 +1007,7 @@ let mcu = [
     start: 'November 2024',
       end: 'December 2024'
   },
-  premiere: 'December 17, 2021',
+  premiere: '17 December 2021',
     category: 'MOVIE',
       streaming: {
   },
@@ -1015,7 +1015,7 @@ let mcu = [
 },
 {
   name: 'Doctor Strange in the Multiverse of Madness',
-  premiere: 'May 6, 2022',
+  premiere: '6 May 2022',
   date: {
     start: '',
       end: ''
@@ -1027,7 +1027,7 @@ let mcu = [
 },
 {
   name: 'Thor: Love and Thunder',
-  premiere: 'July 8, 2022',
+  premiere: '8 July 2022',
   date: {
     start: '',
       end: ''
@@ -1035,11 +1035,11 @@ let mcu = [
   category: 'MOVIE',
   streaming: {
   },
-  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
+  icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
 },
 {
   name: 'Black Panther: Wakanda Forever',
-  premiere: 'November 11, 2022',
+  premiere: '11 November 2022',
   date: {
     start: '',
       end: ''
@@ -1051,7 +1051,7 @@ let mcu = [
 },
 {
   name: 'The Marvels',
-  premiere: 'February 17, 2023',
+  premiere: '17 February 2023',
   date: {
     start: '',
       end: ''
@@ -1059,11 +1059,11 @@ let mcu = [
   category: 'MOVIE',
   streaming: {
   },
-  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd5%2Fba%2F4a%2Fd5ba4a3383f294a4f152b5dd2e6d0820.png&f=1&nofb=1'
+  icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
 },
 {
   name: 'Guardians of the Galaxy Holiday Special',
-  premiere: 'December, 2022',
+  premiere: 'December 2022',
   date: {
     start: '',
       end: ''
@@ -1071,11 +1071,11 @@ let mcu = [
   category: 'MOVIE',
   streaming: {
   },
-  icon: 'https://www.kindpng.com/picc/m/60-601788_guardians-of-the-galaxy-symbol-vector-png-download.png'
+  icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
 },
 {
   name: 'Ms. Marvel',
-  premiere: 'July, 2022',
+  premiere: 'July 2022',
   date: {
     start: '',
       end: ''
@@ -1083,11 +1083,11 @@ let mcu = [
   category: 'LIMITED SERIES',
   streaming: {
   },
-  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd5%2Fba%2F4a%2Fd5ba4a3383f294a4f152b5dd2e6d0820.png&f=1&nofb=1'
+  icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
 },
 {
   name: 'Moon Knight',
-  premiere: 'February, 2022',
+  premiere: 'February 2022',
   date: {
     start: '',
       end: ''
@@ -1095,11 +1095,11 @@ let mcu = [
   category: 'LIMITED SERIES',
   streaming: {
   },
-  icon: 'https://clipground.com/images/moon-knight-logo-8.jpg'
+  icon: 'https://rlv.zcache.com/moon_knight_logo_classic_round_sticker-r11f162ad5c74427590ebfc30ee6ecfee_0ugmm_8byvr_704.webp'
 },
 {
   name: 'She-Hulk',
-  premiere: 'April, 2022',
+  premiere: 'April 2022',
   date: {
     start: '',
       end: ''
@@ -1107,11 +1107,11 @@ let mcu = [
   category: 'LIMITED SERIES',
   streaming: {
   },
-  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0257%2F6087%2Fproducts%2F0295e70b9228cadd53efaba6a4f5b229.png%3Fv%3D1556497087&f=1&nofb=1'
+  icon: 'https://rlv.zcache.com/incredible_hulk_logo_classic_round_sticker-rb65b305765fb434e84e36036a1e9c19f_0ugmm_8byvr_704.webp'
 },
 {
   name: 'Secret Invasion',
-  premiere: 'October, 2022',
+  premiere: 'October 2022',
   date: {
     start: '',
       end: ''
@@ -1119,11 +1119,11 @@ let mcu = [
   category: 'LIMITED SERIES',
   streaming: {
   },
-  icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+  icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
 },
 {
   name: 'Ant-Man and the Wasp: Quantumania',
-  premiere: 'July 28, 2023',
+  premiere: '28 July 2023',
   date: {
     start: '',
       end: ''
@@ -1135,7 +1135,7 @@ let mcu = [
 },
 {
   name: 'Guardians of the Galaxy: Vol. 3',
-  premiere: 'May 5, 2023',
+  premiere: '5 May 2023',
   date: {
     start: '',
       end: ''
@@ -1143,23 +1143,11 @@ let mcu = [
   category: 'MOVIE',
   streaming: {
   },
-  icon: 'https://www.kindpng.com/picc/m/60-601788_guardians-of-the-galaxy-symbol-vector-png-download.png'
+  icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
 },
 {
   name: '???',
-  premiere: 'November 3, 2023',
-  date: {
-    start: '',
-      end: ''
-  },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: '???',
-  premiere: 'February 16, 2024',
+  premiere: '3 November 2023',
   date: {
     start: '',
       end: ''
@@ -1171,7 +1159,7 @@ let mcu = [
 },
 {
   name: '???',
-  premiere: 'May 3, 2024',
+  premiere: '16 February 2024',
   date: {
     start: '',
       end: ''
@@ -1183,7 +1171,7 @@ let mcu = [
 },
 {
   name: '???',
-  premiere: 'July 26, 2024',
+  premiere: '3 May 2024',
   date: {
     start: '',
       end: ''
@@ -1195,7 +1183,19 @@ let mcu = [
 },
 {
   name: '???',
-  premiere: 'November 8, 2024',
+  premiere: '26 July 2024',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: '???',
+  premiere: '8 November 2024',
   date: {
     start: '',
       end: ''
@@ -1251,7 +1251,7 @@ let mcu = [
   category: 'MOVIE',
   streaming: {
   },
-  icon: ''
+  icon: 'https://rlv.zcache.com/deadpool_logo_classic_round_sticker-re468ed02e8ae4429984047976f313e40_0ugmm_8byvr_704.webp'
 },
 {
   name: 'Captain America 4',
@@ -1263,7 +1263,7 @@ let mcu = [
   category: 'MOVIE',
   streaming: {
   },
-  icon: ''
+  icon: 'https://rlv.zcache.com/avengers_classics_captain_america_brushed_shield_classic_round_sticker-rfbbec34bc82a4c119c929bdc5b54ffc0_0ugmm_8byvr_704.webp'
 },
 {
   name: 'Ironheart',
@@ -1275,7 +1275,7 @@ let mcu = [
   category: 'LIMITED SERIES',
   streaming: {
   },
-  icon: ''
+  icon: 'https://rlv.zcache.com/invincible_iron_man_classic_round_sticker-r2781c2c5810845ccacf05ff2b8914e37_0ugmm_8byvr_704.webp'
 },
 {
   name: 'Armor Wars',
@@ -1287,7 +1287,7 @@ let mcu = [
   category: 'LIMITED SERIES',
   streaming: {
   },
-  icon: ''
+  icon: 'https://i.pinimg.com/736x/6f/a7/02/6fa70245355dab1dd577710a56fb75c3.jpg'
 },
 {
   name: 'Untitled Wakanda Series',
@@ -1299,7 +1299,7 @@ let mcu = [
   category: 'LIMITED SERIES',
   streaming: {
   },
-  icon: ''
+  icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnbpiconsym-1-productimagenowatermark.jpg'
 },
 {
   name: 'What If…? Season 2',
@@ -1311,7 +1311,7 @@ let mcu = [
   category: 'SERIES',
   streaming: {
   },
-  icon: ''
+  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Faf%2F12%2Fdd%2Faf12dd4642396c427e405dc1175468ce.png&f=1&nofb=1'
 },
 {
   name: 'Loki Season 2',
@@ -1323,7 +1323,7 @@ let mcu = [
   category: 'SERIES',
   streaming: {
   },
-  icon: ''
+  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F6f%2F3f%2F23%2F6f3f2375f9ebce70e9d2fbd84c34c8fb.jpg&f=1&nofb=1'
 },
 {
   name: 'Echo',
@@ -1347,12 +1347,12 @@ let mcu = [
   category: 'SHORT',
   streaming: {
   },
-  icon: ''
+  icon: 'https://rlv.zcache.com/i_am_groot_text_emoji_classic_round_sticker-r402d188089fb4af1af2bd7dfcd7538ff_0ugmm_8byvr_704.webp'
 
 },
 {
   name: 'Untitled Halloween Special',
-  premiere: 'October, 2022',
+  premiere: 'October 2022',
   date: {
     start: '',
       end: ''
@@ -1360,7 +1360,7 @@ let mcu = [
   category: 'LIMITED SERIES',
   streaming: {
   },
-  icon: ''
+  icon: 'https://rlv.zcache.com/cute_ghost_halloween_stickers_for_kids-r40b0387c993f41858f9dcdc9ca544354_0ugmm_8byvr_704.webp'
 },
 {
   name: 'Agatha: House of Harkness',
@@ -1384,7 +1384,7 @@ let mcu = [
   category: 'LIMITED SERIES',
   streaming: {
   },
-  icon: ''
+  icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
 },
 {
   name: 'Marvel Zombies',
