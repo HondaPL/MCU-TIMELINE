@@ -15,15 +15,15 @@ class Timeline extends React.Component {
                             return Date.parse(a.date.start) > Date.parse(b.date.start) ? 1 : -1
                         })
                         .map((data, idx) => (
-                            this.props.filter.some(item => data.category === item && Date.parse(data.premiere) <= Date.now()) ?
+                            this.props.filter.some(item =>  data.category.includes(item) && (Date.parse(data.premiere) <= Date.now() || !data.premiere)) ?
                                 <TimelineItem upcoming="no" data={data} key={idx} /> : ""
                         ))
                     : this.props.data
                         .sort((a, b) => {
-                            return Date.parse(a.premiere) > Date.parse(b.premiere) ? 1 : -1
+                            return Date.parse(a.premiere) > Date.parse(b.premiere) || (a.premiere === "???" && b.premiere !== "???") ? 1 : -1
                         })
                         .map((data, idx) => (
-                            this.props.filter.some(item => data.category === item && Date.parse(data.premiere) >= Date.now()) ?
+                            this.props.filter.some(item => data.category.includes(item) && (Date.parse(data.premiere) >= Date.now() || data.premiere === "???")) ?
                                 <TimelineItem upcoming="yes" data={data} key={idx} /> : ""
                         ))}
             </div>

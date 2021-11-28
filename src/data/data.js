@@ -1,24 +1,25 @@
 let mcu = [
   {
-    text: 'Agents of The S.H.I.E.L.D Season 7',
-    date: '1931-2019',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D Season 7',
+    date: {
+      start: '1931',
+      end: '2019'
     },
+    category: 'SERIES',
     note: 'Time travel involved, I recommend to watch it directly after AOTS Season 6',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
-    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+    icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png',
+    premiere: "2020-05-27"
   },
   {
-    text: 'Captain America: The First Avenger',
-    date: 'March 1942 - September 1945',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Captain America: The First Avenger',
+    date: {
+      start: 'March 1942',
+      end: 'September 1945'
     },
+    category: 'MOVIE',
     note: 'Beginning and post credit scene happens in 2011.',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/6xvB6xZ4r95O',
@@ -26,12 +27,12 @@ let mcu = [
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FcC7eT3DVGNY5G0bnkOjKQHaHw%26pid%3DApi&f=1'
   },
   {
-    text: 'Agent Carter',
-    date: '1946',
-    category: {
-      tag: 'SHORT',
-      color: 'blue'
+    name: 'Agent Carter',
+    date: {
+      start: '1946',
+      end: '1946'
     },
+    category: 'SHORT',
     note: 'Included on Iron Man 3 extras.',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=s7dBc7Mxy84'
@@ -40,12 +41,12 @@ let mcu = [
 
   },
   {
-    text: 'Agent Carter Season 1',
-    date: 'April - May 1946',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agent Carter Season 1',
+    date: {
+      start: 'April 1946',
+      end: 'May 1946'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/3rh3uclvsNsT'
     },
@@ -53,12 +54,12 @@ let mcu = [
 
   },
   {
-    text: 'Agent Carter Season 2',
-    date: 'July 1947',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agent Carter Season 2',
+    date: {
+      start: 'July 1947',
+      end: 'July 1947'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/3rh3uclvsNsT'
     },
@@ -66,48 +67,48 @@ let mcu = [
 
   },
   {
-    text: 'Captain Marvel',
-    date: '1995',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Captain Marvel',
+    date: {
+      start: '1995',
+      end: '1995'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/38xJGlLAQy9a',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd5%2Fba%2F4a%2Fd5ba4a3383f294a4f152b5dd2e6d0820.png&f=1&nofb=1'
   },
   {
-    text: 'Iron Man',
-    date: 'August - November 2010',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Iron Man',
+    date: {
+      start: 'August 2010',
+      end: 'November 2010'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/6aM2a8mZATiu',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpopsockets.co.za%2Fwp-content%2Fuploads%2F2018%2F06%2FIronManIcon_front.png&f=1&nofb=1'
   },
   {
-    text: 'Iron Man 2',
-    date: 'May - June 2011',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Iron Man 2',
+    date: {
+      start: '25 May 2011',
+      end: '4 June 2011'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/lXjCr9QmGGQJ',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpopsockets.co.za%2Fwp-content%2Fuploads%2F2018%2F06%2FIronManIcon_front.png&f=1&nofb=1'
   },
   {
-    text: 'The Incredible Hulk',
-    date: 'May - June 2011',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'The Incredible Hulk',
+    date: {
+      start: '25 May 2011',
+      end: '4 June 2011'
     },
+    category: 'MOVIE',
     note: 'Not available not Disney+ for now, because Universal has rights.',
     streaming: {
       prime: 'https://www.primevideo.com/detail/0TEJSDPUSF900Y55WM93OK89T1/',
@@ -117,12 +118,12 @@ let mcu = [
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0257%2F6087%2Fproducts%2F0295e70b9228cadd53efaba6a4f5b229.png%3Fv%3D1556497087&f=1&nofb=1'
   },
   {
-    text: 'The Consultant',
-    date: 'June 2011',
-    category: {
-      tag: 'SHORT',
-      color: 'blue'
+    name: 'The Consultant',
+    date: {
+      start: '4 June 2011',
+      end: '4 June 2011'
     },
+    category: 'SHORT',
     note: 'Included on Thor extras.',
     streaming: {
       yt: 'https://youtu.be/oQoN8bkkHvw'
@@ -130,12 +131,13 @@ let mcu = [
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'A funny Thing Happened on the Way to Thor\'s Hammer',
-    date: 'June 2011',
-    category: {
-      tag: 'SHORT',
-      color: 'blue'
+    name: 'A funny Thing Happened on the Way to Thor\'s Hammer',
+    date: {
+      start: '29 May 2011',
+      end: '2 June 2011'
     },
+    category: 'SHORT',
+
     note: 'Included on Captain America: The First Avenger extras.',
     streaming: {
       yt: 'https://youtu.be/4fMWi8ImJ2U'
@@ -144,36 +146,36 @@ let mcu = [
 
   },
   {
-    text: 'Thor',
-    date: 'May - June 2011',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Thor',
+    date: {
+      start: '30 May 2011',
+      end: '4 June 2011'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1p4vdKzTuhzr',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
   },
   {
-    text: 'Avengers',
-    date: 'May 2012',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Avengers',
+    date: {
+      start: '3 May 2012',
+      end: '6 May 2012'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/2h6PcHFDbsPy',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F9a%2Ff1%2F81%2F9af181980a94d82e6b04743cd1299919.png&f=1&nofb=1'
   },
   {
-    text: 'Item 47',
-    date: 'May 2012',
-    category: {
-      tag: 'SHORT',
-      color: 'blue'
+    name: 'Item 47',
+    date: {
+      start: '12 May 2012',
+      end: '12 May 2012'
     },
+    category: 'SHORT',
     note: 'Included on Avengers extras.',
     streaming: {
       yt: 'https://youtu.be/oE6DjAJvxA8',
@@ -181,24 +183,24 @@ let mcu = [
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Iron Man 3',
-    date: 'December 2012',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Iron Man 3',
+    date: {
+      start: 'December 2012',
+      end: 'December 2012'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3s4Ihq7P2c6e',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpopsockets.co.za%2Fwp-content%2Fuploads%2F2018%2F06%2FIronManIcon_front.png&f=1&nofb=1'
   },
   {
-    text: 'All Hail the King',
-    date: 'June 2013',
-    category: {
-      tag: 'SHORT',
-      color: 'blue'
+    name: 'All Hail the King',
+    date: {
+      start: 'June 2013',
+      end: 'June 2013'
     },
+    category: 'SHORT',
     note: 'Included on Thor: The Dark World extras.',
     streaming: {
       yt: 'https://youtu.be/ezP-df_9yw0',
@@ -207,337 +209,336 @@ let mcu = [
     icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 1 Episodes 1-7',
-    date: 'September - November 2013',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 1 Episodes 1-7',
+    date: {
+      start: 'September 2013',
+      end: 'November 2013'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Thor: The Dark World',
-    date: 'November 2013',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Thor: The Dark World',
+    date: {
+      start: '13 November 2013',
+      end: '19 November 2013'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/ZHk7aM5xTbW7',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 1 Episodes 8-16',
-    date: 'November 2013 - April 2014',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 1 Episodes 8-16',
+    date: {
+      start: '20 November 2013',
+      end: 'April 2014'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Captain America: The Winter Soldier',
-    date: 'April 2014',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Captain America: The Winter Soldier',
+    date: {
+      start: '1 April 2014',
+      end: '8 April 2014'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/TVme5whcowSy',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FcC7eT3DVGNY5G0bnkOjKQHaHw%26pid%3DApi&f=1'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 1 Episodes 17-22',
-    date: 'April - May 2014',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 1 Episodes 17-22',
+    date: {
+      start: '2 April 2014',
+      end: 'May 2014'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Guardians of the Galaxy',
-    date: 'September 2014',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Guardians of the Galaxy',
+    date: {
+      start: 'September 2014',
+      end: 'September 2014'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1S4WM9h3KRR6',
     },
     icon: 'https://www.kindpng.com/picc/m/60-601788_guardians-of-the-galaxy-symbol-vector-png-download.png'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 2 Episodes 1-10',
-    date: 'September - December 2014',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 2 Episodes 1-10',
+    date: {
+      start: 'September 2014',
+      end: 'December 2014'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Guardians of the Galaxy Vol. 2',
-    date: 'December 2014',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Guardians of the Galaxy Vol. 2',
+    date: {
+      start: 'December 2014',
+      end: 'December 2014'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/ZdRX4mMbp1gM',
     },
     icon: 'https://www.kindpng.com/picc/m/60-601788_guardians-of-the-galaxy-symbol-vector-png-download.png'
   },
   {
-    text: 'Daredevil Season 1',
-    date: 'January - May 2015',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Daredevil Season 1',
+    date: {
+      start: 'January 2015',
+      end: 'May 2015'
     },
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80018294/',
     },
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
   },
   {
-    text: 'Jessica Jones Season 1',
-    date: 'March - May 2015',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Jessica Jones Season 1',
+    date: {
+      start: 'March 2015',
+      end: 'May 2015'
     },
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002311/',
     },
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 2 Episodes 11-19',
-    date: 'March - April 2015',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 2 Episodes 11-19',
+    date: {
+      start: 'March 2015',
+      end: 'April 2015'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Avengers: Age of Ultron',
-    date: 'April - May 2015',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Avengers: Age of Ultron',
+    date: {
+      start: 'April 2015',
+      end: 'May 2015'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/76IUxY0rNHzt',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Favengers-icon-15.png&f=1&nofb=1'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 2 Episodes 20-22',
-    date: 'May 2015',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 2 Episodes 20-22',
+    date: {
+      start: 'May 2015',
+      end: 'May 2015'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'WHIH Newsfront Season 1',
-    date: 'July 2015',
-    category: {
-      tag: 'INTERNET SERIES',
-      color: 'gray'
+    name: 'WHIH Newsfront Season 1',
+    date: {
+      start: '7 July 2015',
+      end: '16 July 2015'
     },
+    category: 'INTERNET',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=j4IgjmQENE4',
     },
     icon: 'https://img.betaseries.com/UzFvSTqjSBm8ib6r2eLlRTcqs2A=/600x900/smart/https%3A%2F%2Fpictures.betaseries.com%2Ffonds%2Fposter%2Fde1a494544d92b33af11bb1da7fde3c8.jpg'
   },
   {
-    text: 'Ant-Man',
-    date: 'July 2015',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Ant-Man',
+    date: {
+      start: '17 July 2015',
+      end: '31 July 2015'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/5c92KVf1zgUX',
     },
     icon: 'https://i.pinimg.com/originals/72/9c/72/729c7266379cb5c204fe5b167341fd16.png'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 3 Episodes 1-10',
-    date: 'September - December 2015',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 3 Episodes 1-10',
+    date: {
+      start: 'September 2015',
+      end: 'December 2015'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Daredevil Season 2',
-    date: 'March - May 2016',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Daredevil Season 2',
+    date: {
+      start: 'March 2016',
+      end: 'May 2016'
     },
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80018294/',
     },
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 3 Episodes 11-19',
-    date: 'March - May 2016',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 3 Episodes 11-19',
+    date: {
+      start: '8 March 2016',
+      end: '23 May 2016'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'WHIH Newsfront Season 2',
-    date: 'April - May 2016',
-    category: {
-      tag: 'INTERNET SERIES',
-      color: 'gray'
+    name: 'WHIH Newsfront Season 2',
+    date: {
+      start: 'April 2016',
+      end: 'May 2016'
     },
+    category: 'INTERNET',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=j4IgjmQENE4',
     },
     icon: 'https://img.betaseries.com/UzFvSTqjSBm8ib6r2eLlRTcqs2A=/600x900/smart/https%3A%2F%2Fpictures.betaseries.com%2Ffonds%2Fposter%2Fde1a494544d92b33af11bb1da7fde3c8.jpg'
   },
   {
-    text: 'Captain America: Civil War',
-    date: 'May - August 2016',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Captain America: Civil War',
+    date: {
+      start: '3 May 2016',
+      end: '28 August 2016'
     },
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/4ovfyKnnIBCg',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.FcC7eT3DVGNY5G0bnkOjKQHaHw%26pid%3DApi&f=1'
   },
   {
-    text: 'Team Thor',
-    date: 'May 2016',
-    category: {
-      tag: 'SHORT',
-      color: 'blue'
+    name: 'Team Thor',
+    date: {
+      start: '7 May 2016',
+      end: '7 May 2016'
     },
-    streaming: {
-      yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
-    },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
-
+    category: 'SHORT',
+  streaming: {
+    yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
+  },
+  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
   },
   {
-    text: 'Black Widow',
-    date: 'May - August 2016',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Black Widow',
+    date: {
+      start: '8 May 2016',
+      end: 'August 2016'
     },
+    category:'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3VfTap90rwZC',
     },
     icon: 'https://i.pinimg.com/originals/3a/ee/1b/3aee1b046dea9984904a1481989c9885.jpg'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 3 Episodes 20-22',
-    date: 'May 2016',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 3 Episodes 20-22',
+    date: {
+      start: '10 May 2016',
+      end: '17 May 2016'
     },
+    category:'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Luke Cage Season 1',
-    date: 'April - July 2016',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Luke Cage Season 1',
+    date: {
+      start: 'April 2016',
+      end: 'July 2016'
     },
+    category:'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002537/',
     },
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnlciconsym-1-productimagenowatermark.jpg'
   },
   {
-    text: 'Iron Fist Season 1',
-    date: 'July 2016',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Iron Fist Season 1',
+    date: {
+      start: 'July 2016',
+      end: 'July 2016'
     },
+    category:'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002612/',
     },
     icon: 'https://cdn.worldvectorlogo.com/logos/marvels-iron-fist.svg'
   },
   {
-    text: 'The Defenders',
-    date: 'August 2016',
-    category: {
-      tag: 'SERIES',
-      color: 'purple'
+    name: 'The Defenders',
+    date: {
+      start: 'August 2016',
+      end: 'August 2016'
     },
+    category:'LIMITED SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002566/',
     },
     icon: 'https://i.pinimg.com/474x/a4/f9/62/a4f962bff6486a266d8a1e0b0415b6a1.jpg'
   },
   {
-    text: 'Black Panther',
-    date: 'September 2016',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Black Panther',
+    date: {
+      start: 'September 2016',
+      end: 'September 2016'
     },
+    category:'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1GuXuYPj99Ke',
     },
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnbpiconsym-1-productimagenowatermark.jpg'
   },
   {
-    text: 'Team Thor: Part 2',
-    date: 'September 2016',
-    category: {
-      tag: 'SHORT',
-      color: 'blue'
+    name: 'Team Thor: Part 2',
+    date: {
+      start: 'September 2016',
+      end: 'September 2016'
     },
+    category:'SHORT',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
     },
@@ -545,48 +546,48 @@ let mcu = [
 
   },
   {
-    text: 'Doctor Strange',
-    date: 'February - September 2016',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Doctor Strange',
+    date: {
+      start: 'February 2016',
+      end: 'September 2016'
     },
+    category:'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/4GgMJ1aHKHA2',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F68%2Fc9%2Fbe%2F68c9be968cbc771d425095356b75669b.jpg&f=1&nofb=1'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Slingshot',
-    date: 'September 2016',
-    category: {
-      tag: 'INTERNET SERIES',
-      color: 'gray'
+    name: 'Agents of The S.H.I.E.L.D. Slingshot',
+    date: {
+      start: 'September 2016',
+      end: 'September 2016'
     },
+    category:'INTERNET',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=1xgQUoVfiL8&list=PLDe0CguuqcMBVtZJk0iCNoSblixvAt4BY',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 4 Episodes 1-4',
-    date: 'September - October 2016',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 4 Episodes 1-4',
+    date: {
+      start: 'September 2016',
+      end: 'October 2016'
     },
+    category:'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Spider-Man: Homecoming',
-    date: 'October 2016',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Spider-Man: Homecoming',
+    date: {
+      start: 'October 2016',
+      end: 'October 2016'
     },
+    category:'MOVIE',
     note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
     streaming: {
       netflix: 'https://www.netflix.com/title/80166369?s=i&trkid=13747225'
@@ -594,36 +595,36 @@ let mcu = [
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
   },
   {
-    text: 'The Punisher Season 1',
-    date: 'October - November 2016',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'The Punisher Season 1',
+    date: {
+      start: 'October 2016',
+      end: 'November 2016'
     },
+    category:'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80117498/',
     },
     icon: 'https://i.pinimg.com/originals/72/ac/0e/72ac0efff43f5b82091b6a82d24e0fc3.jpg'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 4 Episodes 5-9',
-    date: 'October - December 2016',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 4 Episodes 5-9',
+    date: {
+      start: 'October 2016',
+      end: 'December 2016'
     },
+    category:'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Cloak & Dagger Season 1',
-    date: 'October 2016 - February 2017',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Cloak & Dagger Season 1',
+    date: {
+      start: 'October 2016',
+      end: 'February 2017'
     },
+    category:'SERIES',
     note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s proably coming to Disney+ after Prime.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
@@ -631,84 +632,84 @@ let mcu = [
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.magneticmag.com%2F.image%2Ft_share%2FMTU5Mzk4MTMxMjY2NDk1NzYx%2Fmagnumpr_cloaklogocopy.png&f=1&nofb=1'
   },
   {
-    text: 'Inhumans',
-    date: 'December 2016 - January 2017',
-    category: {
-      tag: 'SERIES',
-      color: 'purple'
+    name: 'Inhumans',
+    date: {
+      start: 'December 2016',
+      end: 'January 2017'
     },
+    category:'LIMITED SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/6VZXWp9jaYsT',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbbts1.azureedge.net%2Fimages%2Fp%2Ffull%2F2017%2F09%2Fd2b980f4-09ae-48da-bed9-d1f08b09ab6c.png&f=1&nofb=1'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 4 Episodes 10-22',
-    date: 'January - April 2017',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 4 Episodes 10-22',
+    date: {
+      start: 'January 2017',
+      end: 'April 2017'
     },
+    category:'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Jessica Jones Season 2',
-    date: 'July 2017',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Jessica Jones Season 2',
+    date: {
+      start: 'July 2017',
+      end: 'July 2017'
     },
+    category:'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002311/',
     },
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
   },
   {
-    text: 'Luke Cage Season 2',
-    date: 'August - October 2017',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Luke Cage Season 2',
+    date: {
+      start: 'August 2017',
+      end: 'October 2017'
     },
+    category:'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002537/',
     },
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnlciconsym-1-productimagenowatermark.jpg'
   },
   {
-    text: 'Runaways Season 1',
-    date: 'August - December 2017',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Runaways Season 1',
+    date: {
+      start: 'August 2017',
+      end: 'December 2017'
     },
+    category:'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
     icon: 'http://www.mcuchronology.com/images/runaways-01-dirty_%402x.png?crc=154082831'
   },
   {
-    text: 'Iron Fist Season 2',
-    date: 'October - December 2017',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Iron Fist Season 2',
+    date: {
+      start: 'October 2017',
+      end: 'December 2017'
     },
+    category:'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002612/',
     },
     icon: 'https://cdn.worldvectorlogo.com/logos/marvels-iron-fist.svg'
   },
   {
-    text: 'Cloak & Dagger Season 2',
-    date: 'October - December 2017',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Cloak & Dagger Season 2',
+    date: {
+      start: 'October 2017',
+      end: 'December 2017'
     },
+    category:'SERIES',
     note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s probably coming to Disney+ after Prime.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
@@ -716,84 +717,84 @@ let mcu = [
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.magneticmag.com%2F.image%2Ft_share%2FMTU5Mzk4MTMxMjY2NDk1NzYx%2Fmagnumpr_cloaklogocopy.png&f=1&nofb=1'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 5 Episodes 1-10',
-    date: 'April - December 2017',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 5 Episodes 1-10',
+    date: {
+      start: 'April 2017',
+      end: 'December 2017'
     },
+    category:'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Daredevil Season 3',
-    date: 'October 2017 - January 2018',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Daredevil Season 3',
+    date: {
+      start: 'October 2017',
+      end: 'January 2018'
     },
+    category:'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80018294/',
     },
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
   },
   {
-    text: 'Runaways Season 2',
-    date: 'December 2017 - February 2018',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Runaways Season 2',
+    date: {
+      start: 'December 2017',
+      end: 'February 2018'
     },
+    category:'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
     icon: 'http://www.mcuchronology.com/images/runaways-01-dirty_%402x.png?crc=154082831'
   },
   {
-    text: 'The Punisher Season 2',
-    date: 'November 2017 - March 2018',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'The Punisher Season 2',
+    date: {
+      start: 'November 2017',
+      end: 'March 2018'
     },
+    category:'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80117498/',
     },
     icon: 'https://i.pinimg.com/originals/72/ac/0e/72ac0efff43f5b82091b6a82d24e0fc3.jpg'
   },
   {
-    text: 'Jessica Jones Season 3',
-    date: 'December 2017 - March 2018',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Jessica Jones Season 3',
+    date: {
+      start: 'December 2017',
+      end: 'March 2018'
     },
+    category:'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002311/',
     },
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
   },
   {
-    text: 'Thor: Ragnarok',
-    date: 'March - April 2018',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Thor: Ragnarok',
+    date: {
+      start: 'March 2018',
+      end: 'April 2018'
     },
+    category:'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3XqAT8UV8ojS'
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
   },
   {
-    text: 'Team Darryl',
-    date: 'April 2018',
-    category: {
-      tag: 'SHORT',
-      color: 'blue'
+    name: 'Team Darryl',
+    date: {
+      start: 'April 2018',
+      end: 'April 2018'
     },
+    category:'SHORT',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
     },
@@ -801,24 +802,24 @@ let mcu = [
 
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 5 Episodes 11-18',
-    date: 'March - April 2018',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 5 Episodes 11-18',
+    date: {
+      start: 'March 2018',
+      end: 'April 2018'
     },
+    category:'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Ant-Man and The Wasp',
-    date: 'March - April 2018',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Ant-Man and The Wasp',
+    date: {
+      start: 'March 2018',
+      end: 'April 2018'
     },
+    category:'MOVIE',
     note: 'It\'s best you watch Infinity War directly after Thor Ragnarok.',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/5c92KVf1zgUX',
@@ -826,48 +827,48 @@ let mcu = [
     icon: 'https://i.pinimg.com/originals/72/9c/72/729c7266379cb5c204fe5b167341fd16.png'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 5 Episodes 19-22',
-    date: 'April 2018',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 5 Episodes 19-22',
+    date: {
+      start: 'April 2018',
+      end: 'April 2018'
     },
+    category:'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
   {
-    text: 'Avengers: Infinity War',
-    date: 'April 2018',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Avengers: Infinity War',
+    date: {
+      start: 'April 2018',
+      end: 'April 2018'
     },
+    category:'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1WEuZ7H6y39v',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Favengers-icon-15.png&f=1&nofb=1'
   },
   {
-    text: 'Avengers: Endgame',
-    date: 'May 2018 - October 2023',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+    name: 'Avengers: Endgame',
+    date: {
+      start: 'May 2018',
+      end: 'October 2023'
     },
+    category:'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/aRbVJUb2h2Rf',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freeiconspng.com%2Fuploads%2Favengers-icon-15.png&f=1&nofb=1'
   },
   {
-    text: 'Loki Season 1',
-    date: '2012-2024',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Loki Season 1',
+    date: {
+      start: 'October 2023',
+      end: '2024'
     },
+    category:'SERIES',
     note: 'The series happen in alternative timeline in 2012, but it\'s recommended to watch it after Avengers: Endgame.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/6pARMvILBGzF',
@@ -875,12 +876,12 @@ let mcu = [
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F6f%2F3f%2F23%2F6f3f2375f9ebce70e9d2fbd84c34c8fb.jpg&f=1&nofb=1'
   },
   {
-    text: 'What If...? Season 1',
-    date: '2024',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'What If...? Season 1',
+    date: {
+      start: '2024',
+      end: '2024'
     },
+    category:'SERIES',
     note: 'Alternative timelines, watch after Loki series.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/7672ZVj1ZxU9',
@@ -888,130 +889,516 @@ let mcu = [
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Faf%2F12%2Fdd%2Faf12dd4642396c427e405dc1175468ce.png&f=1&nofb=1'
   },
   {
-    text: 'Agents of The S.H.I.E.L.D. Season 6',
-    date: 'May - July 2019',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
+    name: 'Agents of The S.H.I.E.L.D. Season 6',
+    date: {
+      start: 'May 2019',
+      end: 'July 2019'
     },
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
   },
-  {
-    text: 'Runaways Season 3',
-    date: '2019',
-    category: {
-      tag: 'SERIES',
-      color: 'red'
-    },
+{
+  name: 'Runaways Season 3',
+    date: {
+    start: '2019',
+      end: '2019'
+  },
+  category: 'SERIES',
     note: 'Seems to mostly take place post-Snap, but with no references to it.',
-    streaming: {
-      disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
+      streaming: {
+    disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
-    icon: 'http://www.mcuchronology.com/images/runaways-01-dirty_%402x.png?crc=154082831'
+  icon: 'http://www.mcuchronology.com/images/runaways-01-dirty_%402x.png?crc=154082831'
+},
+{
+  name: 'Helstrom',
+    date: {
+    start: '2019',
+      end: '2019'
   },
-  {
-    text: 'Helstrom',
-    date: '2019',
-    category: {
-      tag: 'SERIES',
-      color: 'purple'
-    },
+  category: 'LIMITED SERIES',
     note: 'Seems to mostly take place post-Snap, but with no references to it.',
-    streaming: {
-      disney: 'https://www.disneyplus.com/series/-/4FuaAENOKFEU',
+      streaming: {
+    disney: 'https://www.disneyplus.com/series/-/4FuaAENOKFEU',
     },
-    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgr.cineserie.com%2F2020%2F06%2Fhelstrom-la-serie-marvel-devoile-son-logo.jpg%3Fimgeng%3D%2Ff_jpg%2Fcmpr_0%2Fw_660%2Fh_345%2Fm_cropbox%26ver%3D1&f=1&nofb=1'
+  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgr.cineserie.com%2F2020%2F06%2Fhelstrom-la-serie-marvel-devoile-son-logo.jpg%3Fimgeng%3D%2Ff_jpg%2Fcmpr_0%2Fw_660%2Fh_345%2Fm_cropbox%26ver%3D1&f=1&nofb=1'
+},
+{
+  name: 'WandaVision',
+    date: {
+    start: 'November 2023',
+      end: 'November 2023'
   },
-  {
-    text: 'WandaVision',
-    date: 'November 2023',
-    category: {
-      tag: 'SERIES',
-      color: 'purple'
-    },
+  category: 'LIMITED SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/series/-/4SrN28ZjDLwH',
+    disney: 'https://www.disneyplus.com/series/-/4SrN28ZjDLwH',
     },
-    icon: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/dee98d92002503.5e40898189364.png'
+  icon: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/dee98d92002503.5e40898189364.png'
+},
+{
+  name: 'Hawkeye',
+    date: {
+    start: 'December 2024',
+      end: 'December 2024'
   },
-  {
-    text: 'Hawkeye',
-    date: 'December 2023',
-    premiere: 'November 24, 2021',
-    category: {
-        tag: 'SERIES',
-        color: 'purple'
-    },
-    streaming: {
-        disney: 'https://www.disneyplus.com/en-gb/series/hawkeye/11Zy8m9Dkj5l'
-    },
-    icon: 'https://i.pinimg.com/originals/d3/8f/41/d38f41e25b86f4845e639a4e30c2eba5.jpg'
+  premiere: 'November 24, 2021',
+    category: 'LIMITED SERIES',
+      streaming: {
+    disney: 'https://www.disneyplus.com/en-gb/series/hawkeye/11Zy8m9Dkj5l'
   },
-  {
-    text: 'Shang-Chi and the Legend of the Ten Rings',
-    date: 'April 2024',
-    category: {
-        tag: 'MOVIE',
-        color: '#018f69'
-    },
+  icon: 'https://i.pinimg.com/originals/d3/8f/41/d38f41e25b86f4845e639a4e30c2eba5.jpg'
+},
+{
+  name: 'Shang-Chi and the Legend of the Ten Rings',
+    date: {
+    start: 'April 2024',
+      end: 'April 2024'
+  },
+  category: 'MOVIE',
     note: 'Coming to Disney+ on October 18th',
-    streaming: {
-    },
-    icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
+      streaming: {
   },
-  {
-    text: 'The Falcon and the Winter Soldier',
-    date: 'April 2024',
-    category: {
-      tag: 'SERIES',
-      color: 'purple'
-    },
-    streaming: {
-      disney: 'https://www.disneyplus.com/series/-/4gglDBMx8icA',
-    },
-    icon: 'https://i.pinimg.com/originals/e3/e9/c1/e3e9c1b9e4d23befd811d1002cd8817c.jpg'
+  icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
+},
+{
+  name: 'The Falcon and the Winter Soldier',
+    date: {
+    start: 'April 2024',
+      end: 'April 2024'
   },
-  {
-    text: 'Spider-Man: Far from Home',
-    date: 'June 2024',
-    category: {
-      tag: 'MOVIE',
-      color: '#018f69'
+  category: 'LIMITED SERIES',
+    streaming: {
+    disney: 'https://www.disneyplus.com/series/-/4gglDBMx8icA',
     },
+  icon: 'https://i.pinimg.com/originals/e3/e9/c1/e3e9c1b9e4d23befd811d1002cd8817c.jpg'
+},
+{
+  name: 'Spider-Man: Far from Home',
+    date: {
+    start: 'June 2024',
+      end: 'June 2024'
+  },
+  category: 'MOVIE',
     note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
-    streaming: {
-      netflix: 'https://www.netflix.com/title/81055822'
-    },
-    icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
+      streaming: {
+    netflix: 'https://www.netflix.com/title/81055822'
   },
-  {
-    text: 'The Eternals',
-    date: 'June 2024',
-    premiere: 'November 5, 2021',
-    category: {
-        tag: 'MOVIE',
-        color: '#018f69'
-    },
-    note:'Coming to Disney+ in January?',
-    streaming: {
-    },
-    icon: 'https://images6.alphacoders.com/103/1030998.png'
+  icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
+},
+{
+  name: 'The Eternals',
+    date: {
+    start: 'June 2024',
+      end: 'June 2024'
   },
-  {
-    text: 'Spider-Man: No Way Home',
-    date: 'November - December 2024',
-    premiere: 'December 17, 2021',
-    category: {
-        tag: 'MOVIE',
-        color: '#018f69'
-    },
-    streaming: {
-    },
-    icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
-}
+  premiere: 'November 5, 2021',
+    category: 'MOVIE',
+      note: 'Coming to Disney+ in January?',
+        streaming: {
+  },
+  icon: 'https://images6.alphacoders.com/103/1030998.png'
+},
+{
+  name: 'Spider-Man: No Way Home',
+    date: {
+    start: 'November 2024',
+      end: 'December 2024'
+  },
+  premiere: 'December 17, 2021',
+    category: 'MOVIE',
+      streaming: {
+  },
+  icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
+},
+{
+  name: 'Doctor Strange in the Multiverse of Madness',
+  premiere: 'May 6, 2022',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F68%2Fc9%2Fbe%2F68c9be968cbc771d425095356b75669b.jpg&f=1&nofb=1'
+},
+{
+  name: 'Thor: Love and Thunder',
+  premiere: 'July 8, 2022',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmmv2api.s3-us-east-2.amazonaws.com%2Fproducts%2Fimages%2F2-image-bttnthrhamiconsym-1-productimagenowatermark.jpg&f=1&nofb=1'
+},
+{
+  name: 'Black Panther: Wakanda Forever',
+  premiere: 'November 11, 2022',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnbpiconsym-1-productimagenowatermark.jpg'
+},
+{
+  name: 'The Marvels',
+  premiere: 'February 17, 2023',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd5%2Fba%2F4a%2Fd5ba4a3383f294a4f152b5dd2e6d0820.png&f=1&nofb=1'
+},
+{
+  name: 'Guardians of the Galaxy Holiday Special',
+  premiere: 'December, 2022',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: 'https://www.kindpng.com/picc/m/60-601788_guardians-of-the-galaxy-symbol-vector-png-download.png'
+},
+{
+  name: 'Ms. Marvel',
+  premiere: 'July, 2022',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd5%2Fba%2F4a%2Fd5ba4a3383f294a4f152b5dd2e6d0820.png&f=1&nofb=1'
+},
+{
+  name: 'Moon Knight',
+  premiere: 'February, 2022',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: 'https://clipground.com/images/moon-knight-logo-8.jpg'
+},
+{
+  name: 'She-Hulk',
+  premiere: 'April, 2022',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0257%2F6087%2Fproducts%2F0295e70b9228cadd53efaba6a4f5b229.png%3Fv%3D1556497087&f=1&nofb=1'
+},
+{
+  name: 'Secret Invasion',
+  premiere: 'October, 2022',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: 'https://cdn.wallpapersafari.com/60/44/ZF1QcH.png'
+},
+{
+  name: 'Ant-Man and the Wasp: Quantumania',
+  premiere: 'July 28, 2023',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: 'https://i.pinimg.com/originals/72/9c/72/729c7266379cb5c204fe5b167341fd16.png'
+},
+{
+  name: 'Guardians of the Galaxy: Vol. 3',
+  premiere: 'May 5, 2023',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: 'https://www.kindpng.com/picc/m/60-601788_guardians-of-the-galaxy-symbol-vector-png-download.png'
+},
+{
+  name: '???',
+  premiere: 'November 3, 2023',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: '???',
+  premiere: 'February 16, 2024',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: '???',
+  premiere: 'May 3, 2024',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: '???',
+  premiere: 'July 26, 2024',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: '???',
+  premiere: 'November 8, 2024',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Fantastic Four',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: 'https://i.pinimg.com/originals/02/4a/7f/024a7fed2839a87e54382588977b93c3.png'
+},
+{
+  name: 'Blade',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Mutants',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Deadpool 3',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Captain America 4',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'MOVIE',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Ironheart',
+  premiere: '2023',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Armor Wars',
+  premiere: '2023',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Untitled Wakanda Series',
+  premiere: '2023',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'What If…? Season 2',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Loki Season 2',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Echo',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'I am Groot',
+  premiere: '2023',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'SHORT',
+  streaming: {
+  },
+  icon: ''
+
+},
+{
+  name: 'Untitled Halloween Special',
+  premiere: 'October, 2022',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Agatha: House of Harkness',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Spider-Man: Freshman Year',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+{
+  name: 'Marvel Zombies',
+  premiere: '???',
+  date: {
+    start: '',
+      end: ''
+  },
+  category: 'LIMITED SERIES',
+  streaming: {
+  },
+  icon: ''
+},
+
 ]
 
-export default mcu.filter(item => !item.premiere || new Date(item.premiere).getTime()<=Date.now());;
+export default mcu;

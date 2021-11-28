@@ -2,16 +2,15 @@
 import React, { Component } from 'react';
 import './App.css';
 import Timeline from './components/Timeline';
-import upcoming from './data/upcoming.js'
 import logo from './data/logo.jpeg';
 import { animateScroll as scroll } from "react-scroll";
+import mcu from './data/data'
 
 class App extends Component {
 
   state = {
     timelineData: "",
-    upcoming: upcoming,
-    filters: ["MOVIES", "SERIES", "SHORT", "INTERNET SERIES"]
+    filters: ["MOVIE", "SERIES", "SHORT", "INTERNET"]
   }
 
   scrollToTop = () => {
@@ -42,16 +41,20 @@ class App extends Component {
   };
 
   componentDidMount() {
-    var axios = require("axios").default;
+    this.setState({ timelineData: mcu });
 
-    axios
-        .get(
-          "https://hondapl-mcu-api.herokuapp.com/mcu"
-        )
-        .then(res => res.data)
-        .then(res => {
-            this.setState({ timelineData: res });
-        });
+    //SERVER NEEDS TO BE FIXED
+
+    // var axios = require("axios").default;
+
+    // axios
+    //     .get(
+    //       "https://hondapl-mcu-api.herokuapp.com/mcu"
+    //     )
+    //     .then(res => res.data)
+    //     .then(res => {
+    //         this.setState({ timelineData: res });
+    //     });
 
 }
 
@@ -63,10 +66,11 @@ class App extends Component {
         <div id="logobox" className="logoBox">
           <img onClick={this.scrollToTop} className="logo" src={logo} alt="siema" />
           <ul class="horizontal_menu">
-            <li><span onClick={() => this.handleFilter("MOVIES")} id="MOVIES" className="filter">MOVIES</span></li>
+            <li><span onClick={() => this.handleFilter("MOVIE")} id="MOVIE" className="filter">MOVIE</span></li>
             <li><span onClick={() => this.handleFilter("SERIES")} id="SERIES" className="filter">SERIES</span></li>
+            <li hidden="true"><span hidden="true" onClick={() => this.handleFilter("LIMITED SERIES")} id="LIMITED SERIES" className="filter">LIMITED SERIES</span></li>
             <li><span onClick={() => this.handleFilter("SHORT")} id="SHORT" className="filter">SHORTS</span></li>
-            <li><span onClick={() => this.handleFilter("INTERNET SERIES")} id="INTERNET SERIES" className="filter">INTERNET</span></li>
+            <li><span onClick={() => this.handleFilter("INTERNET")} id="INTERNET" className="filter">INTERNET</span></li>
           </ul>
         </div>
         <Timeline id="timeline" data={this.state.timelineData} filter={filters} />

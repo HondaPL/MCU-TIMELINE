@@ -6,7 +6,7 @@ class TimelineItem extends React.Component {
     }
 
     componentDidMount() {
-        if (this.state.data.category === "MOVIES")
+        if (this.state.data.category === "MOVIE")
             this.setState({ color: "rgb(1, 143, 105)" });
         if (this.state.data.category === "SERIES")
             this.setState({ color: "red" });
@@ -14,7 +14,7 @@ class TimelineItem extends React.Component {
             this.setState({ color: "purple" });
         if (this.state.data.category === "SHORT")
             this.setState({ color: "blue" });
-        if (this.state.data.category === "INTERNET SERIES")
+        if (this.state.data.category === "INTERNET")
             this.setState({ color: "gray" });
     }
 
@@ -26,7 +26,14 @@ class TimelineItem extends React.Component {
                         {this.color !== "purple" ? this.state.data.category : "LIMITED SERIES"}
                     </span>
                     {this.props.upcoming !== "yes" ?
-                        <time>{this.state.data.date.start} - {this.state.data.date.end}</time>
+                        (
+                            this.state.data.date.start.slice(-4) !== this.state.data.date.end.slice(-4)
+                                ? <time>{this.state.data.date.start} - {this.state.data.date.end}</time>
+                                : ( this.state.data.date.start !== this.state.data.date.end
+                                    ? <time>{this.state.data.date.start.slice(0,-4)} - {this.state.data.date.end}</time>
+                                    : <time>{this.state.data.date.start}</time>
+                                )
+                            )
                         : <time>Premiere: {this.state.data.premiere}</time>}
                     <p>{this.state.data.name}</p>
                     {this.state.data.streaming ? (
@@ -78,7 +85,7 @@ class TimelineItem extends React.Component {
                             <span className="tooltiptext">{this.state.data.note}</span>
                         </div>
                     ) : ""}
-                    {this.state.data.image ? <img src={"https://hondapl-mcu-api.herokuapp.com/" + this.state.data.image} alt="" className="circle" /> : <div className="circle" />}
+                    {this.state.data.icon ? <img src={this.state.data.icon} alt="" className="circle" /> : <div className="circle" />}
                 </div>
             </div>
         );
