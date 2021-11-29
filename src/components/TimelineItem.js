@@ -19,12 +19,13 @@ class TimelineItem extends React.Component {
     }
 
     addEventToCalendar = (name, time) => {
+        if(time === "???") return
         const ics = require('ics')
         const milliseconds = Date.parse(/^\d/.test(time) ? time : "1" + time)
         const date = new Date(milliseconds)
 
         const event = {
-            start: [date.getFullYear(), date.getMonth(), date.getDay()],
+            start: [date.getFullYear(), date.getMonth()+1, date.getDate()],
             title: name,
             url: 'https://mcutimeline.herokuapp.com/',
         }
@@ -34,7 +35,7 @@ class TimelineItem extends React.Component {
                 console.log(error)
                 return
             }
-            console.log(value)
+            window.open( "data:text/calendar;charset=utf8," + escape(value));
         })
     };
 
