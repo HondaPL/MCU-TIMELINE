@@ -68,7 +68,7 @@ class App extends Component {
           <ul class="horizontal_menu">
             <li><span onClick={() => this.handleFilter("MOVIE")} id="MOVIE" className="filter">MOVIE</span></li>
             <li><span onClick={() => this.handleFilter("SERIES")} id="SERIES" className="filter">SERIES</span></li>
-            <li hidden="true"><span hidden="true" onClick={() => this.handleFilter("LIMITED SERIES")} id="LIMITED SERIES" className="filter">LIMITED SERIES</span></li>
+            <li hidden={true}><span hidden={true} onClick={() => this.handleFilter("LIMITED SERIES")} id="LIMITED SERIES" className="filter">LIMITED SERIES</span></li>
             <li><span onClick={() => this.handleFilter("SHORT")} id="SHORT" className="filter">SHORTS</span></li>
             <li><span onClick={() => this.handleFilter("INTERNET")} id="INTERNET" className="filter">INTERNET</span></li>
           </ul>
