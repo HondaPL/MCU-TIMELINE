@@ -18,6 +18,26 @@ class TimelineItem extends React.Component {
             this.setState({ color: "gray" });
     }
 
+    addEventToCalendar = (name, time) => {
+        const ics = require('ics')
+        const milliseconds = Date.parse(/^\d/.test(time) ? time : "1" + time)
+        const date = new Date(milliseconds)
+
+        const event = {
+            start: [date.getFullYear(), date.getMonth(), date.getDay()],
+            title: name,
+            url: 'https://mcutimeline.herokuapp.com/',
+        }
+
+        ics.createEvent(event, (error, value) => {
+            if (error) {
+                console.log(error)
+                return
+            }
+            console.log(value)
+        })
+    };
+
     render() {
         return (
             <div className="timeline-item">
@@ -29,12 +49,12 @@ class TimelineItem extends React.Component {
                         (
                             this.state.data.date.start.slice(-4) !== this.state.data.date.end.slice(-4)
                                 ? <time>{this.state.data.date.start} - {this.state.data.date.end}</time>
-                                : ( this.state.data.date.start !== this.state.data.date.end
-                                    ? <time>{this.state.data.date.start.slice(0,-4)} - {this.state.data.date.end}</time>
+                                : (this.state.data.date.start !== this.state.data.date.end
+                                    ? <time>{this.state.data.date.start.slice(0, -4)} - {this.state.data.date.end}</time>
                                     : <time>{this.state.data.date.start}</time>
                                 )
-                            )
-                        : <time>Premiere: {this.state.data.premiere}</time>}
+                        )
+                        : <time onClick={() => this.addEventToCalendar(this.state.data.name, this.state.data.premiere)}>Premiere: {this.state.data.premiere}</time>}
                     <p>{this.state.data.name}</p>
                     {this.state.data.streaming ? (
                         <ul>
