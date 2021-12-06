@@ -99,6 +99,16 @@ class TimelineItem extends React.Component {
                                     </a>
                                     : ""
                             }
+                            {
+                                this.state.data.streaming.tiktok
+                                    ? <a href={this.state.data.streaming.tiktok} rel="noreferrer" target="_blank">
+                                        <img width="40px"
+                                            height="40px"
+                                            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-kflCjdulWc4%2FXD-b18R9AdI%2FAAAAAAAAG7M%2FVygjROg5RXs7ynX_ihc_D-WlApNZmnngwCK4BGAYYCw%2Fs1600%2FIcon%252BTiktok.png&f=1&nofb=1"
+                                            alt="" />
+                                    </a>
+                                    : ""
+                            }
                         </ul>
                     ) : ""}
                     {this.state.data.note ? (

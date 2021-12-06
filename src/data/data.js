@@ -455,10 +455,10 @@ let mcu = [
       end: '7 May 2016'
     },
     category: 'SHORT',
-  streaming: {
-    yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
-  },
-  icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
+    streaming: {
+      yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
+    },
+    icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Black Widow',
@@ -466,7 +466,7 @@ let mcu = [
       start: '8 May 2016',
       end: 'August 2016'
     },
-    category:'MOVIE',
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3VfTap90rwZC',
     },
@@ -478,7 +478,7 @@ let mcu = [
       start: '10 May 2016',
       end: '17 May 2016'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
@@ -490,7 +490,7 @@ let mcu = [
       start: 'April 2016',
       end: 'July 2016'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002537/',
     },
@@ -502,7 +502,7 @@ let mcu = [
       start: 'July 2016',
       end: 'July 2016'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002612/',
     },
@@ -514,7 +514,7 @@ let mcu = [
       start: 'August 2016',
       end: 'August 2016'
     },
-    category:'LIMITED SERIES',
+    category: 'LIMITED SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002566/',
     },
@@ -526,7 +526,7 @@ let mcu = [
       start: 'September 2016',
       end: 'September 2016'
     },
-    category:'MOVIE',
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1GuXuYPj99Ke',
     },
@@ -538,7 +538,7 @@ let mcu = [
       start: 'September 2016',
       end: 'September 2016'
     },
-    category:'SHORT',
+    category: 'SHORT',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
     },
@@ -551,7 +551,7 @@ let mcu = [
       start: 'February 2016',
       end: 'September 2016'
     },
-    category:'MOVIE',
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/4GgMJ1aHKHA2',
     },
@@ -563,7 +563,7 @@ let mcu = [
       start: 'September 2016',
       end: 'September 2016'
     },
-    category:'INTERNET',
+    category: 'INTERNET',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=1xgQUoVfiL8&list=PLDe0CguuqcMBVtZJk0iCNoSblixvAt4BY',
     },
@@ -575,7 +575,7 @@ let mcu = [
       start: 'September 2016',
       end: 'October 2016'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
@@ -587,7 +587,7 @@ let mcu = [
       start: 'October 2016',
       end: 'October 2016'
     },
-    category:'MOVIE',
+    category: 'MOVIE',
     note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
     streaming: {
       netflix: 'https://www.netflix.com/title/80166369?s=i&trkid=13747225'
@@ -600,7 +600,7 @@ let mcu = [
       start: 'October 2016',
       end: 'November 2016'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80117498/',
     },
@@ -612,7 +612,7 @@ let mcu = [
       start: 'October 2016',
       end: 'December 2016'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
@@ -624,7 +624,7 @@ let mcu = [
       start: 'October 2016',
       end: 'February 2017'
     },
-    category:'SERIES',
+    category: 'SERIES',
     note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s proably coming to Disney+ after Prime.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
@@ -637,7 +637,7 @@ let mcu = [
       start: 'December 2016',
       end: 'January 2017'
     },
-    category:'LIMITED SERIES',
+    category: 'LIMITED SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/6VZXWp9jaYsT',
     },
@@ -649,7 +649,7 @@ let mcu = [
       start: 'January 2017',
       end: 'April 2017'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
@@ -661,7 +661,7 @@ let mcu = [
       start: 'July 2017',
       end: 'July 2017'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002311/',
     },
@@ -673,7 +673,7 @@ let mcu = [
       start: 'August 2017',
       end: 'October 2017'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002537/',
     },
@@ -685,7 +685,7 @@ let mcu = [
       start: 'August 2017',
       end: 'December 2017'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
@@ -697,7 +697,7 @@ let mcu = [
       start: 'October 2017',
       end: 'December 2017'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002612/',
     },
@@ -709,7 +709,7 @@ let mcu = [
       start: 'October 2017',
       end: 'December 2017'
     },
-    category:'SERIES',
+    category: 'SERIES',
     note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s probably coming to Disney+ after Prime.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
@@ -722,7 +722,7 @@ let mcu = [
       start: 'April 2017',
       end: 'December 2017'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
@@ -734,7 +734,7 @@ let mcu = [
       start: 'October 2017',
       end: 'January 2018'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80018294/',
     },
@@ -746,7 +746,7 @@ let mcu = [
       start: 'December 2017',
       end: 'February 2018'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
@@ -758,7 +758,7 @@ let mcu = [
       start: 'November 2017',
       end: 'March 2018'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80117498/',
     },
@@ -770,7 +770,7 @@ let mcu = [
       start: 'December 2017',
       end: 'March 2018'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       netflix: 'https://www.netflix.com/title/80002311/',
     },
@@ -782,7 +782,7 @@ let mcu = [
       start: 'March 2018',
       end: 'April 2018'
     },
-    category:'MOVIE',
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3XqAT8UV8ojS'
     },
@@ -794,7 +794,7 @@ let mcu = [
       start: 'April 2018',
       end: 'April 2018'
     },
-    category:'SHORT',
+    category: 'SHORT',
     streaming: {
       yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
     },
@@ -807,7 +807,7 @@ let mcu = [
       start: 'March 2018',
       end: 'April 2018'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
@@ -819,7 +819,7 @@ let mcu = [
       start: 'March 2018',
       end: 'April 2018'
     },
-    category:'MOVIE',
+    category: 'MOVIE',
     note: 'It\'s best you watch Infinity War directly after Thor Ragnarok.',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/5c92KVf1zgUX',
@@ -832,7 +832,7 @@ let mcu = [
       start: 'April 2018',
       end: 'April 2018'
     },
-    category:'SERIES',
+    category: 'SERIES',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
@@ -844,7 +844,7 @@ let mcu = [
       start: 'April 2018',
       end: 'April 2018'
     },
-    category:'MOVIE',
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1WEuZ7H6y39v',
     },
@@ -856,7 +856,7 @@ let mcu = [
       start: 'May 2018',
       end: 'October 2023'
     },
-    category:'MOVIE',
+    category: 'MOVIE',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/aRbVJUb2h2Rf',
     },
@@ -868,7 +868,7 @@ let mcu = [
       start: 'October 2023',
       end: '2024'
     },
-    category:'SERIES',
+    category: 'SERIES',
     note: 'The series happen in alternative timeline in 2012, but it\'s recommended to watch it after Avengers: Endgame.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/6pARMvILBGzF',
@@ -881,7 +881,7 @@ let mcu = [
       start: '2024',
       end: '2024'
     },
-    category:'SERIES',
+    category: 'SERIES',
     note: 'Alternative timelines, watch after Loki series.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/7672ZVj1ZxU9',
@@ -900,504 +900,541 @@ let mcu = [
     },
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
-{
-  name: 'Runaways Season 3',
+  {
+    name: 'Runaways Season 3',
     date: {
-    start: '2019',
+      start: '2019',
       end: '2019'
-  },
-  category: 'SERIES',
-    note: 'Seems to mostly take place post-Snap, but with no references to it.',
-      streaming: {
-    disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
-  icon: 'https://ih1.redbubble.net/image.697925981.6860/st,small,507x507-pad,600x600,f8f8f8.u5.jpg'
-},
-{
-  name: 'Helstrom',
-    date: {
-    start: '2019',
-      end: '2019'
-  },
-  category: 'LIMITED SERIES',
+    category: 'SERIES',
     note: 'Seems to mostly take place post-Snap, but with no references to it.',
-      streaming: {
-    disney: 'https://www.disneyplus.com/series/-/4FuaAENOKFEU',
-    },
-  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgr.cineserie.com%2F2020%2F06%2Fhelstrom-la-serie-marvel-devoile-son-logo.jpg%3Fimgeng%3D%2Ff_jpg%2Fcmpr_0%2Fw_660%2Fh_345%2Fm_cropbox%26ver%3D1&f=1&nofb=1'
-},
-{
-  name: 'WandaVision',
-    date: {
-    start: 'November 2023',
-      end: 'November 2023'
-  },
-  category: 'LIMITED SERIES',
     streaming: {
-    disney: 'https://www.disneyplus.com/series/-/4SrN28ZjDLwH',
+      disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
-  icon: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/dee98d92002503.5e40898189364.png'
-},
-{
-  name: 'Hawkeye',
-    date: {
-    start: 'December 2024',
-      end: 'December 2024'
+    icon: 'https://ih1.redbubble.net/image.697925981.6860/st,small,507x507-pad,600x600,f8f8f8.u5.jpg'
   },
-  premiere: '24 November 2021',
+  {
+    name: 'Helstrom',
+    date: {
+      start: '2019',
+      end: '2019'
+    },
     category: 'LIMITED SERIES',
-      streaming: {
-    disney: 'https://www.disneyplus.com/en-gb/series/hawkeye/11Zy8m9Dkj5l'
-  },
-  icon: 'https://i.pinimg.com/originals/d3/8f/41/d38f41e25b86f4845e639a4e30c2eba5.jpg'
-},
-{
-  name: 'Shang-Chi and the Legend of the Ten Rings',
-    date: {
-    start: 'April 2024',
-      end: 'April 2024'
-  },
-  category: 'MOVIE',
-      streaming: {
-      disney: 'https://www.disneyplus.com/movies/-/5GyV9sf9Y041'
-  },
-  icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
-},
-{
-  name: 'The Falcon and the Winter Soldier',
-    date: {
-    start: 'April 2024',
-      end: 'April 2024'
-  },
-  category: 'LIMITED SERIES',
+    note: 'Seems to mostly take place post-Snap, but with no references to it.',
     streaming: {
-    disney: 'https://www.disneyplus.com/series/-/4gglDBMx8icA',
+      disney: 'https://www.disneyplus.com/series/-/4FuaAENOKFEU',
     },
-  icon: 'https://i.pinimg.com/originals/e3/e9/c1/e3e9c1b9e4d23befd811d1002cd8817c.jpg'
-},
-{
-  name: 'Spider-Man: Far from Home',
+    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgr.cineserie.com%2F2020%2F06%2Fhelstrom-la-serie-marvel-devoile-son-logo.jpg%3Fimgeng%3D%2Ff_jpg%2Fcmpr_0%2Fw_660%2Fh_345%2Fm_cropbox%26ver%3D1&f=1&nofb=1'
+  },
+  {
+    name: 'WandaVision',
     date: {
-    start: 'June 2024',
-      end: 'June 2024'
+      start: 'November 2023',
+      end: 'November 2023'
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+      disney: 'https://www.disneyplus.com/series/-/4SrN28ZjDLwH',
+    },
+    icon: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/dee98d92002503.5e40898189364.png'
   },
-  category: 'MOVIE',
-    note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
-      streaming: {
-    netflix: 'https://www.netflix.com/title/81055822'
-  },
-  icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
-},
-{
-  name: 'The Eternals',
+  {
+    name: 'Hawkeye',
     date: {
-    start: 'June 2024',
-      end: 'June 2024'
-  },
-  premiere: '5 November 2021',
-    category: 'MOVIE',
-      note: 'Coming to Disney+ on January 12th',
-        streaming: {
-  },
-  icon: 'https://thedirect.s3.amazonaws.com/media/photos/emerch3.jpg'
-},
-{
-  name: 'Spider-Man: No Way Home',
-    date: {
-    start: 'November 2024',
+      start: 'December 2024',
       end: 'December 2024'
+    },
+    premiere: '24 November 2021',
+    category: 'LIMITED SERIES',
+    streaming: {
+      disney: 'https://www.disneyplus.com/en-gb/series/hawkeye/11Zy8m9Dkj5l'
+    },
+    icon: 'https://i.pinimg.com/originals/d3/8f/41/d38f41e25b86f4845e639a4e30c2eba5.jpg'
   },
-  premiere: '17 December 2021',
+  {
+    name: 'Shang-Chi and the Legend of the Ten Rings',
+    date: {
+      start: 'April 2024',
+      end: 'April 2024'
+    },
     category: 'MOVIE',
-      streaming: {
+    streaming: {
+      disney: 'https://www.disneyplus.com/movies/-/5GyV9sf9Y041'
+    },
+    icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
   },
-  icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
-},
-{
-  name: 'Doctor Strange in the Multiverse of Madness',
-  premiere: '6 May 2022',
-  date: {
-    start: '',
+  {
+    name: 'The Falcon and the Winter Soldier',
+    date: {
+      start: 'April 2024',
+      end: 'April 2024'
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+      disney: 'https://www.disneyplus.com/series/-/4gglDBMx8icA',
+    },
+    icon: 'https://i.pinimg.com/originals/e3/e9/c1/e3e9c1b9e4d23befd811d1002cd8817c.jpg'
+  },
+  {
+    name: 'Spider-Man: Far from Home',
+    date: {
+      start: 'June 2024',
+      end: 'June 2024'
+    },
+    category: 'MOVIE',
+    note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
+    streaming: {
+      netflix: 'https://www.netflix.com/title/81055822'
+    },
+    icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
+  },
+  {
+    name: 'TheDailyBugle.net Season 1',
+    date: {
+      start: 'June 2024',
+      end: 'June 2024'
+    },
+    category: 'INTERNET',
+    streaming: {
+      yt: 'https://www.youtube.com/c/thedailybugle',
+    },
+    icon: 'https://yt3.ggpht.com/sNeS67InCYXdxYSr-qPnqTkw5FhNiwgimYIn4HSakIa8K5Q3bJ5xA6ITjZysQGVX8JPYQfWy=s88-c-k-c0x00ffffff-no-rj'
+  },
+  {
+    name: 'TheDailyBugle.net Season 2',
+    date: {
+      start: 'July 2024',
+      end: 'December 2024'
+    },
+    category: 'INTERNET',
+    streaming: {
+      tiktok: 'https://www.tiktok.com/@thedailybugleofficial'
+    },
+    icon: 'https://yt3.ggpht.com/sNeS67InCYXdxYSr-qPnqTkw5FhNiwgimYIn4HSakIa8K5Q3bJ5xA6ITjZysQGVX8JPYQfWy=s88-c-k-c0x00ffffff-no-rj'
+  },
+  {
+    name: 'The Eternals',
+    date: {
+      start: 'June 2024',
+      end: 'June 2024'
+    },
+    premiere: '5 November 2021',
+    category: 'MOVIE',
+    note: 'Coming to Disney+ on January 12th',
+    streaming: {
+    },
+    icon: 'https://thedirect.s3.amazonaws.com/media/photos/emerch3.jpg'
+  },
+  {
+    name: 'Spider-Man: No Way Home',
+    date: {
+      start: 'November 2024',
+      end: 'December 2024'
+    },
+    premiere: '17 December 2021',
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
+  },
+  {
+    name: 'Doctor Strange in the Multiverse of Madness',
+    premiere: '6 May 2022',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F68%2Fc9%2Fbe%2F68c9be968cbc771d425095356b75669b.jpg&f=1&nofb=1'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F68%2Fc9%2Fbe%2F68c9be968cbc771d425095356b75669b.jpg&f=1&nofb=1'
-},
-{
-  name: 'Thor: Love and Thunder',
-  premiere: '8 July 2022',
-  date: {
-    start: '',
+  {
+    name: 'Thor: Love and Thunder',
+    premiere: '8 July 2022',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
-},
-{
-  name: 'Black Panther: Wakanda Forever',
-  premiere: '11 November 2022',
-  date: {
-    start: '',
+  {
+    name: 'Black Panther: Wakanda Forever',
+    premiere: '11 November 2022',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnbpiconsym-1-productimagenowatermark.jpg'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnbpiconsym-1-productimagenowatermark.jpg'
-},
-{
-  name: 'The Marvels',
-  premiere: '17 February 2023',
-  date: {
-    start: '',
+  {
+    name: 'The Marvels',
+    premiere: '17 February 2023',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
-},
-{
-  name: 'Guardians of the Galaxy Holiday Special',
-  premiere: 'December 2022',
-  date: {
-    start: '',
+  {
+    name: 'Guardians of the Galaxy Holiday Special',
+    premiere: 'December 2022',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
-},
-{
-  name: 'Ms. Marvel',
-  premiere: 'July 2022',
-  date: {
-    start: '',
+  {
+    name: 'Ms. Marvel',
+    premiere: 'July 2022',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
-},
-{
-  name: 'Moon Knight',
-  premiere: 'February 2022',
-  date: {
-    start: '',
+  {
+    name: 'Moon Knight',
+    premiere: 'February 2022',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/moon_knight_logo_classic_round_sticker-r11f162ad5c74427590ebfc30ee6ecfee_0ugmm_8byvr_704.webp'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/moon_knight_logo_classic_round_sticker-r11f162ad5c74427590ebfc30ee6ecfee_0ugmm_8byvr_704.webp'
-},
-{
-  name: 'She-Hulk',
-  premiere: 'April 2022',
-  date: {
-    start: '',
+  {
+    name: 'She-Hulk',
+    premiere: 'April 2022',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/incredible_hulk_logo_classic_round_sticker-rb65b305765fb434e84e36036a1e9c19f_0ugmm_8byvr_704.webp'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/incredible_hulk_logo_classic_round_sticker-rb65b305765fb434e84e36036a1e9c19f_0ugmm_8byvr_704.webp'
-},
-{
-  name: 'Secret Invasion',
-  premiere: 'October 2022',
-  date: {
-    start: '',
+  {
+    name: 'Secret Invasion',
+    premiere: 'October 2022',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
-},
-{
-  name: 'Ant-Man and the Wasp: Quantumania',
-  premiere: '28 July 2023',
-  date: {
-    start: '',
+  {
+    name: 'Ant-Man and the Wasp: Quantumania',
+    premiere: '28 July 2023',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://i.pinimg.com/originals/72/9c/72/729c7266379cb5c204fe5b167341fd16.png'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://i.pinimg.com/originals/72/9c/72/729c7266379cb5c204fe5b167341fd16.png'
-},
-{
-  name: 'Guardians of the Galaxy: Vol. 3',
-  premiere: '5 May 2023',
-  date: {
-    start: '',
+  {
+    name: 'Guardians of the Galaxy: Vol. 3',
+    premiere: '5 May 2023',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
-},
-{
-  name: '???',
-  premiere: '3 November 2023',
-  date: {
-    start: '',
+  {
+    name: '???',
+    premiere: '3 November 2023',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: '???',
-  premiere: '16 February 2024',
-  date: {
-    start: '',
+  {
+    name: '???',
+    premiere: '16 February 2024',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: '???',
-  premiere: '3 May 2024',
-  date: {
-    start: '',
+  {
+    name: '???',
+    premiere: '3 May 2024',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: '???',
-  premiere: '26 July 2024',
-  date: {
-    start: '',
+  {
+    name: '???',
+    premiere: '26 July 2024',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: '???',
-  premiere: '8 November 2024',
-  date: {
-    start: '',
+  {
+    name: '???',
+    premiere: '8 November 2024',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: 'Fantastic Four',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Fantastic Four',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://i.pinimg.com/originals/02/4a/7f/024a7fed2839a87e54382588977b93c3.png'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://i.pinimg.com/originals/02/4a/7f/024a7fed2839a87e54382588977b93c3.png'
-},
-{
-  name: 'Blade',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Blade',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: 'Mutants',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Mutants',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: 'Deadpool 3',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Deadpool 3',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/deadpool_logo_classic_round_sticker-re468ed02e8ae4429984047976f313e40_0ugmm_8byvr_704.webp'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/deadpool_logo_classic_round_sticker-re468ed02e8ae4429984047976f313e40_0ugmm_8byvr_704.webp'
-},
-{
-  name: 'Captain America 4',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Captain America 4',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/avengers_classics_captain_america_brushed_shield_classic_round_sticker-rfbbec34bc82a4c119c929bdc5b54ffc0_0ugmm_8byvr_704.webp'
   },
-  category: 'MOVIE',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/avengers_classics_captain_america_brushed_shield_classic_round_sticker-rfbbec34bc82a4c119c929bdc5b54ffc0_0ugmm_8byvr_704.webp'
-},
-{
-  name: 'Ironheart',
-  premiere: '2023',
-  date: {
-    start: '',
+  {
+    name: 'Shang-Chi 2',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/invincible_iron_man_classic_round_sticker-r2781c2c5810845ccacf05ff2b8914e37_0ugmm_8byvr_704.webp'
-},
-{
-  name: 'Armor Wars',
-  premiere: '2023',
-  date: {
-    start: '',
+  {
+    name: 'Ironheart',
+    premiere: '2023',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/invincible_iron_man_classic_round_sticker-r2781c2c5810845ccacf05ff2b8914e37_0ugmm_8byvr_704.webp'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: 'https://i.pinimg.com/736x/6f/a7/02/6fa70245355dab1dd577710a56fb75c3.jpg'
-},
-{
-  name: 'Untitled Wakanda Series',
-  premiere: '2023',
-  date: {
-    start: '',
+  {
+    name: 'Armor Wars',
+    premiere: '2023',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://i.pinimg.com/736x/6f/a7/02/6fa70245355dab1dd577710a56fb75c3.jpg'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnbpiconsym-1-productimagenowatermark.jpg'
-},
-{
-  name: 'What If…? Season 2',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Untitled Wakanda Series',
+    premiere: '2023',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnbpiconsym-1-productimagenowatermark.jpg'
   },
-  category: 'SERIES',
-  streaming: {
-  },
-  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Faf%2F12%2Fdd%2Faf12dd4642396c427e405dc1175468ce.png&f=1&nofb=1'
-},
-{
-  name: 'Loki Season 2',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'What If…? Season 2',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'SERIES',
+    streaming: {
+    },
+    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Faf%2F12%2Fdd%2Faf12dd4642396c427e405dc1175468ce.png&f=1&nofb=1'
   },
-  category: 'SERIES',
-  streaming: {
-  },
-  icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F6f%2F3f%2F23%2F6f3f2375f9ebce70e9d2fbd84c34c8fb.jpg&f=1&nofb=1'
-},
-{
-  name: 'Echo',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Loki Season 2',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'SERIES',
+    streaming: {
+    },
+    icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F6f%2F3f%2F23%2F6f3f2375f9ebce70e9d2fbd84c34c8fb.jpg&f=1&nofb=1'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: 'I am Groot',
-  premiere: '2023',
-  date: {
-    start: '',
+  {
+    name: 'Echo',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'SHORT',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/i_am_groot_text_emoji_classic_round_sticker-r402d188089fb4af1af2bd7dfcd7538ff_0ugmm_8byvr_704.webp'
+  {
+    name: 'I am Groot',
+    premiere: '2023',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'SHORT',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/i_am_groot_text_emoji_classic_round_sticker-r402d188089fb4af1af2bd7dfcd7538ff_0ugmm_8byvr_704.webp'
 
-},
-{
-  name: 'Untitled Halloween Special',
-  premiere: 'October 2022',
-  date: {
-    start: '',
+  },
+  {
+    name: 'Untitled Halloween Special',
+    premiere: 'October 2022',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://rlv.zcache.com/cute_ghost_halloween_stickers_for_kids-r40b0387c993f41858f9dcdc9ca544354_0ugmm_8byvr_704.webp'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: 'https://rlv.zcache.com/cute_ghost_halloween_stickers_for_kids-r40b0387c993f41858f9dcdc9ca544354_0ugmm_8byvr_704.webp'
-},
-{
-  name: 'Agatha: House of Harkness',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Agatha: House of Harkness',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: ''
-},
-{
-  name: 'Spider-Man: Freshman Year',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Spider-Man: Freshman Year',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
-},
-{
-  name: 'Marvel Zombies',
-  premiere: '???',
-  date: {
-    start: '',
+  {
+    name: 'Marvel Zombies',
+    premiere: '???',
+    date: {
+      start: '',
       end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: ''
   },
-  category: 'LIMITED SERIES',
-  streaming: {
-  },
-  icon: ''
-},
+
 
 ]
 
