@@ -1,16 +1,17 @@
 /* eslint-disable react/no-direct-mutation-state */
-import React, { Component } from 'react';
-import './App.css';
-import Timeline from './components/Timeline';
-import logo from './data/logo.jpeg';
+import { Component } from 'react';
+import './Styles/App.css';
+import Timeline from './Components/Timeline';
+import logo from './Data/logo.jpeg';
 import { animateScroll as scroll } from "react-scroll";
-import mcu from './data/data'
+import mcu from './Data/data'
 
 class App extends Component {
 
   state = {
     timelineData: "",
-    filters: ["MOVIE", "SERIES", "SHORT", "INTERNET"]
+    filters: ["MOVIE", "SERIES", "SHORT", "INTERNET"],
+    sortByPremiere: false
   }
 
   scrollToTop = () => {
@@ -26,46 +27,58 @@ class App extends Component {
     if (document.getElementById(type).style.color === "gray") {
       this.setState(
         {
-          filters : [...this.state.filters, type]
+          filters: [...this.state.filters, type]
         }
       )
       document.getElementById(type).style.color = ""
     } else {
       this.setState(
         {
-          filters : this.state.filters.filter((item) => item !== type)
+          filters: this.state.filters.filter((item) => item !== type)
         }
       )
-      document.getElementById(type).style.color = "gray" 
+      document.getElementById(type).style.color = "gray"
     }
   };
 
+  handleSorting = (sort1, sort2) => {
+
+    if (sort1 === "premiere-filter") {
+      this.setState(
+        {
+          sortByPremiere: true
+        }
+      )
+    } else {
+      this.setState(
+        {
+          sortByPremiere: false
+        }
+      )
+    }
+    document.getElementById(sort1).style.color = "black"
+    document.getElementById(sort1).style.backgroundColor = "rgb(255, 255, 255)"
+
+    document.getElementById(sort2).style.color = "#ffffff"
+    document.getElementById(sort2).style.backgroundColor = "#000000"
+
+  }
+
   componentDidMount() {
     this.setState({ timelineData: mcu });
-
-    //SERVER NEEDS TO BE FIXED
-
-    // var axios = require("axios").default;
-
-    // axios
-    //     .get(
-    //       "https://hondapl-mcu-api.herokuapp.com/mcu"
-    //     )
-    //     .then(res => res.data)
-    //     .then(res => {
-    //         this.setState({ timelineData: res });
-    //     });
-
-}
+  }
 
   render() {
-    let { filters } = this.state;
-    console.log(this.state.timelineData)
+    let { filters, sortByPremiere } = this.state;
     return (
       <div className="App">
         <div id="logobox" className="logoBox">
-          <img onClick={this.scrollToTop} className="logo" src={logo} alt="siema" />
-          <ul class="horizontal_menu">
+          <img onClick={this.scrollToTop} className="logo" src={logo} alt="error" />
+          <p>
+            <button onClick={() => this.handleSorting("timeline-filter", "premiere-filter")} id="timeline-filter" className="bn3 bn3-active">Chronology</button>
+            <button onClick={() => this.handleSorting("premiere-filter", "timeline-filter")} id="premiere-filter" className="bn3">Premiere</button>
+          </p>
+          <ul className="horizontal_menu">
             <li><span onClick={() => this.handleFilter("MOVIE")} id="MOVIE" className="filter">MOVIE</span></li>
             <li><span onClick={() => this.handleFilter("SERIES")} id="SERIES" className="filter">SERIES</span></li>
             <li hidden={true}><span hidden={true} onClick={() => this.handleFilter("LIMITED SERIES")} id="LIMITED SERIES" className="filter">LIMITED SERIES</span></li>
@@ -73,10 +86,12 @@ class App extends Component {
             <li><span onClick={() => this.handleFilter("INTERNET")} id="INTERNET" className="filter">INTERNET</span></li>
           </ul>
         </div>
-        <Timeline id="timeline" data={this.state.timelineData} filter={filters} />
-        {filters && filters.length > 0 ? 
-        <h1 id="upcoming">Upcoming</h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
-        <Timeline data={this.state.timelineData} filter={filters} upcoming="yes"/>
+        {sortByPremiere
+          ? <Timeline id="timeline" data={this.state.timelineData} filter={filters} sortByPremiere={sortByPremiere} />
+          : <> <Timeline id="timeline" data={this.state.timelineData} filter={filters}/></>}
+        {filters && filters.length > 0 ?
+          <h1 id="upcoming">Upcoming</h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
+        <Timeline data={this.state.timelineData} filter={filters} upcoming="yes" />
         <div className="creditsBox">
           <p onClick={this.scrollToBottom} className="credits">Created by Adam Hącia 2021,<a href="https://hondapl-mcu-api.herokuapp.com/">API</a></p>
         </div>

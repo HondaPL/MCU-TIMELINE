@@ -1,4 +1,23 @@
-let mcu = [
+type movie = {
+  name: string,
+  date: {
+    start: string,
+    end: string
+  },
+  category: string,
+  note?: string,
+  streaming?: {
+    disney?: string,
+    yt?: string,
+    prime?: string,
+    netflix?: string,
+    tiktok?: string
+  },
+  icon: string,
+  premiere: string
+}
+
+let mcu: Array<movie> = [
   {
     name: 'Agents of The S.H.I.E.L.D Season 7',
     date: {
@@ -11,7 +30,7 @@ let mcu = [
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg',
-    premiere: "2020-05-27"
+    premiere: "27 May 2020"
   },
   {
     name: 'Captain America: The First Avenger',
@@ -24,6 +43,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/6xvB6xZ4r95O',
     },
+    premiere: "22 July 2011",
     icon: 'https://rlv.zcache.com/avengers_classics_captain_america_brushed_shield_classic_round_sticker-rfbbec34bc82a4c119c929bdc5b54ffc0_0ugmm_8byvr_704.webp'
   },
   {
@@ -37,6 +57,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=s7dBc7Mxy84'
     },
+    premiere: "3 September 2013",
     icon: 'https://i.pinimg.com/736x/b8/1b/df/b81bdf9937ed083ae0c8c779c242da02--captain-american-logo-t-shirts.jpg'
 
   },
@@ -50,6 +71,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/3rh3uclvsNsT'
     },
+    premiere: "6 January 2015",
     icon: 'https://i.pinimg.com/736x/b8/1b/df/b81bdf9937ed083ae0c8c779c242da02--captain-american-logo-t-shirts.jpg'
 
   },
@@ -63,6 +85,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/3rh3uclvsNsT'
     },
+    premiere: "19 January 2016",
     icon: 'https://i.pinimg.com/736x/b8/1b/df/b81bdf9937ed083ae0c8c779c242da02--captain-american-logo-t-shirts.jpg'
 
   },
@@ -76,6 +99,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/38xJGlLAQy9a',
     },
+    premiere: "8 March 2019",
     icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
   },
   {
@@ -88,6 +112,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/6aM2a8mZATiu',
     },
+    premiere: "2 May 2008",
     icon: 'https://rlv.zcache.com/invincible_iron_man_classic_round_sticker-r2781c2c5810845ccacf05ff2b8914e37_0ugmm_8byvr_704.webp'
   },
   {
@@ -100,6 +125,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/lXjCr9QmGGQJ',
     },
+    premiere: "7 May 2010",
     icon: 'https://rlv.zcache.com/invincible_iron_man_classic_round_sticker-r2781c2c5810845ccacf05ff2b8914e37_0ugmm_8byvr_704.webp'
   },
   {
@@ -115,6 +141,7 @@ let mcu = [
       netflix: 'https://www.netflix.com/title/70087537',
       disney: 'https://www.disneyplus.com/en-gb/movies/marvel-studios-the-incredible-hulk/2quGBOrSvA2J'
     },
+    premiere: "13 June 2008",
     icon: 'https://rlv.zcache.com/incredible_hulk_logo_classic_round_sticker-rb65b305765fb434e84e36036a1e9c19f_0ugmm_8byvr_704.webp'
   },
   {
@@ -128,6 +155,7 @@ let mcu = [
     streaming: {
       yt: 'https://youtu.be/oQoN8bkkHvw'
     },
+    premiere: "13 September 2011",
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -142,6 +170,7 @@ let mcu = [
     streaming: {
       yt: 'https://youtu.be/4fMWi8ImJ2U'
     },
+    premiere: "25 October 2011",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
 
   },
@@ -155,6 +184,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1p4vdKzTuhzr',
     },
+    premiere: '6 May 2011',
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
@@ -167,6 +197,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/2h6PcHFDbsPy',
     },
+    premiere: '4 May 2012',
     icon: 'https://rlv.zcache.com/avengers_logo_classic_round_sticker-rcf1f4016612145d897ee182a9650cf86_0ugmm_8byvr_704.webp'
   },
   {
@@ -180,6 +211,7 @@ let mcu = [
     streaming: {
       yt: 'https://youtu.be/oE6DjAJvxA8',
     },
+    premiere: "25 September 2012",
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -192,6 +224,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3s4Ihq7P2c6e',
     },
+    premiere: '3 May 2013',
     icon: 'https://rlv.zcache.com/invincible_iron_man_classic_round_sticker-r2781c2c5810845ccacf05ff2b8914e37_0ugmm_8byvr_704.webp'
   },
   {
@@ -206,6 +239,7 @@ let mcu = [
       yt: 'https://youtu.be/ezP-df_9yw0',
       disney: 'https://www.disneyplus.com/movies/marvel-one-shot-all-hail-the-king/6rOlKvPhvlh4',
     },
+    premiere: "4 February 2014",
     icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
   },
   {
@@ -218,6 +252,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: "24 September 2013",
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -230,6 +265,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/ZHk7aM5xTbW7',
     },
+    premiere: '8 November 2013',
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
@@ -242,6 +278,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: "19 November 2013",
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -254,6 +291,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/TVme5whcowSy',
     },
+    premiere: '4 April 2014',
     icon: 'https://rlv.zcache.com/avengers_classics_captain_america_brushed_shield_classic_round_sticker-rfbbec34bc82a4c119c929bdc5b54ffc0_0ugmm_8byvr_704.webp'
   },
   {
@@ -266,6 +304,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '8 April 2014',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -278,6 +317,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1S4WM9h3KRR6',
     },
+    premiere: '1 August 2014',
     icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
   },
   {
@@ -290,6 +330,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '23 September 2014',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -302,6 +343,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/ZdRX4mMbp1gM',
     },
+    premiere: '5 May 2017',
     icon: 'https://rlv.zcache.com/guardians_of_the_galaxy_round_vintage_logo_classic_round_sticker-re3a286504b2e44b7bf08bca526cc6634_0ugmm_8byvr_704.webp'
   },
   {
@@ -314,6 +356,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80018294/',
     },
+    premiere: '10 April 2015',
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
   },
   {
@@ -326,6 +369,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80002311/',
     },
+    premiere: '20 November 2015',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
   },
   {
@@ -338,6 +382,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '3 March 2015',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -350,6 +395,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/76IUxY0rNHzt',
     },
+    premiere: '1 May 2015',
     icon: 'https://rlv.zcache.com/avengers_logo_classic_round_sticker-rcf1f4016612145d897ee182a9650cf86_0ugmm_8byvr_704.webp'
   },
   {
@@ -362,6 +408,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '5 May 2015',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -374,6 +421,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=j4IgjmQENE4',
     },
+    premiere: "2 July 2015",
     icon: 'https://img.betaseries.com/UzFvSTqjSBm8ib6r2eLlRTcqs2A=/600x900/smart/https%3A%2F%2Fpictures.betaseries.com%2Ffonds%2Fposter%2Fde1a494544d92b33af11bb1da7fde3c8.jpg'
   },
   {
@@ -386,6 +434,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/5c92KVf1zgUX',
     },
+    premiere: '17 July 2015',
     icon: 'https://i.pinimg.com/originals/72/9c/72/729c7266379cb5c204fe5b167341fd16.png'
   },
   {
@@ -398,6 +447,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '29 September 2015',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -410,6 +460,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80018294/',
     },
+    premiere: '18 March 2016',
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
   },
   {
@@ -422,6 +473,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '8 March 2016',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -434,6 +486,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=j4IgjmQENE4',
     },
+    premiere: "22 April 2016",
     icon: 'https://img.betaseries.com/UzFvSTqjSBm8ib6r2eLlRTcqs2A=/600x900/smart/https%3A%2F%2Fpictures.betaseries.com%2Ffonds%2Fposter%2Fde1a494544d92b33af11bb1da7fde3c8.jpg'
   },
   {
@@ -446,6 +499,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/4ovfyKnnIBCg',
     },
+    premiere: '6 May 2016',
     icon: 'https://rlv.zcache.com/avengers_classics_captain_america_brushed_shield_classic_round_sticker-rfbbec34bc82a4c119c929bdc5b54ffc0_0ugmm_8byvr_704.webp'
   },
   {
@@ -458,6 +512,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
     },
+    premiere: "28 August 2016",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
@@ -470,6 +525,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3VfTap90rwZC',
     },
+    premiere: '9 July 2021',
     icon: 'https://i.pinimg.com/originals/3a/ee/1b/3aee1b046dea9984904a1481989c9885.jpg'
   },
   {
@@ -482,6 +538,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '10 May 2016',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -494,6 +551,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80002537/',
     },
+    premiere: '30 September 2016',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnlciconsym-1-productimagenowatermark.jpg'
   },
   {
@@ -506,6 +564,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80002612/',
     },
+    premiere: '17 March 2017',
     icon: 'https://cdn.worldvectorlogo.com/logos/marvels-iron-fist.svg'
   },
   {
@@ -518,6 +577,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80002566/',
     },
+    premiere: '18 August 2017',
     icon: 'https://i.pinimg.com/474x/a4/f9/62/a4f962bff6486a266d8a1e0b0415b6a1.jpg'
   },
   {
@@ -530,6 +590,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1GuXuYPj99Ke',
     },
+    premiere: '16 February 2018',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnbpiconsym-1-productimagenowatermark.jpg'
   },
   {
@@ -542,6 +603,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
     },
+    premiere: "14 February 2017",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
 
   },
@@ -555,6 +617,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/4GgMJ1aHKHA2',
     },
+    premiere: "4 November 2016",
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F68%2Fc9%2Fbe%2F68c9be968cbc771d425095356b75669b.jpg&f=1&nofb=1'
   },
   {
@@ -567,6 +630,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=1xgQUoVfiL8&list=PLDe0CguuqcMBVtZJk0iCNoSblixvAt4BY',
     },
+    premiere: "13 December 2016",
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -579,6 +643,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '20 September 2016',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -592,6 +657,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80166369?s=i&trkid=13747225'
     },
+    premiere: "7 July 2017",
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
   },
   {
@@ -604,6 +670,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80117498/',
     },
+    premiere: '17 November 2017',
     icon: 'https://i.pinimg.com/originals/72/ac/0e/72ac0efff43f5b82091b6a82d24e0fc3.jpg'
   },
   {
@@ -616,6 +683,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '25 October 2016',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -629,6 +697,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
     },
+    premiere: '7 June 2018',
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.magneticmag.com%2F.image%2Ft_share%2FMTU5Mzk4MTMxMjY2NDk1NzYx%2Fmagnumpr_cloaklogocopy.png&f=1&nofb=1'
   },
   {
@@ -641,6 +710,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/6VZXWp9jaYsT',
     },
+    premiere: '29 September 2017',
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbbts1.azureedge.net%2Fimages%2Fp%2Ffull%2F2017%2F09%2Fd2b980f4-09ae-48da-bed9-d1f08b09ab6c.png&f=1&nofb=1'
   },
   {
@@ -653,6 +723,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '17 January 2017',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -665,6 +736,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80002311/',
     },
+    premiere: '8 March 2018',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
   },
   {
@@ -677,6 +749,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80002537/',
     },
+    premiere: '22 June 2018',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnlciconsym-1-productimagenowatermark.jpg'
   },
   {
@@ -689,6 +762,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
+    premiere: '21 November 2017',
     icon: 'https://ih1.redbubble.net/image.697925981.6860/st,small,507x507-pad,600x600,f8f8f8.u5.jpg'
   },
   {
@@ -701,6 +775,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80002612/',
     },
+    premiere: '7 September 2018',
     icon: 'https://cdn.worldvectorlogo.com/logos/marvels-iron-fist.svg'
   },
   {
@@ -714,6 +789,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
     },
+    premiere: '4 April 2019',
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.magneticmag.com%2F.image%2Ft_share%2FMTU5Mzk4MTMxMjY2NDk1NzYx%2Fmagnumpr_cloaklogocopy.png&f=1&nofb=1'
   },
   {
@@ -726,6 +802,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '1 December 2017',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -738,6 +815,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80018294/',
     },
+    premiere: '19 October 2018',
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
   },
   {
@@ -750,6 +828,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
+    premiere: '21 December 2018',
     icon: 'https://ih1.redbubble.net/image.697925981.6860/st,small,507x507-pad,600x600,f8f8f8.u5.jpg'
   },
   {
@@ -762,6 +841,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80117498/',
     },
+    premiere: '18 January 2019',
     icon: 'https://i.pinimg.com/originals/72/ac/0e/72ac0efff43f5b82091b6a82d24e0fc3.jpg'
   },
   {
@@ -774,6 +854,7 @@ let mcu = [
     streaming: {
       netflix: 'https://www.netflix.com/title/80002311/',
     },
+    premiere: '14 June 2019',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
   },
   {
@@ -786,6 +867,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/3XqAT8UV8ojS'
     },
+    premiere: "3 November 2017",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
@@ -798,6 +880,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
     },
+    premiere: "20 February 2018",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
 
   },
@@ -811,6 +894,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '2 March 2018',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -824,6 +908,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/5c92KVf1zgUX',
     },
+    premiere: "6 July 2018",
     icon: 'https://i.pinimg.com/originals/72/9c/72/729c7266379cb5c204fe5b167341fd16.png'
   },
   {
@@ -836,6 +921,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '27 April 2018',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -848,6 +934,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/1WEuZ7H6y39v',
     },
+    premiere: "27 April 2018",
     icon: 'https://rlv.zcache.com/avengers_logo_classic_round_sticker-rcf1f4016612145d897ee182a9650cf86_0ugmm_8byvr_704.webp'
   },
   {
@@ -860,6 +947,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/aRbVJUb2h2Rf',
     },
+    premiere: "26 April 2019",
     icon: 'https://rlv.zcache.com/avengers_logo_classic_round_sticker-rcf1f4016612145d897ee182a9650cf86_0ugmm_8byvr_704.webp'
   },
   {
@@ -873,6 +961,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/6pARMvILBGzF',
     },
+    premiere: '9 June 2021',
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F6f%2F3f%2F23%2F6f3f2375f9ebce70e9d2fbd84c34c8fb.jpg&f=1&nofb=1'
   },
   {
@@ -886,6 +975,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/7672ZVj1ZxU9',
     },
+    premiere: '11 August 2021',
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Faf%2F12%2Fdd%2Faf12dd4642396c427e405dc1175468ce.png&f=1&nofb=1'
   },
   {
@@ -898,6 +988,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/2UT4VQrwpVgi',
     },
+    premiere: '10 May 2019',
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
   {
@@ -911,6 +1002,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/FrnyN9YoJj46',
     },
+    premiere: '13 December 2019',
     icon: 'https://ih1.redbubble.net/image.697925981.6860/st,small,507x507-pad,600x600,f8f8f8.u5.jpg'
   },
   {
@@ -924,6 +1016,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/4FuaAENOKFEU',
     },
+    premiere: '16 October 2020',
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgr.cineserie.com%2F2020%2F06%2Fhelstrom-la-serie-marvel-devoile-son-logo.jpg%3Fimgeng%3D%2Ff_jpg%2Fcmpr_0%2Fw_660%2Fh_345%2Fm_cropbox%26ver%3D1&f=1&nofb=1'
   },
   {
@@ -936,6 +1029,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/4SrN28ZjDLwH',
     },
+    premiere: '15 January 2021',
     icon: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/dee98d92002503.5e40898189364.png'
   },
   {
@@ -961,6 +1055,7 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/5GyV9sf9Y041'
     },
+    premiere: "3 September 2021",
     icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
   },
   {
@@ -973,19 +1068,35 @@ let mcu = [
     streaming: {
       disney: 'https://www.disneyplus.com/series/-/4gglDBMx8icA',
     },
+    premiere: '19 March 2021',
     icon: 'https://i.pinimg.com/originals/e3/e9/c1/e3e9c1b9e4d23befd811d1002cd8817c.jpg'
   },
   {
     name: 'Spider-Man: Far from Home',
     date: {
       start: 'June 2024',
-      end: 'June 2024'
+      end: 'July 2024'
     },
     category: 'MOVIE',
     note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
     streaming: {
       netflix: 'https://www.netflix.com/title/81055822'
     },
+    premiere: "2 July 2019",
+    icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
+  },
+  {
+    name: "Peter's To Do List",
+    date: {
+      start: 'June 2024',
+      end: 'June 2024'
+    },
+    category: 'SHORT',
+    note: 'Included on Spider-Man: Far from Home extras.',
+    streaming: {
+      yt: 'https://www.youtube.com/watch?v=SiwmVsgQpzI'
+    },
+    premiere: "1 October 2019",
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
   },
   {
@@ -998,18 +1109,7 @@ let mcu = [
     streaming: {
       yt: 'https://www.youtube.com/c/thedailybugle',
     },
-    icon: 'https://yt3.ggpht.com/sNeS67InCYXdxYSr-qPnqTkw5FhNiwgimYIn4HSakIa8K5Q3bJ5xA6ITjZysQGVX8JPYQfWy=s88-c-k-c0x00ffffff-no-rj'
-  },
-  {
-    name: 'TheDailyBugle.net Season 2',
-    date: {
-      start: 'July 2024',
-      end: 'December 2024'
-    },
-    category: 'INTERNET',
-    streaming: {
-      tiktok: 'https://www.tiktok.com/@thedailybugleofficial'
-    },
+    premiere: "23 October 2019",
     icon: 'https://yt3.ggpht.com/sNeS67InCYXdxYSr-qPnqTkw5FhNiwgimYIn4HSakIa8K5Q3bJ5xA6ITjZysQGVX8JPYQfWy=s88-c-k-c0x00ffffff-no-rj'
   },
   {
@@ -1028,14 +1128,28 @@ let mcu = [
   {
     name: 'Spider-Man: No Way Home',
     date: {
-      start: 'November 2024',
+      start: 'July 2024',
       end: 'December 2024'
     },
     premiere: '17 December 2021',
     category: 'MOVIE',
     streaming: {
     },
+    note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
+  },
+  {
+    name: 'TheDailyBugle.net Season 2',
+    date: {
+      start: 'July 2024',
+      end: 'August 2024'
+    },
+    category: 'INTERNET',
+    streaming: {
+      tiktok: 'https://www.tiktok.com/@thedailybugleofficial'
+    },
+    premiere: "24 November 2021",
+    icon: 'https://yt3.ggpht.com/sNeS67InCYXdxYSr-qPnqTkw5FhNiwgimYIn4HSakIa8K5Q3bJ5xA6ITjZysQGVX8JPYQfWy=s88-c-k-c0x00ffffff-no-rj'
   },
   {
     name: 'Doctor Strange in the Multiverse of Madness',
@@ -1176,6 +1290,7 @@ let mcu = [
       start: '',
       end: ''
     },
+    note: 'Fantastic Four?',
     category: 'MOVIE',
     streaming: {
     },
@@ -1188,6 +1303,7 @@ let mcu = [
       start: '',
       end: ''
     },
+    note: 'Blade?',
     category: 'MOVIE',
     streaming: {
     },
@@ -1200,6 +1316,7 @@ let mcu = [
       start: '',
       end: ''
     },
+    note: 'Deadpool 3?',
     category: 'MOVIE',
     streaming: {
     },
@@ -1212,6 +1329,7 @@ let mcu = [
       start: '',
       end: ''
     },
+    note: 'Captain America 4?',
     category: 'MOVIE',
     streaming: {
     },
@@ -1224,6 +1342,7 @@ let mcu = [
       start: '',
       end: ''
     },
+    note: 'Mutants?',
     category: 'MOVIE',
     streaming: {
     },
@@ -1236,6 +1355,7 @@ let mcu = [
       start: '',
       end: ''
     },
+    note: '2023?',
     category: 'MOVIE',
     streaming: {
     },
@@ -1302,6 +1422,18 @@ let mcu = [
     icon: 'https://preview.redd.it/vpme7zg9ffu61.png?width=920&format=png&auto=webp&s=4daab7322fd0957a9e7af625e90c7ee9338141e9'
   },
   {
+    name: 'Spider-Man 4',
+    premiere: '???',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
+  },
+  {
     name: 'Ironheart',
     premiere: '2023',
     date: {
@@ -1339,7 +1471,7 @@ let mcu = [
   },
   {
     name: 'What If…? Season 2',
-    premiere: '???',
+    premiere: 'August 2022',
     date: {
       start: '',
       end: ''
@@ -1375,7 +1507,7 @@ let mcu = [
   },
   {
     name: 'I am Groot',
-    premiere: '2023',
+    premiere: '2022',
     date: {
       start: '',
       end: ''
@@ -1434,8 +1566,18 @@ let mcu = [
     },
     icon: ''
   },
-
-
+  {
+    name: 'Untitled Destin Daniel Cretton series',
+    premiere: '???',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: ''
+  },
 ]
 
 export default mcu;
