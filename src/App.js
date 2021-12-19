@@ -1,10 +1,10 @@
 /* eslint-disable react/no-direct-mutation-state */
 import { Component } from 'react';
 import './Styles/App.css';
-import Timeline from './Components/Timeline';
-import logo from './Data/logo.jpeg';
+import Timeline from './components/Timeline';
+import logo from './data/logo.jpeg';
 import { animateScroll as scroll } from "react-scroll";
-import mcu from './Data/data'
+import mcu from './data/data'
 
 class App extends Component {
 
