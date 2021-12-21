@@ -1,15 +1,23 @@
 /* eslint-disable react/no-direct-mutation-state */
 import { Component } from 'react';
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
 import './Styles/App.css';
 import Timeline from './components/Timeline';
 import logo from './data/logo.jpeg';
 import { animateScroll as scroll } from "react-scroll";
 import mcu from './data/data'
+import ssu from './data/ssuData'
+import Navbar from './components/Navbar'
 
 class App extends Component {
 
   state = {
-    timelineData: "",
+    mcuData: "",
+    ssuData: "",
+    xmenData: "",
     filters: ["MOVIE", "SERIES", "SHORT", "INTERNET"],
     sortByPremiere: false
   }
@@ -20,7 +28,7 @@ class App extends Component {
 
   scrollToBottom = () => {
     if (document.getElementById("upcoming"))
-      scroll.scrollTo(document.getElementById("upcoming").offsetTop - document.getElementById("logobox").scrollHeight)
+      scroll.scrollTo(document.getElementById("upcoming").offsetTop - document.getElementById("logobox").scrollHeight/1.8)
   };
 
   handleFilter = type => {
@@ -65,14 +73,16 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({ timelineData: mcu });
+    this.setState({ mcuData: mcu, ssuData: ssu });
   }
 
   render() {
     let { filters, sortByPremiere } = this.state;
+
     return (
       <div className="App">
         <div id="logobox" className="logoBox">
+          <Navbar />
           <img onClick={this.scrollToTop} className="logo" src={logo} alt="error" />
           <p>
             <button onClick={() => this.handleSorting("timeline-filter", "premiere-filter")} id="timeline-filter" className="bn3 bn3-active">Chronology</button>
@@ -86,12 +96,26 @@ class App extends Component {
             <li><span onClick={() => this.handleFilter("INTERNET")} id="INTERNET" className="filter">INTERNET</span></li>
           </ul>
         </div>
-        {sortByPremiere
-          ? <Timeline id="timeline" data={this.state.timelineData} filter={filters} sortByPremiere={sortByPremiere} />
-          : <> <Timeline id="timeline" data={this.state.timelineData} filter={filters}/></>}
-        {filters && filters.length > 0 ?
-          <h1 id="upcoming">Upcoming</h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
-        <Timeline data={this.state.timelineData} filter={filters} upcoming="yes" />
+        <Routes>
+
+          <Route path="/ssu" element={<>{sortByPremiere
+            ? <> <span></span> <Timeline id="timeline" data={this.state.ssuData} filter={filters} sortByPremiere={sortByPremiere} /> </>
+            : <> <span></span> <Timeline id="timeline" data={this.state.ssuData} filter={filters} /></>}
+            {filters && filters.length > 0 ?
+              <h1 id="upcoming">Upcoming</h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
+            <> <span></span> <Timeline data={this.state.ssuData} filter={filters} upcoming="yes" /> </>
+          </>} />
+
+          <Route path="*" element={<>{sortByPremiere
+            ? <Timeline id="timeline" data={this.state.mcuData} filter={filters} sortByPremiere={sortByPremiere} />
+            : <>  <Timeline id="timeline" data={this.state.mcuData} filter={filters} /></>}
+            {filters && filters.length > 0 ?
+              <h1 id="upcoming">Upcoming</h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
+            <Timeline data={this.state.mcuData} filter={filters} upcoming="yes" />
+          </>} />
+
+        </Routes>
+
         <div className="creditsBox">
           <p onClick={this.scrollToBottom} className="credits">Created by Adam Hącia 2021,<a href="https://hondapl-mcu-api.herokuapp.com/">API</a></p>
         </div>

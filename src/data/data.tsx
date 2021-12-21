@@ -1120,8 +1120,8 @@ let mcu: Array<movie> = [
     },
     premiere: '5 November 2021',
     category: 'MOVIE',
-    note: 'Coming to Disney+ on January 12th',
     streaming: {
+      disney: 'https://www.disneyplus.com/eu/en-gb/movies/eternals/5cmhJAtkt6Jk'
     },
     icon: 'https://thedirect.s3.amazonaws.com/media/photos/emerch3.jpg'
   },
