@@ -1,5 +1,6 @@
 export type Movie = {
     name: string,
+    imax: boolean,
     date: {
         start: string,
         end: string

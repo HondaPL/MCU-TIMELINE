@@ -1,5 +1,6 @@
 type movie = {
   name: string,
+  imax?: boolean,
   date: {
     start: string,
     end: string
@@ -55,7 +56,7 @@ let mcu: Array<movie> = [
     category: 'SHORT',
     note: 'Included on Iron Man 3 extras.',
     streaming: {
-      yt: 'https://www.youtube.com/watch?v=s7dBc7Mxy84'
+      disney: 'https://www.disneyplus.com/eu/en-gb/movies/marvel-one-shot-agent-carter/145iOeTd8HRl',
     },
     premiere: "3 September 2013",
     icon: 'https://i.pinimg.com/736x/b8/1b/df/b81bdf9937ed083ae0c8c779c242da02--captain-american-logo-t-shirts.jpg'
@@ -91,6 +92,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Captain Marvel',
+    imax: true,
     date: {
       start: '1995',
       end: '1995'
@@ -104,6 +106,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Iron Man',
+    imax: true,
     date: {
       start: 'August 2010',
       end: 'November 2010'
@@ -153,7 +156,8 @@ let mcu: Array<movie> = [
     category: 'SHORT',
     note: 'Included on Thor extras.',
     streaming: {
-      yt: 'https://youtu.be/oQoN8bkkHvw'
+      // yt: 'https://youtu.be/oQoN8bkkHvw',
+      disney: 'https://www.disneyplus.com/eu/en-gb/movies/marvel-one-shot-the-consultant/1WaSRiVFzc4h'
     },
     premiere: "13 September 2011",
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
@@ -168,7 +172,8 @@ let mcu: Array<movie> = [
 
     note: 'Included on Captain America: The First Avenger extras.',
     streaming: {
-      yt: 'https://youtu.be/4fMWi8ImJ2U'
+      // yt: 'https://youtu.be/4fMWi8ImJ2U',
+      disney: 'https://www.disneyplus.com/eu/en-gb/movies/a-funny-thing-happened-on-the-way-to-thors-hammer/7ifvmOpKYujC'
     },
     premiere: "25 October 2011",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
@@ -209,7 +214,8 @@ let mcu: Array<movie> = [
     category: 'SHORT',
     note: 'Included on Avengers extras.',
     streaming: {
-      yt: 'https://youtu.be/oE6DjAJvxA8',
+      // yt: 'https://youtu.be/oE6DjAJvxA8',
+      disney: 'https://www.disneyplus.com/eu/en-gb/movies/marvel-one-shot-item-47/252wvHakYgOR'
     },
     premiere: "25 September 2012",
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
@@ -236,7 +242,7 @@ let mcu: Array<movie> = [
     category: 'SHORT',
     note: 'Included on Thor: The Dark World extras.',
     streaming: {
-      yt: 'https://youtu.be/ezP-df_9yw0',
+      // yt: 'https://youtu.be/ezP-df_9yw0',
       disney: 'https://www.disneyplus.com/movies/marvel-one-shot-all-hail-the-king/6rOlKvPhvlh4',
     },
     premiere: "4 February 2014",
@@ -309,6 +315,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Guardians of the Galaxy',
+    imax: true,
     date: {
       start: 'September 2014',
       end: 'September 2014'
@@ -335,6 +342,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Guardians of the Galaxy Vol. 2',
+    imax: true,
     date: {
       start: 'December 2014',
       end: 'December 2014'
@@ -491,6 +499,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Captain America: Civil War',
+    imax: true,
     date: {
       start: '3 May 2016',
       end: '28 August 2016'
@@ -510,13 +519,15 @@ let mcu: Array<movie> = [
     },
     category: 'SHORT',
     streaming: {
-      yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
+      // yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s',
+      disney: 'https://www.disneyplus.com/eu/en-gb/movies/team-thor-part-1/1TzAxRHo4kjK'
     },
     premiere: "28 August 2016",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Black Widow',
+    imax: true,
     date: {
       start: '8 May 2016',
       end: 'August 2016'
@@ -582,6 +593,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Black Panther',
+    imax: true,
     date: {
       start: 'September 2016',
       end: 'September 2016'
@@ -601,7 +613,8 @@ let mcu: Array<movie> = [
     },
     category: 'SHORT',
     streaming: {
-      yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
+      // yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
+      disney: 'https://www.disneyplus.com/eu/en-gb/movies/team-thor-part-2/bzhxJXTnvgD1'
     },
     premiere: "14 February 2017",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
@@ -609,6 +622,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Doctor Strange',
+    imax: true,
     date: {
       start: 'February 2016',
       end: 'September 2016'
@@ -859,6 +873,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Thor: Ragnarok',
+    imax: true,
     date: {
       start: 'March 2018',
       end: 'April 2018'
@@ -878,7 +893,8 @@ let mcu: Array<movie> = [
     },
     category: 'SHORT',
     streaming: {
-      yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
+      // yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
+      disney: 'https://www.disneyplus.com/eu/en-gb/movies/team-darryl/j3CxRd2OEgVA'
     },
     premiere: "20 February 2018",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
@@ -899,6 +915,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Ant-Man and The Wasp',
+    imax: true,
     date: {
       start: 'March 2018',
       end: 'April 2018'
@@ -926,6 +943,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Avengers: Infinity War',
+    imax: true,
     date: {
       start: 'April 2018',
       end: 'April 2018'
@@ -939,6 +957,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Avengers: Endgame',
+    imax: true,
     date: {
       start: 'May 2018',
       end: 'October 2023'
@@ -1047,6 +1066,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Shang-Chi and the Legend of the Ten Rings',
+    imax: true,
     date: {
       start: 'April 2024',
       end: 'April 2024'
@@ -1114,6 +1134,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'The Eternals',
+    imax: true,
     date: {
       start: 'June 2024',
       end: 'June 2024'
@@ -1225,7 +1246,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Moon Knight',
-    premiere: 'February 2022',
+    premiere: '30 March 2022',
     date: {
       start: '',
       end: ''
@@ -1237,7 +1258,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'She-Hulk',
-    premiere: 'April 2022',
+    premiere: 'June 2022',
     date: {
       start: '',
       end: ''
@@ -1249,7 +1270,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Secret Invasion',
-    premiere: 'October 2022',
+    premiere: 'November 2022',
     date: {
       start: '',
       end: ''
@@ -1507,7 +1528,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'I am Groot',
-    premiere: '2022',
+    premiere: 'September 2022',
     date: {
       start: '',
       end: ''
@@ -1557,6 +1578,18 @@ let mcu: Array<movie> = [
   {
     name: 'Marvel Zombies',
     premiere: '???',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: ''
+  },
+  {
+    name: 'X-Men `97',
+    premiere: '2023',
     date: {
       start: '',
       end: ''

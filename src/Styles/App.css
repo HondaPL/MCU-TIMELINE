@@ -468,3 +468,8 @@ ul.horizontal_menu li {
 #menuToggle input:checked ~ ul {
   transform: none;
 }
+
+.imax{
+  width: 50px;
+  margin-top: 10px;
+}

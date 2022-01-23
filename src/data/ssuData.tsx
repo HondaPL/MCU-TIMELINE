@@ -46,7 +46,7 @@ let ssu: Array<movie> = [
         },
         category: 'MOVIE',
         icon: 'https://thedirect.s3.amazonaws.com/media/tag_thumbnail/The_Direct_Tag_-_Morbius_Movie_uJ2OeOo_9gBwM8u_vxhsRgR.png',
-        premiere: '28 January 2022'
+        premiere: '1 April 2022'
     },
     {
         name: 'Kraven the Hunter',
@@ -57,6 +57,27 @@ let ssu: Array<movie> = [
         category: 'MOVIE',
         icon: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/9a2789100728999.5f0f21844f75b.jpg',
         premiere: '13 January 2023'
+    },
+    {
+        name: '???',
+        date: {
+            start: '???',
+            end: '???'
+        },
+        note: 'Venom 3?',
+        category: 'MOVIE',
+        icon: '',
+        premiere: '23 June 2023'
+    },
+    {
+        name: '???',
+        date: {
+            start: '???',
+            end: '???'
+        },
+        category: 'MOVIE',
+        icon: '',
+        premiere: '6 October 2023'
     },
     {
         name: 'Silk',
