@@ -106,9 +106,13 @@ export default function TimelineItem(props: ItemProps) {
                 ) : ""}
                 {props.data.note ? (
                     <div className="tooltip">Note
-                        <span className="tooltiptext">{props.upcoming === "yes" ? props.data.note : 'CHRONOLOGY DATE NEEDS TO BE ADDED'}</span>
+                        <span className="tooltiptext">{props.data.note}</span>
                     </div>
                 ) : ""}
+                {props.upcoming === "no" && props.data.date.start === '3000'
+                    ? <div className="tooltip">Note
+                        <span className="tooltiptext">CHRONOLOGY DATE NEEDS TO BE ADDED</span>
+                    </div> : ""}
                 {props.data.icon ? <img src={props.data.icon} alt="" className="circle" /> : <div className="circle" />}
             </div>
         </div>
