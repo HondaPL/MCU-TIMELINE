@@ -140,7 +140,7 @@ let mcu: Array<movie> = [
     category: 'MOVIE',
     note: 'Not available not Disney+ for now, because Universal has rights.',
     streaming: {
-      prime: 'https://www.primevideo.com/detail/0TEJSDPUSF900Y55WM93OK89T1/',
+      // prime: 'https://www.primevideo.com/detail/0TEJSDPUSF900Y55WM93OK89T1/',
       netflix: 'https://www.netflix.com/title/70087537',
       disney: 'https://www.disneyplus.com/en-gb/movies/marvel-studios-the-incredible-hulk/2quGBOrSvA2J'
     },
@@ -362,7 +362,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80018294/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/daredevil/5jKSWL7ZMg50',
     },
     premiere: '10 April 2015',
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
@@ -375,7 +375,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80002311/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/jessica-jones/4LX4rNmINp5y'
     },
     premiere: '20 November 2015',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
@@ -466,7 +466,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80018294/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/daredevil/5jKSWL7ZMg50',
     },
     premiere: '18 March 2016',
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
@@ -560,7 +560,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80002537/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/luke-cage/1L458elR85KN',
     },
     premiere: '30 September 2016',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnlciconsym-1-productimagenowatermark.jpg'
@@ -573,7 +573,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80002612/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/iron-fist/24YlE6bSZy6E',
     },
     premiere: '17 March 2017',
     icon: 'https://cdn.worldvectorlogo.com/logos/marvels-iron-fist.svg'
@@ -586,7 +586,7 @@ let mcu: Array<movie> = [
     },
     category: 'LIMITED SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80002566/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/the-defenders/1vLuQyD9nTYk',
     },
     premiere: '18 August 2017',
     icon: 'https://i.pinimg.com/474x/a4/f9/62/a4f962bff6486a266d8a1e0b0415b6a1.jpg'
@@ -682,7 +682,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80117498/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/the-punisher/6JOZHgU6cBS3',
     },
     premiere: '17 November 2017',
     icon: 'https://i.pinimg.com/originals/72/ac/0e/72ac0efff43f5b82091b6a82d24e0fc3.jpg'
@@ -748,7 +748,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80002311/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/jessica-jones/4LX4rNmINp5y'
     },
     premiere: '8 March 2018',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
@@ -761,7 +761,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80002537/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/luke-cage/1L458elR85KN',
     },
     premiere: '22 June 2018',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnlciconsym-1-productimagenowatermark.jpg'
@@ -787,7 +787,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80002612/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/iron-fist/24YlE6bSZy6E',
     },
     premiere: '7 September 2018',
     icon: 'https://cdn.worldvectorlogo.com/logos/marvels-iron-fist.svg'
@@ -827,7 +827,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80018294/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/daredevil/5jKSWL7ZMg50',
     },
     premiere: '19 October 2018',
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
@@ -853,7 +853,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80117498/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/the-punisher/6JOZHgU6cBS3',
     },
     premiere: '18 January 2019',
     icon: 'https://i.pinimg.com/originals/72/ac/0e/72ac0efff43f5b82091b6a82d24e0fc3.jpg'
@@ -866,7 +866,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80002311/',
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/jessica-jones/4LX4rNmINp5y'
     },
     premiere: '14 June 2019',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
@@ -1136,7 +1136,7 @@ let mcu: Array<movie> = [
     name: 'The Eternals',
     imax: true,
     date: {
-      start: 'June 2024',
+      start: 'May 2024',
       end: 'June 2024'
     },
     premiere: '5 November 2021',
@@ -1162,7 +1162,7 @@ let mcu: Array<movie> = [
   {
     name: 'TheDailyBugle.net Season 2',
     date: {
-      start: 'July 2024',
+      start: 'June 2024',
       end: 'August 2024'
     },
     category: 'INTERNET',
@@ -1234,7 +1234,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Ms. Marvel',
-    premiere: 'July 2022',
+    premiere: '8 June 2022',
     date: {
       start: '',
       end: ''
@@ -1248,17 +1248,18 @@ let mcu: Array<movie> = [
     name: 'Moon Knight',
     premiere: '30 March 2022',
     date: {
-      start: '',
+      start: 'April 2025',
       end: ''
     },
     category: 'LIMITED SERIES',
     streaming: {
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/moon-knight/4S3oOF1knocS'
     },
     icon: 'https://rlv.zcache.com/moon_knight_logo_classic_round_sticker-r11f162ad5c74427590ebfc30ee6ecfee_0ugmm_8byvr_704.webp'
   },
   {
     name: 'She-Hulk',
-    premiere: 'June 2022',
+    premiere: 'September 2022',
     date: {
       start: '',
       end: ''
@@ -1266,11 +1267,12 @@ let mcu: Array<movie> = [
     category: 'LIMITED SERIES',
     streaming: {
     },
+    note: 'Coming to Disney+ in mid-2022',
     icon: 'https://rlv.zcache.com/incredible_hulk_logo_classic_round_sticker-rb65b305765fb434e84e36036a1e9c19f_0ugmm_8byvr_704.webp'
   },
   {
     name: 'Secret Invasion',
-    premiere: 'November 2022',
+    premiere: '2023',
     date: {
       start: '',
       end: ''
@@ -1549,6 +1551,7 @@ let mcu: Array<movie> = [
     category: 'LIMITED SERIES',
     streaming: {
     },
+    note: 'Coming to Disney+ in late 2022',
     icon: 'https://rlv.zcache.com/cute_ghost_halloween_stickers_for_kids-r40b0387c993f41858f9dcdc9ca544354_0ugmm_8byvr_704.webp'
   },
   {
@@ -1601,6 +1604,30 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Untitled Destin Daniel Cretton series',
+    premiere: '???',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: ''
+  },
+  {
+    name: 'Daredevil reboot',
+    premiere: '???',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
+  },
+  {
+    name: 'Untitled Nova series',
     premiere: '???',
     date: {
       start: '',

@@ -1,5 +1,5 @@
 import Streaming from './Streaming';
-import type {ItemProps} from '../types/types'
+import type { ItemProps } from '../types/types'
 
 export default function TimelineItem(props: ItemProps) {
 
@@ -69,7 +69,7 @@ export default function TimelineItem(props: ItemProps) {
                             )
                     )
                     : <time onClick={() => addEventToCalendar(props.data.name, props.data.premiere)}>Premiere: {props.data.premiere}</time>}
-                {props.data.imax ? <img className='imax' src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/IMAX_blue_logo.svg/2560px-IMAX_blue_logo.svg.png" alt="IMAX"/> : ""}
+                {props.data.imax ? <img className='imax' src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/IMAX_blue_logo.svg/2560px-IMAX_blue_logo.svg.png" alt="IMAX" /> : ""}
                 <p>{props.data.name}
                     {props.upcoming !== "yes" ? (<><br />
                         <time>Premiere: {props.data.premiere}</time> </>) : ""}
@@ -106,7 +106,7 @@ export default function TimelineItem(props: ItemProps) {
                 ) : ""}
                 {props.data.note ? (
                     <div className="tooltip">Note
-                        <span className="tooltiptext">{props.data.note}</span>
+                        <span className="tooltiptext">{props.upcoming === "yes" ? props.data.note : 'CHRONOLOGY DATE NEEDS TO BE ADDED'}</span>
                     </div>
                 ) : ""}
                 {props.data.icon ? <img src={props.data.icon} alt="" className="circle" /> : <div className="circle" />}
