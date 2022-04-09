@@ -25,6 +25,9 @@ let ssu: Array<movie> = [
             end: '2022'
         },
         category: 'MOVIE',
+        streaming: {
+            netflix: 'https://www.netflix.com/title/80991034'
+        },
         icon: 'https://i.pinimg.com/564x/9d/0a/6e/9d0a6e5acf0645a815291d6e7979eeb3.jpg',
         premiere: '5 October 2018'
     },
@@ -56,7 +59,7 @@ let ssu: Array<movie> = [
         name: 'Morbius',
         date: {
             start: '2024',
-            end: ''
+            end: '2024'
         },
         category: 'MOVIE',
         icon: 'https://thedirect.s3.amazonaws.com/media/tag_thumbnail/The_Direct_Tag_-_Morbius_Movie_uJ2OeOo_9gBwM8u_vxhsRgR.png',

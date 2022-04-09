@@ -1173,6 +1173,19 @@ let mcu: Array<movie> = [
     icon: 'https://yt3.ggpht.com/sNeS67InCYXdxYSr-qPnqTkw5FhNiwgimYIn4HSakIa8K5Q3bJ5xA6ITjZysQGVX8JPYQfWy=s88-c-k-c0x00ffffff-no-rj'
   },
   {
+    name: 'TheDailyBugle.net Season 2.5',
+    date: {
+      start: 'July 2024',
+      end: 'August 2024'
+    },
+    category: 'INTERNET',
+    streaming: {
+      yt: 'https://www.youtube.com/c/thedailybugle'
+    },
+    premiere: "5 April 2022",
+    icon: 'https://yt3.ggpht.com/sNeS67InCYXdxYSr-qPnqTkw5FhNiwgimYIn4HSakIa8K5Q3bJ5xA6ITjZysQGVX8JPYQfWy=s88-c-k-c0x00ffffff-no-rj'
+  },
+  {
     name: 'Doctor Strange in the Multiverse of Madness',
     premiere: '6 May 2022',
     date: {
@@ -1241,6 +1254,7 @@ let mcu: Array<movie> = [
     },
     category: 'LIMITED SERIES',
     streaming: {
+      disney: 'https://www.disneyplus.com/eu/en-gb/series/ms-marvel/45BsikoMcOOo'
     },
     icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
   },
@@ -1249,7 +1263,7 @@ let mcu: Array<movie> = [
     premiere: '30 March 2022',
     date: {
       start: 'April 2025',
-      end: ''
+      end: 'April 2025'
     },
     category: 'LIMITED SERIES',
     streaming: {
