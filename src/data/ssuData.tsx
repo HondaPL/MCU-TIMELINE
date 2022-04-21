@@ -103,8 +103,8 @@ let ssu: Array<movie> = [
             end: ''
         },
         category: 'MOVIE',
-        icon: '',
-        premiere: '???'
+        icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png',
+        premiere: '7 July 2023'
     },
     {
         name: 'The Sinister Six',

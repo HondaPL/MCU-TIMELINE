@@ -25,7 +25,7 @@ let xmen: Array<movie> = [
             end: '2005'
         },
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/x-men/4QoNe0ea49nP'
+            disney: 'https://www.disneyplus.com/movies/x-men/4QoNe0ea49nP'
         },
         category: 'MOVIE',
         icon: 'https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-Transparent.png',
@@ -40,7 +40,7 @@ let xmen: Array<movie> = [
         },
         category: 'MOVIE',
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/x2/5VwEJ3Asxv5a'
+            disney: 'https://www.disneyplus.com/movies/x2/5VwEJ3Asxv5a'
         },
         icon: 'https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-Transparent.png',
         premiere: '2 May 2003',
@@ -54,7 +54,7 @@ let xmen: Array<movie> = [
         },
         category: 'MOVIE',
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/x-men-the-last-stand/5pKcSSNWwwgW'
+            disney: 'https://www.disneyplus.com/movies/x-men-the-last-stand/5pKcSSNWwwgW'
         },
         icon: 'https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-Transparent.png',
         premiere: '26 May 2006',
@@ -68,7 +68,7 @@ let xmen: Array<movie> = [
         },
         category: 'MOVIE',
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/x-men-origins-wolverine/2jc0ZToOER1j'
+            disney: 'https://www.disneyplus.com/movies/x-men-origins-wolverine/2jc0ZToOER1j'
         },
         icon: 'https://icons-for-free.com/download-icon-marvel+super+hero+wolverine+icon-1320166754256786631_512.png',
         premiere: '1 May 2009',
@@ -81,7 +81,7 @@ let xmen: Array<movie> = [
             end: '2013'
         },
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/the-wolverine/3LERt74GSBkL'
+            disney: 'https://www.disneyplus.com/movies/the-wolverine/3LERt74GSBkL'
         },
         category: 'MOVIE',
         icon: 'https://icons-for-free.com/download-icon-marvel+super+hero+wolverine+icon-1320166754256786631_512.png',
@@ -95,7 +95,7 @@ let xmen: Array<movie> = [
             end: '2029'
         },
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/logan/4BPdGjuoQAvT'
+            disney: 'https://www.disneyplus.com/movies/logan/4BPdGjuoQAvT'
         },
         category: 'MOVIE',
         icon: 'https://icons-for-free.com/download-icon-marvel+super+hero+wolverine+icon-1320166754256786631_512.png',
@@ -110,7 +110,7 @@ let xmen: Array<movie> = [
         },
         category: 'MOVIE',
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/x-men-first-class/15ELm1fiAfKq'
+            disney: 'https://www.disneyplus.com/movies/x-men-first-class/15ELm1fiAfKq'
         },
         icon: 'https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-Transparent.png',
         premiere: '3 June 2011',
@@ -124,7 +124,7 @@ let xmen: Array<movie> = [
         },
         category: 'MOVIE',
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/x-men-days-of-future-past/12X4W0gKaZr4'
+            disney: 'https://www.disneyplus.com/movies/x-men-days-of-future-past/12X4W0gKaZr4'
         },
         icon: 'https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-Transparent.png',
         note: 'Timeline A - 2023, Timeline B - 1973',
@@ -138,7 +138,7 @@ let xmen: Array<movie> = [
         },
         category: 'MOVIE',
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/x-men-apocalypse/8ElyHmLZJyGQ'
+            disney: 'https://www.disneyplus.com/movies/x-men-apocalypse/8ElyHmLZJyGQ'
         },
         icon: 'https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-Transparent.png',
         premiere: '27 May 2016',
@@ -152,7 +152,7 @@ let xmen: Array<movie> = [
         },
         category: 'MOVIE',
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/x-men-dark-phoenix/3bCZz3EzlG6r'
+            disney: 'https://www.disneyplus.com/movies/x-men-dark-phoenix/3bCZz3EzlG6r'
         },
         icon: 'https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-Transparent.png',
         premiere: '7 June 2019',
@@ -165,7 +165,7 @@ let xmen: Array<movie> = [
             end: '2016'
         },
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/deadpool/3Kh13Lrb0Pnv'
+            disney: 'https://www.disneyplus.com/movies/deadpool/3Kh13Lrb0Pnv'
         },
         category: 'MOVIE',
         icon: 'https://rlv.zcache.com/deadpool_logo_classic_round_sticker-re468ed02e8ae4429984047976f313e40_0ugmm_8byvr_704.webp',
@@ -179,7 +179,7 @@ let xmen: Array<movie> = [
             end: '2018'
         },
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/movies/deadpool-2/LSuXSQ3S5mxU'
+            disney: 'https://www.disneyplus.com/movies/deadpool-2/LSuXSQ3S5mxU'
         },
         category: 'MOVIE',
         icon: 'https://rlv.zcache.com/deadpool_logo_classic_round_sticker-re468ed02e8ae4429984047976f313e40_0ugmm_8byvr_704.webp',
@@ -191,6 +191,9 @@ let xmen: Array<movie> = [
         date: {
             start: '2025',
             end: '2025'
+        },
+        streaming: {
+            disney: 'https://www.disneyplus.com/movies/the-new-mutants/5aewWrD6YRoO'
         },
         category: 'MOVIE',
         icon: 'https://seeklogo.com/images/T/the-new-mutants-logo-869E610306-seeklogo.com.png',
@@ -204,7 +207,7 @@ let xmen: Array<movie> = [
             end: '1970'
         },
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/series/legion/hFEVt4yfPHZn'
+            disney: 'https://www.disneyplus.com/series/legion/hFEVt4yfPHZn'
         },
         category: 'SERIES',
         icon: 'https://upload.wikimedia.org/wikipedia/commons/9/97/Legion_TV_series_logo.jpg',
@@ -219,7 +222,7 @@ let xmen: Array<movie> = [
         },
         category: 'SERIES',
         streaming: {
-            disney: 'https://www.disneyplus.com/eu/en-gb/series/the-gifted/1gy6Gkf3s1Gj'
+            disney: 'https://www.disneyplus.com/series/the-gifted/1gy6Gkf3s1Gj'
         },
         icon: 'https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/022022/the_gifted.png?gUjHYJwTfz8fJgtSV98pDepI3wJm3aFk&itok=bc9TIriL',
         premiere: 'October 2, 2017',

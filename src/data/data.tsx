@@ -12,7 +12,7 @@ type movie = {
     yt?: string,
     prime?: string,
     netflix?: string,
-    tiktok?: string
+    tiktok?: string,
   },
   icon: string,
   premiere: string
@@ -56,7 +56,7 @@ let mcu: Array<movie> = [
     category: 'SHORT',
     note: 'Included on Iron Man 3 extras.',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/movies/marvel-one-shot-agent-carter/145iOeTd8HRl',
+      disney: 'https://www.disneyplus.com/movies/marvel-one-shot-agent-carter/145iOeTd8HRl',
     },
     premiere: "3 September 2013",
     icon: 'https://i.pinimg.com/736x/b8/1b/df/b81bdf9937ed083ae0c8c779c242da02--captain-american-logo-t-shirts.jpg'
@@ -142,7 +142,7 @@ let mcu: Array<movie> = [
     streaming: {
       // prime: 'https://www.primevideo.com/detail/0TEJSDPUSF900Y55WM93OK89T1/',
       netflix: 'https://www.netflix.com/title/70087537',
-      disney: 'https://www.disneyplus.com/en-gb/movies/marvel-studios-the-incredible-hulk/2quGBOrSvA2J'
+      disney: 'https://www.disneyplus.com/movies/marvel-studios-the-incredible-hulk/2quGBOrSvA2J'
     },
     premiere: "13 June 2008",
     icon: 'https://rlv.zcache.com/incredible_hulk_logo_classic_round_sticker-rb65b305765fb434e84e36036a1e9c19f_0ugmm_8byvr_704.webp'
@@ -157,7 +157,7 @@ let mcu: Array<movie> = [
     note: 'Included on Thor extras.',
     streaming: {
       // yt: 'https://youtu.be/oQoN8bkkHvw',
-      disney: 'https://www.disneyplus.com/eu/en-gb/movies/marvel-one-shot-the-consultant/1WaSRiVFzc4h'
+      disney: 'https://www.disneyplus.com/movies/marvel-one-shot-the-consultant/1WaSRiVFzc4h'
     },
     premiere: "13 September 2011",
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
@@ -173,7 +173,7 @@ let mcu: Array<movie> = [
     note: 'Included on Captain America: The First Avenger extras.',
     streaming: {
       // yt: 'https://youtu.be/4fMWi8ImJ2U',
-      disney: 'https://www.disneyplus.com/eu/en-gb/movies/a-funny-thing-happened-on-the-way-to-thors-hammer/7ifvmOpKYujC'
+      disney: 'https://www.disneyplus.com/movies/a-funny-thing-happened-on-the-way-to-thors-hammer/7ifvmOpKYujC'
     },
     premiere: "25 October 2011",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
@@ -215,7 +215,7 @@ let mcu: Array<movie> = [
     note: 'Included on Avengers extras.',
     streaming: {
       // yt: 'https://youtu.be/oE6DjAJvxA8',
-      disney: 'https://www.disneyplus.com/eu/en-gb/movies/marvel-one-shot-item-47/252wvHakYgOR'
+      disney: 'https://www.disneyplus.com/movies/marvel-one-shot-item-47/252wvHakYgOR'
     },
     premiere: "25 September 2012",
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
@@ -362,7 +362,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/daredevil/5jKSWL7ZMg50',
+      disney: 'https://www.disneyplus.com/series/daredevil/5jKSWL7ZMg50',
     },
     premiere: '10 April 2015',
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
@@ -375,7 +375,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/jessica-jones/4LX4rNmINp5y'
+      disney: 'https://www.disneyplus.com/series/jessica-jones/4LX4rNmINp5y'
     },
     premiere: '20 November 2015',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
@@ -466,7 +466,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/daredevil/5jKSWL7ZMg50',
+      disney: 'https://www.disneyplus.com/series/daredevil/5jKSWL7ZMg50',
     },
     premiere: '18 March 2016',
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
@@ -520,7 +520,7 @@ let mcu: Array<movie> = [
     category: 'SHORT',
     streaming: {
       // yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s',
-      disney: 'https://www.disneyplus.com/eu/en-gb/movies/team-thor-part-1/1TzAxRHo4kjK'
+      disney: 'https://www.disneyplus.com/movies/team-thor-part-1/1TzAxRHo4kjK'
     },
     premiere: "28 August 2016",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
@@ -560,7 +560,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/luke-cage/1L458elR85KN',
+      disney: 'https://www.disneyplus.com/series/luke-cage/1L458elR85KN',
     },
     premiere: '30 September 2016',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnlciconsym-1-productimagenowatermark.jpg'
@@ -573,7 +573,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/iron-fist/24YlE6bSZy6E',
+      disney: 'https://www.disneyplus.com/series/iron-fist/24YlE6bSZy6E',
     },
     premiere: '17 March 2017',
     icon: 'https://cdn.worldvectorlogo.com/logos/marvels-iron-fist.svg'
@@ -586,7 +586,7 @@ let mcu: Array<movie> = [
     },
     category: 'LIMITED SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/the-defenders/1vLuQyD9nTYk',
+      disney: 'https://www.disneyplus.com/series/the-defenders/1vLuQyD9nTYk',
     },
     premiere: '18 August 2017',
     icon: 'https://i.pinimg.com/474x/a4/f9/62/a4f962bff6486a266d8a1e0b0415b6a1.jpg'
@@ -614,7 +614,7 @@ let mcu: Array<movie> = [
     category: 'SHORT',
     streaming: {
       // yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
-      disney: 'https://www.disneyplus.com/eu/en-gb/movies/team-thor-part-2/bzhxJXTnvgD1'
+      disney: 'https://www.disneyplus.com/movies/team-thor-part-2/bzhxJXTnvgD1'
     },
     premiere: "14 February 2017",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
@@ -682,7 +682,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/the-punisher/6JOZHgU6cBS3',
+      disney: 'https://www.disneyplus.com/series/the-punisher/6JOZHgU6cBS3',
     },
     premiere: '17 November 2017',
     icon: 'https://i.pinimg.com/originals/72/ac/0e/72ac0efff43f5b82091b6a82d24e0fc3.jpg'
@@ -748,7 +748,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/jessica-jones/4LX4rNmINp5y'
+      disney: 'https://www.disneyplus.com/series/jessica-jones/4LX4rNmINp5y'
     },
     premiere: '8 March 2018',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
@@ -761,7 +761,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/luke-cage/1L458elR85KN',
+      disney: 'https://www.disneyplus.com/series/luke-cage/1L458elR85KN',
     },
     premiere: '22 June 2018',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnlciconsym-1-productimagenowatermark.jpg'
@@ -787,7 +787,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/iron-fist/24YlE6bSZy6E',
+      disney: 'https://www.disneyplus.com/series/iron-fist/24YlE6bSZy6E',
     },
     premiere: '7 September 2018',
     icon: 'https://cdn.worldvectorlogo.com/logos/marvels-iron-fist.svg'
@@ -827,7 +827,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/daredevil/5jKSWL7ZMg50',
+      disney: 'https://www.disneyplus.com/series/daredevil/5jKSWL7ZMg50',
     },
     premiere: '19 October 2018',
     icon: 'https://i5.walmartimages.com/asr/6ee113b6-cdbe-481b-96fa-f798c8ae837f_1.6bc975629f52c19d24f58641332d09de.jpeg'
@@ -853,7 +853,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/the-punisher/6JOZHgU6cBS3',
+      disney: 'https://www.disneyplus.com/series/the-punisher/6JOZHgU6cBS3',
     },
     premiere: '18 January 2019',
     icon: 'https://i.pinimg.com/originals/72/ac/0e/72ac0efff43f5b82091b6a82d24e0fc3.jpg'
@@ -866,7 +866,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/jessica-jones/4LX4rNmINp5y'
+      disney: 'https://www.disneyplus.com/series/jessica-jones/4LX4rNmINp5y'
     },
     premiere: '14 June 2019',
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-buttonjjlogoicon-1-productimagenowatermark.jpg'
@@ -894,7 +894,7 @@ let mcu: Array<movie> = [
     category: 'SHORT',
     streaming: {
       // yt: 'https://www.youtube.com/watch?v=cb24kGrE1l4&t=489s'
-      disney: 'https://www.disneyplus.com/eu/en-gb/movies/team-darryl/j3CxRd2OEgVA'
+      disney: 'https://www.disneyplus.com/movies/team-darryl/j3CxRd2OEgVA'
     },
     premiere: "20 February 2018",
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
@@ -1060,7 +1060,7 @@ let mcu: Array<movie> = [
     premiere: '24 November 2021',
     category: 'LIMITED SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/en-gb/series/hawkeye/11Zy8m9Dkj5l'
+      disney: 'https://www.disneyplus.com/series/hawkeye/11Zy8m9Dkj5l'
     },
     icon: 'https://i.pinimg.com/originals/d3/8f/41/d38f41e25b86f4845e639a4e30c2eba5.jpg'
   },
@@ -1142,7 +1142,7 @@ let mcu: Array<movie> = [
     premiere: '5 November 2021',
     category: 'MOVIE',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/movies/eternals/5cmhJAtkt6Jk'
+      disney: 'https://www.disneyplus.com/movies/eternals/5cmhJAtkt6Jk'
     },
     icon: 'https://thedirect.s3.amazonaws.com/media/photos/emerch3.jpg'
   },
@@ -1254,7 +1254,7 @@ let mcu: Array<movie> = [
     },
     category: 'LIMITED SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/ms-marvel/45BsikoMcOOo'
+      disney: 'https://www.disneyplus.com/series/ms-marvel/45BsikoMcOOo'
     },
     icon: 'https://ih1.redbubble.net/image.648232338.0642/st,small,507x507-pad,600x600,f8f8f8.u3.jpg'
   },
@@ -1267,7 +1267,7 @@ let mcu: Array<movie> = [
     },
     category: 'LIMITED SERIES',
     streaming: {
-      disney: 'https://www.disneyplus.com/eu/en-gb/series/moon-knight/4S3oOF1knocS'
+      disney: 'https://www.disneyplus.com/series/moon-knight/4S3oOF1knocS'
     },
     icon: 'https://rlv.zcache.com/moon_knight_logo_classic_round_sticker-r11f162ad5c74427590ebfc30ee6ecfee_0ugmm_8byvr_704.webp'
   },
@@ -1515,6 +1515,7 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
+      disney: 'https://www.disneyplus.com/series/-/7672ZVj1ZxU9',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Faf%2F12%2Fdd%2Faf12dd4642396c427e405dc1175468ce.png&f=1&nofb=1'
   },
@@ -1527,12 +1528,13 @@ let mcu: Array<movie> = [
     },
     category: 'SERIES',
     streaming: {
+      disney: 'https://www.disneyplus.com/series/-/6pARMvILBGzF',
     },
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F6f%2F3f%2F23%2F6f3f2375f9ebce70e9d2fbd84c34c8fb.jpg&f=1&nofb=1'
   },
   {
     name: 'Echo',
-    premiere: '???',
+    premiere: '2023',
     date: {
       start: '',
       end: ''
@@ -1540,7 +1542,7 @@ let mcu: Array<movie> = [
     category: 'LIMITED SERIES',
     streaming: {
     },
-    icon: ''
+    icon: 'https://cdnb.artstation.com/p/assets/images/images/041/650/783/large/chg_studio2021-7faf2b0b-824f-4fce-b050-57fbbdc0566e-rw-1920.jpg?1632305916'
   },
   {
     name: 'I am Groot',
@@ -1614,7 +1616,7 @@ let mcu: Array<movie> = [
     category: 'LIMITED SERIES',
     streaming: {
     },
-    icon: ''
+    icon: 'https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-Transparent.png',
   },
   {
     name: 'Untitled Destin Daniel Cretton series',
