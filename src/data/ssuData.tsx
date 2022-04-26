@@ -107,6 +107,16 @@ let ssu: Array<movie> = [
         premiere: '7 July 2023'
     },
     {
+        name: 'El Muerto',
+        date: {
+            start: '',
+            end: ''
+        },
+        category: 'MOVIE',
+        icon: '',
+        premiere: '12 January 2024'
+    },
+    {
         name: 'The Sinister Six',
         date: {
             start: '',
@@ -124,7 +134,7 @@ let ssu: Array<movie> = [
         },
         category: 'SERIES',
         icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png',
-        premiere: '???'
+        premiere: '???',
     },
 ]
 
