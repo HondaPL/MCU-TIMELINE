@@ -11,6 +11,7 @@ import { animateScroll as scroll } from "react-scroll";
 import mcu from './data/data'
 import ssu from './data/ssuData'
 import xmen from './data/xmenData'
+import asm from './data/ASM'
 import Navbar from './components/Navbar'
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
     mcuData: "",
     ssuData: "",
     xmenData: "",
+    asmData: "",
     filters: ["MOVIE", "SERIES", "SHORT", "INTERNET"],
     sortByPremiere: false
   }
@@ -29,7 +31,7 @@ class App extends Component {
 
   scrollToBottom = () => {
     if (document.getElementById("upcoming"))
-      scroll.scrollTo(document.getElementById("upcoming").offsetTop - document.getElementById("logobox").scrollHeight/1.8)
+      scroll.scrollTo(document.getElementById("upcoming").offsetTop - document.getElementById("logobox").scrollHeight / 2.5)
   };
 
   handleFilter = type => {
@@ -74,7 +76,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({ mcuData: mcu, ssuData: ssu, xmenData: xmen });
+    this.setState({ mcuData: mcu, ssuData: ssu, xmenData: xmen, asmData: asm });
   }
 
   render() {
@@ -105,6 +107,14 @@ class App extends Component {
             {filters && filters.length > 0 ?
               <h1 id="upcoming">Upcoming</h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
             <> <span></span> <Timeline data={this.state.ssuData} filter={filters} upcoming="yes" /> </>
+          </>} />
+
+          <Route path="/asm" element={<>{sortByPremiere
+            ? <> <span></span> <Timeline id="timeline" data={this.state.asmData} filter={filters} sortByPremiere={sortByPremiere} /> </>
+            : <> <span></span> <Timeline id="timeline" data={this.state.asmData} filter={filters} /></>}
+            {filters && filters.length > 0 ?
+              <h1 id="upcoming">Upcoming</h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
+            <> <span></span> <Timeline data={this.state.asmData} filter={filters} upcoming="yes" /> </>
           </>} />
 
           <Route path="/xmen" element={<>{sortByPremiere

@@ -1223,7 +1223,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'The Marvels',
-    premiere: '17 February 2023',
+    premiere: '28 July 2023',
     date: {
       start: '',
       end: ''
@@ -1298,7 +1298,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Ant-Man and the Wasp: Quantumania',
-    premiere: '28 July 2023',
+    premiere: '17 February 2023',
     date: {
       start: '',
       end: ''
