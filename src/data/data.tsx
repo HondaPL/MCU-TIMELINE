@@ -1189,8 +1189,8 @@ let mcu: Array<movie> = [
     name: 'Doctor Strange in the Multiverse of Madness',
     premiere: '6 May 2022',
     date: {
-      start: '',
-      end: ''
+      start: 'May 2025',
+      end: 'May 2025'
     },
     category: 'MOVIE',
     streaming: {

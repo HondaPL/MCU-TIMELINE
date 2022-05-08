@@ -81,7 +81,7 @@ let ssu: Array<movie> = [
             start: '',
             end: ''
         },
-        note: 'Venom 3?',
+        note: '',
         category: 'MOVIE',
         icon: '',
         premiere: '23 June 2023'
@@ -115,6 +115,16 @@ let ssu: Array<movie> = [
         category: 'MOVIE',
         icon: '',
         premiere: '12 January 2024'
+    },
+    {
+        name: 'Venom 3',
+        date: {
+            start: '',
+            end: ''
+        },
+        category: 'MOVIE',
+        icon: 'https://i.pinimg.com/564x/9d/0a/6e/9d0a6e5acf0645a815291d6e7979eeb3.jpg',
+        premiere: '???'
     },
     {
         name: 'The Sinister Six',
