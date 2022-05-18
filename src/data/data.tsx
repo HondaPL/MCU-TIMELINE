@@ -1195,6 +1195,7 @@ let mcu: Array<movie> = [
     category: 'MOVIE',
     streaming: {
     },
+    note: 'Coming to Disney+ in July',
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F68%2Fc9%2Fbe%2F68c9be968cbc771d425095356b75669b.jpg&f=1&nofb=1'
   },
   {
@@ -1273,7 +1274,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'She-Hulk',
-    premiere: 'September 2022',
+    premiere: '17 August 2022',
     date: {
       start: '',
       end: ''
@@ -1281,7 +1282,6 @@ let mcu: Array<movie> = [
     category: 'LIMITED SERIES',
     streaming: {
     },
-    note: 'Coming to Disney+ in mid-2022',
     icon: 'https://rlv.zcache.com/incredible_hulk_logo_classic_round_sticker-rb65b305765fb434e84e36036a1e9c19f_0ugmm_8byvr_704.webp'
   },
   {
@@ -1508,7 +1508,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'What If…? Season 2',
-    premiere: 'August 2022',
+    premiere: 'September 2022',
     date: {
       start: '',
       end: ''
