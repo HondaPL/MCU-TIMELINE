@@ -89,7 +89,7 @@ export default function TimelineItem(props: ItemProps) {
                         }
                         {
                             props.data.streaming.yt
-                                ? <Streaming link={props.data.streaming.yt} icon="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmaxcdn.icons8.com%2FShare%2Ficon%2FMedia_Controls%2Fyoutube_play1600.png&f=1&nofb=1" />
+                                ? <Streaming link={props.data.streaming.yt} icon="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/1200px-YouTube_social_white_squircle.svg.png" />
                                 : ""
                         }
                         {

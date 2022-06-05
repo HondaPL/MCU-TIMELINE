@@ -40,7 +40,7 @@ let mcu: Array<movie> = [
       end: 'September 1945'
     },
     category: 'MOVIE',
-    note: 'Beginning and post credit scene happens in 2011.',
+    note: 'Beginning and post credit scene happen in 2011.',
     streaming: {
       disney: 'https://www.disneyplus.com/movies/-/6xvB6xZ4r95O',
     },
@@ -1187,6 +1187,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Doctor Strange in the Multiverse of Madness',
+    imax: true,
     premiere: '6 May 2022',
     date: {
       start: 'May 2025',
@@ -1194,8 +1195,8 @@ let mcu: Array<movie> = [
     },
     category: 'MOVIE',
     streaming: {
+      disney: 'https://www.disneyplus.com/movies/-/27EiqSW4jIyH'
     },
-    note: 'Coming to Disney+ in July',
     icon: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F68%2Fc9%2Fbe%2F68c9be968cbc771d425095356b75669b.jpg&f=1&nofb=1'
   },
   {
@@ -1205,6 +1206,7 @@ let mcu: Array<movie> = [
       start: '',
       end: ''
     },
+    note: 'Coming to Disney+ in September',
     category: 'MOVIE',
     streaming: {
     },
@@ -1281,6 +1283,7 @@ let mcu: Array<movie> = [
     },
     category: 'LIMITED SERIES',
     streaming: {
+      disney: 'https://www.disneyplus.com/series/she-hulk-attorney-at-law/gPwaYusKqRQh'
     },
     icon: 'https://rlv.zcache.com/incredible_hulk_logo_classic_round_sticker-rb65b305765fb434e84e36036a1e9c19f_0ugmm_8byvr_704.webp'
   },
@@ -1546,7 +1549,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'I am Groot',
-    premiere: 'September 2022',
+    premiere: '10 August 2022',
     date: {
       start: '',
       end: ''
