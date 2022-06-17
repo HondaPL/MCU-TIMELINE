@@ -624,8 +624,8 @@ let mcu: Array<movie> = [
     name: 'Doctor Strange',
     imax: true,
     date: {
-      start: 'February 2016',
-      end: 'September 2016'
+      start: 'February 2017',
+      end: 'September 2017'
     },
     category: 'MOVIE',
     streaming: {
@@ -667,9 +667,9 @@ let mcu: Array<movie> = [
       end: 'October 2016'
     },
     category: 'MOVIE',
-    note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
     streaming: {
-      netflix: 'https://www.netflix.com/title/80166369?s=i&trkid=13747225'
+      netflix: 'https://www.netflix.com/title/80166369?s=i&trkid=13747225',
+      disney: 'https://www.disneyplus.com/movies/-/4cLMEzWGqQaG'
     },
     premiere: "7 July 2017",
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
@@ -1252,8 +1252,8 @@ let mcu: Array<movie> = [
     name: 'Ms. Marvel',
     premiere: '8 June 2022',
     date: {
-      start: '',
-      end: ''
+      start: 'May 2025',
+      end: 'May 2025'
     },
     category: 'LIMITED SERIES',
     streaming: {
@@ -1474,6 +1474,18 @@ let mcu: Array<movie> = [
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
   },
   {
+    name: 'Thunderbolts',
+    premiere: '???',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: ''
+  },
+  {
     name: 'Ironheart',
     premiere: '2023',
     date: {
@@ -1622,7 +1634,7 @@ let mcu: Array<movie> = [
     icon: 'https://www.pngall.com/wp-content/uploads/5/X-Men-Logo-Transparent.png',
   },
   {
-    name: 'Untitled Destin Daniel Cretton series',
+    name: 'Wonder Man',
     premiere: '???',
     date: {
       start: '',
@@ -1647,6 +1659,18 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Untitled Nova series',
+    premiere: '???',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'LIMITED SERIES',
+    streaming: {
+    },
+    icon: ''
+  },
+  {
+    name: 'Untitled Okoye series',
     premiere: '???',
     date: {
       start: '',

@@ -12,6 +12,8 @@ import mcu from './data/data'
 import ssu from './data/ssuData'
 import xmen from './data/xmenData'
 import asm from './data/ASM'
+import spiderVerse from './data/spiderVerse'
+
 import Navbar from './components/Navbar'
 
 class App extends Component {
@@ -21,6 +23,7 @@ class App extends Component {
     ssuData: "",
     xmenData: "",
     asmData: "",
+    spiderVerse: "",
     filters: ["MOVIE", "SERIES", "SHORT", "INTERNET"],
     sortByPremiere: false
   }
@@ -76,7 +79,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({ mcuData: mcu, ssuData: ssu, xmenData: xmen, asmData: asm });
+    this.setState({ mcuData: mcu, ssuData: ssu, xmenData: xmen, asmData: asm, spiderVerse: spiderVerse });
   }
 
   render() {
@@ -122,6 +125,14 @@ class App extends Component {
             : <> <span></span> <Timeline id="timeline" data={this.state.xmenData} filter={filters} /></>}
             {filters && filters.length > 0 ?
               <h1 id="upcoming"> </h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
+          </>} />
+
+          <Route path="/spiderverse" element={<>{sortByPremiere
+            ? <> <span></span> <Timeline id="timeline" data={this.state.spiderVerse} filter={filters} sortByPremiere={sortByPremiere} /> </>
+            : <> <span></span> <Timeline id="timeline" data={this.state.spiderVerse} filter={filters} /></>}
+            {filters && filters.length > 0 ?
+              <h1 id="upcoming">Upcoming</h1> : <h1 id="upcoming">Come on! You hid all items. What did you expect?</h1>}
+            <> <span></span> <Timeline data={this.state.spiderVerse} filter={filters} upcoming="yes" /> </>
           </>} />
 
           <Route path="*" element={<>{sortByPremiere
