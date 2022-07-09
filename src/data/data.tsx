@@ -707,7 +707,7 @@ let mcu: Array<movie> = [
       end: 'February 2017'
     },
     category: 'SERIES',
-    note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s proably coming to Disney+ after Prime.',
+    note: 'Available on Prime in UK and on Disney+ in Australia. So it\'s probably coming to Disney+ after Prime.',
     streaming: {
       disney: 'https://www.disneyplus.com/series/cloak-dagger/4mUMHeti2YCc'
     },
@@ -1100,7 +1100,8 @@ let mcu: Array<movie> = [
     category: 'MOVIE',
     note: 'Coming to Disney+ in 2022 due to Disney and Sony deal',
     streaming: {
-      netflix: 'https://www.netflix.com/title/81055822'
+      netflix: 'https://www.netflix.com/title/81055822',
+      disney: 'https://www.disneyplus.com/movies/spider-man-far-from-home/3PtrmOKmcLb4'
     },
     premiere: "2 July 2019",
     icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png'
@@ -1203,8 +1204,8 @@ let mcu: Array<movie> = [
     name: 'Thor: Love and Thunder',
     premiere: '8 July 2022',
     date: {
-      start: '',
-      end: ''
+      start: 'July 2025',
+      end: 'July 2025'
     },
     note: 'Coming to Disney+ in September',
     category: 'MOVIE',
@@ -1587,7 +1588,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Agatha: House of Harkness',
-    premiere: '???',
+    premiere: '2023',
     date: {
       start: '',
       end: ''
