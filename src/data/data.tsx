@@ -1391,7 +1391,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Fantastic Four',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1404,7 +1404,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Blade',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1416,7 +1416,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Mutants',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1428,7 +1428,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Deadpool 3',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1440,7 +1440,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Captain America 4',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1452,7 +1452,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Shang-Chi 2',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1464,7 +1464,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Spider-Man 4',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1476,7 +1476,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Thunderbolts',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1500,7 +1500,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Armor Wars',
-    premiere: '2023',
+    premiere: '2024',
     date: {
       start: '',
       end: ''
@@ -1512,7 +1512,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Untitled Wakanda Series',
-    premiere: '2023',
+    premiere: '2024',
     date: {
       start: '',
       end: ''
@@ -1524,7 +1524,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'What If…? Season 2',
-    premiere: 'September 2022',
+    premiere: 'February 2023',
     date: {
       start: '',
       end: ''
@@ -1537,7 +1537,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Loki Season 2',
-    premiere: '???',
+    premiere: '2023',
     date: {
       start: '',
       end: ''
@@ -1600,7 +1600,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Spider-Man: Freshman Year',
-    premiere: '???',
+    premiere: '2024',
     date: {
       start: '',
       end: ''
@@ -1612,7 +1612,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Marvel Zombies',
-    premiere: '???',
+    premiere: '2024',
     date: {
       start: '',
       end: ''
@@ -1620,11 +1620,12 @@ let mcu: Array<movie> = [
     category: 'LIMITED SERIES',
     streaming: {
     },
-    icon: ''
+    icon: '',
+    note: 'First R rated project'
   },
   {
     name: 'X-Men `97',
-    premiere: '2023',
+    premiere: 'October 2023',
     date: {
       start: '',
       end: ''
@@ -1636,7 +1637,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Wonder Man',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1648,7 +1649,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Daredevil reboot',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1660,7 +1661,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Untitled Nova series',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''
@@ -1672,7 +1673,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Untitled Okoye series',
-    premiere: '???',
+    premiere: '3000',
     date: {
       start: '',
       end: ''

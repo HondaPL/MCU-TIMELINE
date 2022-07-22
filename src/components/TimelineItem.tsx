@@ -68,11 +68,11 @@ export default function TimelineItem(props: ItemProps) {
                                 : <time>{props.data.date.start}</time>
                             )
                     )
-                    : <time onClick={() => addEventToCalendar(props.data.name, props.data.premiere)}>Premiere: {props.data.premiere}</time>}
+                    : <time onClick={() => addEventToCalendar(props.data.name, props.data.premiere)}>Premiere: {props.data.premiere === '3000' ? '???' : props.data.premiere}</time>}
                 {props.data.imax ? <img className='imax' src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/IMAX_blue_logo.svg/2560px-IMAX_blue_logo.svg.png" alt="IMAX" /> : ""}
                 <p>{props.data.name}
                     {props.upcoming !== "yes" ? (<><br />
-                        <time>Premiere: {props.data.premiere}</time> </>) : ""}
+                        <time>Premiere: {props.data.premiere === '3000' ? '???' : props.data.premiere}</time> </>) : ""}
                 </p>
 
                 {props.data.streaming ? (

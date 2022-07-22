@@ -31,7 +31,7 @@ export default function Timeline(props: TimeLineProps) {
                             ))
                 ) : props.data.filter((x: Movie) => x.premiere === "???" || Date.parse(/^\d/.test(x.premiere) ? x.premiere : "1" + x.premiere) >= Date.now())
                     .sort((a: Movie, b: Movie) => {
-                        return Date.parse(/^\d/.test(a.premiere) ? a.premiere : "1" + a.premiere) > Date.parse(/^\d/.test(b.premiere) ? b.premiere : "1" + b.premiere) || (a.premiere === "???" && b.premiere !== "???") ? 1 : -1
+                        return Date.parse(/^\d/.test(a.premiere) ? a.premiere : "1" + a.premiere) > Date.parse(/^\d/.test(b.premiere) ? b.premiere : "1" + b.premiere) ? 1 : -1
                     })
                     .map((data: Movie, idx: number) => (
                         props.filter.some(item => data.category.includes(item)) ?
