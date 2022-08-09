@@ -13,6 +13,7 @@ type movie = {
     prime?: string,
     netflix?: string,
     tiktok?: string,
+    hbomax?: string,
   },
   icon: string,
   premiere: string,
@@ -1326,7 +1327,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'She-Hulk',
-    premiere: '17 August 2022',
+    premiere: '18 August 2022',
     date: {
       //TODO
       start: 'March 2024',
@@ -1454,6 +1455,18 @@ let mcu: Array<movie> = [
     streaming: {
     },
     icon: 'https://www.universocinematograficomarvel.it/wp-content/uploads/2022/07/The-Mutants-The-Illuminerdi-.jpg'
+  },
+  {
+    name: 'Eternals 2',
+    premiere: '3000',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'MOVIE',
+    streaming: {
+    },
+    icon: 'https://thedirect.s3.amazonaws.com/media/photos/emerch3.jpg'
   },
   {
     name: 'Deadpool 3',
@@ -1778,7 +1791,7 @@ let mcu: Array<movie> = [
     phase: '6',
     streaming: {
     },
-    icon: 'https://nixolympia.com/wp-content/uploads/2022/07/Marvel-outlines-Phase-6-with-Fantastic-Four-and-two-new.jpg'
+    icon: 'https://rlv.zcache.com/avengers_logo_classic_round_sticker-rcf1f4016612145d897ee182a9650cf86_0ugmm_8byvr_704.webp'
   },
   {
     name: '???',
