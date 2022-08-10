@@ -1584,16 +1584,72 @@ let mcu: Array<movie> = [
     icon: 'https://cdnb.artstation.com/p/assets/images/images/041/650/783/large/chg_studio2021-7faf2b0b-824f-4fce-b050-57fbbdc0566e-rw-1920.jpg?1632305916'
   },
   {
-    name: 'I am Groot',
+    name: 'I am Groot: Groot\'s First Steps',
     premiere: '10 August 2022',
     date: {
-      //TODO
+      start: 'October 2014',
+      end: 'October 2014'
+    },
+    category: 'SHORT',
+    phase: '4',
+    streaming: {
+      disney: 'https://disneyplus.com/movies/groots-first-steps/4YcuPHl87ZEw'
+    },
+    icon: 'https://rlv.zcache.com/i_am_groot_text_emoji_classic_round_sticker-r402d188089fb4af1af2bd7dfcd7538ff_0ugmm_8byvr_704.webp'
+  },
+  {
+    name: 'I am Groot: The Little Guy',
+    premiere: '10 August 2022',
+    date: {
       start: 'January 2015',
+      end: 'January 2015'
+    },
+    category: 'SHORT',
+    phase: '4',
+    streaming: {
+      disney: 'https://disneyplus.com/movies/the-little-guy/78eRkqeFzpRJ'
+    },
+    icon: 'https://rlv.zcache.com/i_am_groot_text_emoji_classic_round_sticker-r402d188089fb4af1af2bd7dfcd7538ff_0ugmm_8byvr_704.webp'
+  },
+  {
+    name: 'I am Groot: Groot\'s Pursuit',
+    premiere: '10 August 2022',
+    date: {
+      start: 'February 2015',
+      end: 'February 2015'
+    },
+    category: 'SHORT',
+    phase: '4',
+    streaming: {
+      disney: 'https://disneyplus.com/movies/groots-pursuit/4kEn4b37w8W9'
+    },
+    icon: 'https://rlv.zcache.com/i_am_groot_text_emoji_classic_round_sticker-r402d188089fb4af1af2bd7dfcd7538ff_0ugmm_8byvr_704.webp'
+  },
+  {
+    name: 'I am Groot: Groot Takes a Bath',
+    premiere: '10 August 2022',
+    date: {
+      start: 'March 2015',
+      end: 'March 2015'
+    },
+    category: 'SHORT',
+    phase: '4',
+    streaming: {
+      disney: 'https://disneyplus.com/movies/groot-takes-a-bath/7hYV4vfkqYBQ'
+    },
+    icon: 'https://rlv.zcache.com/i_am_groot_text_emoji_classic_round_sticker-r402d188089fb4af1af2bd7dfcd7538ff_0ugmm_8byvr_704.webp'
+  },
+  {
+    name: 'I am Groot: Magnum Opus',
+    premiere: '10 August 2022',
+    date: {
+      start: 'April 2015',
       end: 'April 2015'
     },
     category: 'SHORT',
     phase: '4',
     streaming: {
+      disney: 'https://disneyplus.com/movies/magnum-opus/22fjyvHepPUg'
     },
     icon: 'https://rlv.zcache.com/i_am_groot_text_emoji_classic_round_sticker-r402d188089fb4af1af2bd7dfcd7538ff_0ugmm_8byvr_704.webp'
   },
