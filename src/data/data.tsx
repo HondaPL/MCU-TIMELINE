@@ -1249,10 +1249,11 @@ let mcu: Array<movie> = [
       start: 'May 2024',
       end: 'May 2024'
     },
-    note: 'Coming to Disney+ in September',
+    note: 'Coming to Disney+ on 8 September',
     phase: '4',
     category: 'MOVIE',
     streaming: {
+      disney: 'https://disneyplus.com/movies/thor-love-and-thunder/3htR8mRAZMoT'
     },
     icon: 'https://rlv.zcache.com/mighty_thor_logo_classic_round_sticker-r2c8a2a0ee29d40f7b821b3545f8e5480_0ugmm_8byvr_704.webp'
   },
