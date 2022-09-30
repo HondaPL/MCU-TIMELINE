@@ -1245,6 +1245,7 @@ let mcu: Array<movie> = [
   {
     name: 'Thor: Love and Thunder',
     premiere: '8 July 2022',
+    imax: true,
     date: {
       start: 'May 2024',
       end: 'May 2024'
@@ -1264,10 +1265,10 @@ let mcu: Array<movie> = [
       start: '',
       end: ''
     },
-    note: 'Coming to Disney+ in January 2023',
     phase: '4',
     category: 'MOVIE',
     streaming: {
+      disney: 'https://www.disneyplus.com/movies/black-panther-wakanda-forever/7MAONYZ92wDT'
     },
     icon: 'https://mmv2api.s3.us-east-2.amazonaws.com/products/images/2-image-bttnbpiconsym-1-productimagenowatermark.jpg'
   },
@@ -1331,8 +1332,8 @@ let mcu: Array<movie> = [
     premiere: '18 August 2022',
     date: {
       //TODO
-      start: 'March 2024',
-      end: 'March 2024'
+      start: 'June 2024',
+      end: 'August 2024'
     },
     category: 'LIMITED SERIES',
     phase: '4',
@@ -1351,6 +1352,7 @@ let mcu: Array<movie> = [
     category: 'LIMITED SERIES',
     phase: '5',
     streaming: {
+      disney: 'https://www.disneyplus.com/series/secret-invasion/3iHQtD1BDpgN'
     },
     icon: 'https://i.pinimg.com/originals/76/01/6f/76016f9d1c09dcc252ae57d62805eb42.jpg'
   },
@@ -1392,19 +1394,6 @@ let mcu: Array<movie> = [
     streaming: {
     },
     icon: 'https://preview.redd.it/b8qxtnhtbkc31.jpg?auto=webp&s=b2af13f96372bf354a43cbc27dba1f184deb3eab'
-  },
-  {
-    name: '???',
-    premiere: '16 February 2024',
-    date: {
-      start: '',
-      end: ''
-    },
-    category: 'MOVIE',
-    phase: '5',
-    streaming: {
-    },
-    icon: ''
   },
   {
     name: 'Captain America: New World Order',
@@ -1471,12 +1460,13 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Deadpool 3',
-    premiere: '3000',
+    premiere: '6 September 2024',
     date: {
       start: '',
       end: ''
     },
     category: 'MOVIE',
+    phase: '6',
     streaming: {
     },
     icon: 'https://rlv.zcache.com/deadpool_logo_classic_round_sticker-re468ed02e8ae4429984047976f313e40_0ugmm_8byvr_704.webp'
@@ -1525,7 +1515,7 @@ let mcu: Array<movie> = [
       start: '',
       end: ''
     },
-    category: 'LIMITED SERIES',
+    category: 'MOVIE',
     streaming: {
     },
     icon: 'https://i.pinimg.com/736x/6f/a7/02/6fa70245355dab1dd577710a56fb75c3.jpg'
@@ -1537,7 +1527,7 @@ let mcu: Array<movie> = [
       start: '',
       end: ''
     },
-    note: 'Probable to be an Okoeye series',
+    note: 'Probable an Okoeye series',
     category: 'LIMITED SERIES',
     streaming: {
     },
@@ -1655,10 +1645,9 @@ let mcu: Array<movie> = [
     icon: 'https://rlv.zcache.com/i_am_groot_text_emoji_classic_round_sticker-r402d188089fb4af1af2bd7dfcd7538ff_0ugmm_8byvr_704.webp'
   },
   {
-    name: 'Untitled Halloween Special',
-    premiere: 'October 2022',
+    name: 'Werewolf by Night',
+    premiere: '7 October 2022',
     date: {
-      //TODO
       start: 'October 2024',
       end: 'October 2024'
     },
@@ -1666,7 +1655,6 @@ let mcu: Array<movie> = [
     phase: '4',
     streaming: {
     },
-    note: 'Coming to Disney+ in late 2022',
     icon: 'https://rlv.zcache.com/cute_ghost_halloween_stickers_for_kids-r40b0387c993f41858f9dcdc9ca544354_0ugmm_8byvr_704.webp'
   },
   {
@@ -1761,20 +1749,7 @@ let mcu: Array<movie> = [
   },
   {
     name: '???',
-    premiere: 'September 2024',
-    date: {
-      start: '',
-      end: ''
-    },
-    category: 'LIMITED SERIES',
-    phase: '6',
-    streaming: {
-    },
-    icon: ''
-  },
-  {
-    name: '???',
-    premiere: 'November 2024',
+    premiere: 'October 2024',
     date: {
       start: '',
       end: ''
