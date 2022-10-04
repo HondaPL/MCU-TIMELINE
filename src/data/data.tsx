@@ -1654,6 +1654,7 @@ let mcu: Array<movie> = [
     category: 'LIMITED SERIES',
     phase: '4',
     streaming: {
+      disney: 'https://disneyplus.com/movies/werewolf-by-night/J1sCDfT3MaDl'
     },
     icon: 'https://rlv.zcache.com/cute_ghost_halloween_stickers_for_kids-r40b0387c993f41858f9dcdc9ca544354_0ugmm_8byvr_704.webp'
   },

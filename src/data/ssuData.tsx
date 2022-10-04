@@ -73,7 +73,7 @@ let ssu: Array<movie> = [
         },
         category: 'MOVIE',
         icon: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/9a2789100728999.5f0f21844f75b.jpg',
-        premiere: '13 January 2023'
+        premiere: '6 October 2023'
     },
     {
         name: 'Madame Web',
@@ -83,7 +83,7 @@ let ssu: Array<movie> = [
         },
         category: 'MOVIE',
         icon: 'https://seeklogo.com/images/S/spider-man-logo-0C9E5DCA9D-seeklogo.com.png',
-        premiere: '6 October 2023'
+        premiere: '16 February 2024'
     },
     {
         name: 'El Muerto',
@@ -102,7 +102,7 @@ let ssu: Array<movie> = [
             end: ''
         },
         category: 'MOVIE',
-        premiere: '7 June 2024'
+        premiere: '12 July 2024'
     },
     {
         name: 'Venom 3',
