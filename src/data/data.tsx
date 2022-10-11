@@ -1384,7 +1384,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Blade',
-    premiere: '3 November 2023',
+    premiere: '6 September 2024',
     date: {
       start: '',
       end: ''
@@ -1423,7 +1423,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Fantastic Four',
-    premiere: '8 November 2024',
+    premiere: '14 February 2025',
     date: {
       start: '',
       end: ''
@@ -1460,7 +1460,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Deadpool 3',
-    premiere: '6 September 2024',
+    premiere: '8 November 2024',
     date: {
       start: '',
       end: ''
@@ -1648,8 +1648,8 @@ let mcu: Array<movie> = [
     name: 'Werewolf by Night',
     premiere: '7 October 2022',
     date: {
-      start: 'October 2024',
-      end: 'October 2024'
+      start: 'December 2025',
+      end: 'December 2025'
     },
     category: 'LIMITED SERIES',
     phase: '4',
@@ -1776,19 +1776,6 @@ let mcu: Array<movie> = [
   },
   {
     name: '???',
-    premiere: '14 February 2025',
-    date: {
-      start: '',
-      end: ''
-    },
-    category: 'MOVIE',
-    phase: '6',
-    streaming: {
-    },
-    icon: ''
-  },
-  {
-    name: '???',
     premiere: 'March 2025',
     date: {
       start: '',
@@ -1828,7 +1815,20 @@ let mcu: Array<movie> = [
   },
   {
     name: '???',
-    premiere: 'July 2025',
+    premiere: '25 July 2025',
+    date: {
+      start: '',
+      end: ''
+    },
+    category: 'MOVIE',
+    phase: '6',
+    streaming: {
+    },
+    icon: ''
+  },
+  {
+    name: '???',
+    premiere: '7 November 2025',
     date: {
       start: '',
       end: ''
@@ -1854,7 +1854,7 @@ let mcu: Array<movie> = [
   },
   {
     name: 'Avengers: Secret Wars',
-    premiere: '7 November 2025',
+    premiere: '1 May 2026',
     date: {
       start: '',
       end: ''
@@ -1873,18 +1873,7 @@ let mcu: Array<movie> = [
       end: ''
     },
     category: 'MOVIE',
-    streaming: {
-    },
-    icon: ''
-  },
-  {
-    name: '???',
-    premiere: '1 May 2026',
-    date: {
-      start: '',
-      end: ''
-    },
-    category: 'MOVIE',
+    phase: '6',
     streaming: {
     },
     icon: ''
